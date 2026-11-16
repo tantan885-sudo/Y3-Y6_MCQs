@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "Concernant les caractères douleur dans l'angor stable, Indiquez la proposition exacte :",
+    "options": [
+      "De type constrictive, rétro sternale, cessant quelques minutes après l'arrêt d'effort",
+      "De type constrictive, latérale, cessant quelques minutes après l'arrêt d'effort",
+      "De type constrictive, vers dorsale, migratrice, cessant après l'arrêt d'effort",
+      "De type constrictive, rétro sternale, durée < 30 mn, ne sensible pas à la trinitrine",
+      "De type constrictive, rétro sternale, durée > 30 mn, sensible à la trinitrine"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Concernant l'examen paraclinique en 1ère intention devant la douleur thoracique, Indiquez la proposition exacte :",
+    "options": [
+      "Echocardiographie",
+      "Epreuve d'effort",
+      "Scintigraphie myocardique",
+      "Electrocardiogramme",
+      "Coronarographie"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "En cas de douteux sur l'électrocardiogramme, Quel examen biologique important demandez-vous ?",
+    "options": [
+      "CPK",
+      "LDH",
+      "Dimères",
+      "Troponine",
+      "Transaminase"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Dans l'angor stable avec ECG normale, Echocardiographie normale et Troponine normale, quels autres examens paracliniques demandez-vous ?",
+    "options": [
+      "Epreuve d'effort, Coroscanner, Scintigraphie myocardique",
+      "Coronarographie",
+      "Angiographie pulmonaire",
+      "Echo-doppler du Tronc supra aortique",
+      "Scanner cérébrale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Quelle est l'évolution clinique dans l'angor stable ?",
+    "options": [
+      "Péricardite",
+      "Dissection aortique",
+      "Angor instable ou Infarctus du myocarde",
+      "Embolie pulmonaire"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "Concernant l'examen paraclinique en 1ère intention devant l'angor instable, Indiquez la proposition exacte :",
+    "options": [
+      "Epreuve d'effort",
+      "Scintigraphie myocardique",
+      "Coroscanner",
+      "Electrocardiogramme",
+      "Coronarographie"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "Dans l'angor instable avec ECG normale, quel examen biologique important demandez-vous ?",
+    "options": [
+      "Dimères",
+      "Troponine",
+      "CPK",
+      "LDH",
+      "Créatinine"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Dans l'angor instable avec modification ECG et élévation de Troponine, quel examen demandez-vous ?",
+    "options": [
+      "Echocardiographie",
+      "Scintigraphie myocardique",
+      "Coroscanner",
+      "Coronarographie",
+      "Angiographie pulmonaire"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 9,
+    "question": "Quelle est l'évolution dans l'angor instable ?",
+    "options": [
+      "Angor stable",
+      "Infarctus du myocarde",
+      "Embolie pulmonaire",
+      "Péricardite",
+      "Dissection de l'aorte"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "Concernant les caractères douleur dans l'infarctus du myocarde, Indiquez la proposition exacte :",
+    "options": [
+      "De type constrictive, rétro sternale, cessant quelques minutes après l'arrêt d'effort",
+      "De type constrictive, latérale, cessant quelques minutes après l'arrêt d'effort",
+      "De type constrictive, vers dorsale, migratrice, cessant après l'arrêt d'effort",
+      "De type constrictive, rétro sternale, durée < 30 mn, sensible à la trinitrine",
+      "De type constrictive, rétro sternale, durée > 30 mn, ne sensible pas à la trinitrine"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 11,
+    "question": "Concernant l'examen paraclinique en 1ère intention devant l'infarctus du myocarde, Indiquez la proposition exacte :",
+    "options": [
+      "Epreuve d'effort",
+      "Scintigraphie myocardique",
+      "Coroscanner",
+      "Electrocardiogramme",
+      "Coronarographie"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 12,
+    "question": "Quelle est la première cause de mortalité dans l'infarctus du myocarde ?",
+    "options": [
+      "Fibrillation auriculaire",
+      "Extrasystole auriculaire",
+      "Trouble du rythme ventriculaire à type de fibrillation ventriculaire",
+      "Rythme idio-ventriculaire accéléré",
+      "Extrasystole ventriculaire"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 13,
+    "question": "Quelle forme d'infarctus du myocarde se complique d'infarctus du ventricule droit ?",
+    "options": [
+      "Inférieur",
+      "Latérale",
+      "Antéro-septale",
+      "Antéro-septo-apicale",
+      "Antérieur étendu"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
