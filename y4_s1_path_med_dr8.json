@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "For patients with diagnosis as dyspepsia, they may have many symptoms. Which of the following symptoms is the most likely encountered?",
+    "options": [
+      "Upper abdominal fullness",
+      "Diarrhea",
+      "Dysphagia",
+      "Hematemesis",
+      "Constipation"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "For the patient you consult for dyspepsia, you have to do anamnesis and clinical examination to find the causes. Which of the following etiology most likely plays a role?",
+    "options": [
+      "Insomnia",
+      "Alcohol",
+      "H. pylori infection",
+      "Intestinal parasite",
+      "Smoking"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Some drugs can cause dyspepsia. So during your anamnesis for a patient with dyspepsia, you have to think of some drug names. What medication is the most likely responsible?",
+    "options": [
+      "Aspirin, NSAIDs",
+      "Amitriptyline",
+      "Paracetamol",
+      "Steroid",
+      "Metronidazole"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Rome III diagnostic criteria are used to diagnose functional dyspepsia. Which one of the following propositions is the basis for Rome criteria?",
+    "options": [
+      "Severity of symptom",
+      "Clinical criteria",
+      "Early response to treatment",
+      "Blood test",
+      "Abdominal ultrasound"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "In case of dyspepsia, we have to find some alarm features (\"Red flags\"), which are suggestive of gastric malignancy. Which one among the following propositions is the most appropriate?",
+    "options": [
+      "Age > 50 years with new-onset dyspepsia",
+      "Symptom not responding to treatment",
+      "Sleep disturbance",
+      "Severity of pain",
+      "Long history of pain"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "A patient of 55 years old comes to see you for symptoms of dyspepsia. Anamnesis and clinical examination revealed that he lost 5 kg over the past 2 months and his father died of gastric cancer, so you have to know whether the patient is infected by H. pylori. Which of the following tests would you think is the most appropriate?",
+    "options": [
+      "Gastroscopy + histology",
+      "Gastroscopy + rapid urease breath test",
+      "H. pylori stool test",
+      "H. pylori serology",
+      "H. pylori in saliva"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "The co-factors of irritable bowel syndrome can be related to:",
+    "options": [
+      "H. pylori infection",
+      "Colitis",
+      "Peptic ulcer",
+      "Dietary factors",
+      "Serious infection"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "In patients with irritable bowel syndrome, symptoms for which we have to look in the alarm features. Which of the following propositions is the most likely?",
+    "options": [
+      "Age > 50 years with long onset of symptoms",
+      "Unremitting or Nocturnal symptoms",
+      "Past history of parasitic infection",
+      "Intentional weight loss",
+      "Severity of symptom"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "In people who meet the IBS diagnostic criteria, the following investigations are recommended. Which of the following paraclinical exams is the most likely recommended as minimal?",
+    "options": [
+      "Colonoscopy",
+      "Abdominal scanner",
+      "Abdominal ultrasound",
+      "Full blood count (FBC or CBC)",
+      "Lipasemia"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "A patient of 45 years old comes to see you for symptoms of irritable bowel syndrome for about 2 months. He has rectal bleeding one to two times weekly. Which investigation is the most likely diagnostic?",
+    "options": [
+      "Anuscopy",
+      "Colonoscopy",
+      "Gastroscopy",
+      "Abdominal scanner",
+      "Abdominal ultrasound"
+    ],
+    "correctAnswerIndex": 1
+  }
+]
