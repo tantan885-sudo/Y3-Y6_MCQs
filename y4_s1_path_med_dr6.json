@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "question": "Hépatites auto-immunes, Critères diagnostiques : HAI Type 1 :",
+    "options": [
+      "Auto-anticorps anti-nucléaires, anti-muscle lisse, anti-actine, anti-soluble liver Ag",
+      "Auto-anticorps anti-LKM1 (ACAREL), anti-liver cytosol (LC1), Anti-LKM3",
+      "Anapath : Inflammation sévère et cirrhose fréquente",
+      "Manifestations : sévères",
+      "Échec du traitement : fréquent"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Hépatites auto-immunes, Critères diagnostiques : HAI Type 2 :",
+    "options": [
+      "Auto-anticorps anti-nucléaires, anti-muscle lisse, anti-actine, anti-soluble liver Ag",
+      "Auto-anticorps anti-LKM1 (ACAREL), anti-liver cytosol (LC1), Anti-LKM3",
+      "Anapath : Lésions légères à la cirrhose",
+      "Manifestations : variables",
+      "Échec du traitement : rare"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Dans l'hépatite auto-immune HAI, la biopsie hépatique peut porter un diagnostic dans :",
+    "options": [
+      "5% des cas",
+      "10% des cas",
+      "30% des cas",
+      "20% des cas",
+      "2% des cas"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Diagnostic différentiel des hépatites auto-immunes qu'il ne faut pas faire :",
+    "options": [
+      "Hépatite C",
+      "Hépatite B",
+      "Maladie de Wilson",
+      "Hémochromatose",
+      "Maladie d'Alzheimer"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 5,
+    "question": "Les Hépatites auto-immunes HAI – Indications du Traitement, Survie à 10 ans :",
+    "options": [
+      "Sans traitement : 27% — Sous traitement : ≥ 90%",
+      "Sans traitement : 10% — Sous traitement : ≥ 90%",
+      "Sans traitement : 5% — Sous traitement : > 90%",
+      "Sans traitement : 27% — Sous traitement : ≥ 50%",
+      "Sans traitement : 27% — Sous traitement : ≥ 30%"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Les Hépatites auto-immunes : Parmi les conclusions ci-dessous, il y en a une qui est fausse :",
+    "options": [
+      "Diagnostic parfois difficile, sur un faisceau d'arguments",
+      "Intérêt de la PBH pour le diagnostic et le suivi",
+      "Possibilité de régression totale de la fibrose",
+      "Espérance de vie normale des HAI en rémission",
+      "Traitement d'attaque : Antibiothérapie"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 7,
+    "question": "Les Hépatites auto-immunes : En rémission complète avec ou sans traitement :",
+    "options": [
+      "Survie courte comparée à la population générale",
+      "Pas de régression de la fibrose",
+      "Survie identique à la population générale",
+      "Une insuffisance rénale inévitable",
+      "Une cirrhose constituée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Les Hépatites auto-immunes : En rémission complète avec ou sans traitement :",
+    "options": [
+      "Survie courte comparée à la population générale",
+      "Régression de la fibrose",
+      "Survie à 10 ans",
+      "Une insuffisance rénale inévitable",
+      "Une cirrhose constituée"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Parmi les 5 malades ci-dessous, lequel peut-on considérer comme ayant un syndrome métabolique :",
+    "options": [
+      "Malade 1 — PA : max 155 mmHg, min 85 mmHg | Obésité abdo : circ. taille 105 cm (Homme) | Triglycéridémie 1,2 g/L | Cholestérol-HDL 0,30 g/L (Homme) | Glycémie à jeun 0,9 g/L",
+      "Malade 2 — PA : max 145 mmHg, min 90 mmHg | Obésité abdo : circ. taille 105 cm (Homme) | Triglycéridémie 1,50 g/L | Cholestérol-HDL 1 g/L (Homme) | Glycémie à jeun 1,30 g/L",
+      "Malade 3 — PA : max 115 mmHg, min 75 mmHg | Obésité abdo : circ. taille 100 cm (Homme) | Triglycéridémie 1,80 g/L | Cholestérol-HDL 0,80 g/L (Homme) | Glycémie à jeun 0,9 g/L",
+      "Malade 4 — PA : max 135 mmHg, min 85 mmHg | Obésité abdo : circ. taille 90 cm (Homme) | Triglycéridémie 1,50 g/L | Cholestérol-HDL 0,39 g/L (Homme) | Glycémie à jeun 1,10 g/L",
+      "Malade 5 — PA : max 155 mmHg, min 85 mmHg | Obésité abdo : circ. taille 100 cm (Homme) | Triglycéridémie 3,50 g/L | Cholestérol-HDL 0,40 g/L (Homme) | Glycémie à jeun 1,40 g/L"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "Dans le syndrome métabolique, le rôle de l'obésité androïde est important :",
+    "options": [
+      "Environ 35–40% des malades ayant un SM ont une obésité",
+      "Environ 15–20% des malades ayant un SM ont une obésité",
+      "Environ 50–60% des malades ayant un SM ont une obésité",
+      "Environ 1/3 des malades ayant un SM ont une obésité androïde",
+      "1/4 des malades ayant une insulinorésistance ont une obésité androïde"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Syndrome Métabolique : les risques se cumulent",
+    "options": [
+      "Le risque est à terme neurologique",
+      "Le risque est à terme diabétique",
+      "Le risque est à terme cardiovasculaire",
+      "Le risque est à terme une arthropathie chronique",
+      "Le risque est à terme une insuffisance rénale"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "L'insulinorésistance induit :",
+    "options": [
+      "Une augmentation de certains facteurs de la coagulation entraînant une hypercoagulabilité sanguine",
+      "Une diminution de certains facteurs de l'inflammation",
+      "Une diminution des facteurs de croissance locaux",
+      "Une hypotrophie des muscles lisses artériels",
+      "Une régénération de l'intima"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "En cas de SM, le risque relatif (RR) de développer un diabète de type 2 est de :",
+    "options": [
+      "33 aux USA (Lorenzo, Diabetes Care 2003)",
+      "34 chez les femmes et 5,4 chez les hommes (Lorenzo, 2007)",
+      "2,9 chez hommes et femmes en Chine (Li, 2007)",
+      "69 aux USA (Wilson, Framingham USA, 2005)",
+      "7 en Inde (Prabakaran, 2007)"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Le risque relatif (RR) de développer un accident coronarien en cas de SM :",
+    "options": [
+      "est de 25 en Chine",
+      "est de 1,6 en Suède (66% de femmes)",
+      "est de 17 aux USA",
+      "est de 35 en Australie",
+      "est de 5,18 au Canada"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "La prévention du Syndrome métabolique pourrait être avant tout :",
+    "options": [
+      "La prise des médicaments amaigrissants",
+      "Affaire d'hygiène de vie (activité physique et alimentation). Surveillance de poids",
+      "Éviction des aliments gras",
+      "Gymnastique"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 16,
+    "question": "Association de 3 facteurs métaboliques « limites », le Syndrome Métabolique est :",
+    "options": [
+      "Rare dans la population",
+      "Non lié à l'âge",
+      "Non lié à l'insulinorésistance",
+      "Lié à l'élévation de l'adiponectine",
+      "Lié aux facteurs de risque de MCV : coronariens et cérébraux"
+    ],
+    "correctAnswerIndex": 4
+  }
+]
