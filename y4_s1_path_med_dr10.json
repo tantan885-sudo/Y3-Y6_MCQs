@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Which one of the following is the most common cause of acute pericarditis?",
+    "options": [
+      "Virus",
+      "Bacteria",
+      "Diabetes",
+      "Cancer",
+      "Heart disease"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Mr. X, 27 years old, is admitted to the emergency department with dull and retrosternal chest pain which is worse with deep inspiration and body motion. It is relieved while seated. He noted that 5 days ago he had flu, followed by a fever of 38°C. ECG shows concave upward ST elevation in all leads. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Pericarditis",
+      "Pneumonia",
+      "Gastric ulcer",
+      "Bronchitis",
+      "Pancreatitis"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Tamponade is suspected; which of the following tests is the most appropriate for diagnosis?",
+    "options": [
+      "Chest X-ray",
+      "ECG",
+      "Echocardiography",
+      "Laboratory",
+      "Abdominal echography"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "What is the mechanism for hypotension in tamponade?",
+    "options": [
+      "Tachycardia",
+      "Dyspnea",
+      "Reduced left ventricular filling + low cardiac output",
+      "Enlarged heart",
+      "Fever"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "The patient is diagnosed with tamponade. Which of the following procedures should be performed immediately?",
+    "options": [
+      "Diuretic",
+      "Antibiotic",
+      "Non-steroidal anti-inflammatory drug",
+      "Anticoagulant",
+      "Pericardiocentesis or percutaneous drainage"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 6,
+    "question": "Which one of the following defines atherosclerosis?",
+    "options": [
+      "Atherosclerosis is a disease of large and medium-sized muscular arteries",
+      "Atherosclerosis is a disease of small muscular arteries",
+      "Atherosclerosis is a disease of large veins",
+      "Atherosclerosis is a disease of large veins and arteries",
+      "Atherosclerosis is a chronic lung disease"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Which one of the following is a pathogenesis of atherosclerosis?",
+    "options": [
+      "Hyperlipidemia + injury of vascular endothelium",
+      "Injury of vessel by accident",
+      "Alcohol abuse",
+      "Drug abuse",
+      "Eating food rich in calcium"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Mr. X, 54 years old, is seen in the consultation clinic for a routine physical examination. His BP is 175/100 mmHg with a normal heart rate. In his past medical history, he has congenital heart disease (not symptomatic), well-treated pulmonary tuberculosis, and hepatitis. What is the most likely risk factor for atherosclerosis in this patient?",
+    "options": [
+      "Hypertension",
+      "Hepatitis B",
+      "Ventricular septal defect",
+      "Tuberculosis",
+      "None of these"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Which of the following predictors of atherosclerosis is the most likely?",
+    "options": [
+      "Chest pain",
+      "Dyspnea",
+      "LDL cholesterol",
+      "Glycemia",
+      "Kidney function"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Regarding the complications of atherosclerosis, which of the following statements is the most appropriate?",
+    "options": [
+      "Gastric ulcer",
+      "Ischemic heart disease",
+      "Pneumonia",
+      "Chronic obstructive pulmonary disease",
+      "Liver cirrhosis"
+    ],
+    "correctAnswerIndex": 1
+  }
+]
