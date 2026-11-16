@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Actions des AINS : cocher une réponse fausse",
+    "options": [
+      "Anti-inflammatoire",
+      "Antalgique",
+      "Antipyrétique",
+      "Antiagrégants plaquettaires",
+      "Antiallergique"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 2,
+    "question": "Mécanisme de l'inflammation : cocher une réponse fausse",
+    "options": [
+      "Phase vasculaire",
+      "Phase cellulaire",
+      "Phase de régénération",
+      "Phase de cicatrisation",
+      "Phase de nécrose"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 3,
+    "question": "Les familles des AINS : cocher une réponse fausse",
+    "options": [
+      "Salicylés",
+      "Indoliques",
+      "Fénamates",
+      "Oxicams",
+      "Inducteur de la Cyclo-oxygénase 2"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 4,
+    "question": "Mécanisme de l'ulcère gastrique causé par AINS : Cocher une réponse vraie",
+    "options": [
+      "Induction des cyclo-oxygénases 1",
+      "Induction des cyclo-oxygénases 2",
+      "Augmentation de la synthèse des prostaglandines",
+      "Hypersécrétion des prostaglandines",
+      "Arrêt de la synthèse des prostaglandines"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 5,
+    "question": "Toxicité digestive des AINS : cocher une réponse fausse",
+    "options": [
+      "Toxicité œsophagienne",
+      "Toxicité gastrique",
+      "Toxicité hépatique",
+      "Toxicité colique",
+      "Toxicité pulmonaire"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 6,
+    "question": "Toxicité digestive des AINS sur l'œsophage : cocher une réponse vraie",
+    "options": [
+      "Œsophagite",
+      "Tumeur de l'œsophage",
+      "Sd de Mallory-Weiss",
+      "Sd de Boerhaave",
+      "Rupture de l'œsophage"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Toxicité digestive des AINS sur l'estomac : cocher une réponse fausse",
+    "options": [
+      "Ulcère gastrique",
+      "Ulcération gastrique",
+      "Perforation gastrique",
+      "Hémorragie digestive par lésion gastrique",
+      "Augmentation de la synthèse des prostaglandines"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 8,
+    "question": "Toxicité digestive des AINS sur l'intestin grêle : cocher une réponse fausse",
+    "options": [
+      "Ulcère",
+      "Ulcération",
+      "Perforation gastrique",
+      "Hémorragie digestive",
+      "Diminution de la perméabilité intestinale"
+    ],
+    "correctAnswerIndex": 4
+  }
+]
