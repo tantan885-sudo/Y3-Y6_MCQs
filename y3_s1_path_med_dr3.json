@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la circonstance diagnostique d'un cancer de l'ovaire au stade précoce ?",
+    "options": [
+      "Asymptomatique (Asymptôme).",
+      "Masse annexielle.",
+      "Douleurs pelviennes ou abdominales.",
+      "Saignements.",
+      "Symptômes de compression abdomino-pelvienne."
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Quel est un signe des symptômes de compression abdomino-pelvienne d'un cancer de l'ovaire ?",
+    "options": [
+      "Syndrome ulcéreux.",
+      "Troubles du transit.",
+      "Colique hépatique.",
+      "Colique néphrétique.",
+      "Signe de Murphy positif."
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Quel est un examen radiologique de première intention d'un cancer de l'ovaire ?",
+    "options": [
+      "IRM Pelvienne.",
+      "TDM Abdominopelvienne avec injection.",
+      "PET-Scan au 18-FDG.",
+      "Echographie Abdomino-Pelvienne, Sus-Pubienne et Endo-vaginale.",
+      "Scintigraphie."
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Quel est le marqueur tumoral recommandé dans une orientation diagnostique d'un cancer de l'ovaire ?",
+    "options": [
+      "CA 125.",
+      "CA 15-3",
+      "Cyfra 21-1",
+      "NSE",
+      "PSA"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Dans le cas d'une masse suspectée d'un cancer de l'ovaire ou indéterminée à l'échographie, quel examen radiologique doit-on demander ?",
+    "options": [
+      "TDM Abdominopelvienne avec injection.",
+      "PET-Scan au 18-FDG.",
+      "IRM Pelvienne avec injection.",
+      "Scintigraphie.",
+      "ASP"
+    ],
+    "correctAnswerIndex": 2
+  }
+]
