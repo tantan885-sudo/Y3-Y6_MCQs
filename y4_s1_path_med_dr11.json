@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est l'incidence du cancer du col utérin dans le monde ?",
+    "options": [
+      "Au premier rang des cancers chez la femme dans le monde",
+      "Au deuxième rang des cancers chez la femme dans le monde",
+      "Rare dans les pays en voie de développement",
+      "Au troisième rang des cancers chez les populations du monde",
+      "Au premier rang des cancers chez la femme dans les pays en voie de développement"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la mortalité par rapport à l'incidence du cancer du col utérin au Cambodge ?",
+    "options": [
+      "50% de mortalité/incidence",
+      "40% de mortalité/incidence",
+      "60% de mortalité/incidence",
+      "70% de mortalité/incidence",
+      "90% de mortalité/incidence"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Quel est le facteur de risque principal du cancer du col ?",
+    "options": [
+      "Abus de tabac",
+      "Abus d'alcool",
+      "Infection à HPV (chronique)",
+      "Mutation génétique",
+      "Utilisation au long cours de contraceptifs"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Quel est l'examen le plus applicable pour les pays en voie de développement comme le Cambodge pour faire le dépistage en population générale ?",
+    "options": [
+      "Frottis cervico-vaginal",
+      "Test de HPV",
+      "Test par acide acétique (IVA / VIA)",
+      "Biopsie tumorale",
+      "Pas de standard pour notre pays"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Quel est le type histologique le plus fréquent correspondant aux tumeurs de l'exocol ?",
+    "options": [
+      "Sarcome du col",
+      "Adénocarcinome",
+      "Carcinome épidermoïde",
+      "Cystadénocarcinome",
+      "Carcinome canalaire infiltrant"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "Quel est le motif d'hospitalisation le plus fréquent chez une femme atteinte de cancer du col utérin ?",
+    "options": [
+      "Métrorragie (spontanée ou provoquée)",
+      "Leucorrhée",
+      "Écoulement glaireux",
+      "Complication urologique",
+      "Découverte fortuite"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Quel est l'examen clinique de première intention devant une suspicion de cancer du col utérin ?",
+    "options": [
+      "PAP smear test",
+      "Examen au spéculum seul",
+      "Colposcopie avec biopsie",
+      "Examen au spéculum avec toucher pelvien",
+      "Test de VIA"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "Quelle est la classification des stades du cancer du col la plus utilisée ?",
+    "options": [
+      "Classification TNM version 7",
+      "Classification de FIGO",
+      "Classification par grade histologique de CIN",
+      "Classification d'Ann-Arbor",
+      "Pas de standard"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Comment faire la description et le bilan d'extension pour établir la classification du cancer du col utérin ?",
+    "options": [
+      "Taille tumorale, atteinte du vagin, envahissement des paramètres, hydronéphrose sans obstacle visible, atteinte des organes voisins, atteinte ganglionnaire, métastases à distance.",
+      "Taille tumorale, atteinte du vagin, atteinte ganglionnaire, envahissement des paramètres.",
+      "Taille tumorale, atteinte ganglionnaire, atteinte des paramètres, métastases à distance.",
+      "Taille tumorale, atteinte ganglionnaire, métastases à distance.",
+      "Taille tumorale, atteinte vaginale, envahissement des organes voisins, métastases à distance."
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Quelle est la modalité thérapeutique devant un cancer du col utérin de stade IB2 au IIB ?",
+    "options": [
+      "La chirurgie en premier puis radiothérapie complémentaire",
+      "Chimiothérapie néo-adjuvante puis chirurgie",
+      "Chirurgie en premier puis chimiothérapie",
+      "Radiothérapie seule",
+      "Radio-chimiothérapie concomitante puis chirurgie"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 11,
+    "question": "Quelle est l'épidémiologie du cancer de l'œsophage dans le monde ?",
+    "options": [
+      "Plus fréquent en Asie qu'en Europe",
+      "70% de mortalité/incidence",
+      "Survie globale à 5 ans de 10–30%",
+      "Sex-ratio femme/homme : 2/1",
+      "Se situe dans les 5 cancers les plus fréquents sur les deux sexes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Identifiez le facteur de risque du carcinome épidermoïde de l'œsophage :",
+    "options": [
+      "Tabac-alcool",
+      "Œsophage de Barrett",
+      "Reflux gastro-œsophagien",
+      "Surpoids",
+      "Cause inconnue"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Quelle est la recommandation pour le dépistage à l'échelle individuelle ?",
+    "options": [
+      "Endoscopie œsophagienne tous les ans",
+      "Endoscopie œsophago-gastrique plus fréquente chez le sujet ayant un œsophage de Barrett si suspicion de lésion dysplasique ou précancéreuse.",
+      "Endoscopie œsophagienne avec test d'Helicobacter pylori",
+      "Test de marqueurs tumoraux pour le dépistage du cancer de l'œsophage",
+      "Arrêt du tabac et de l'alcool"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Le symptôme le plus fréquent dans le cas du cancer de l'œsophage qui amène les patients à consulter ou à être hospitalisés est :",
+    "options": [
+      "Achalasie",
+      "Anorexie",
+      "Amaigrissement important",
+      "Dysphagie progressive",
+      "Asthénie"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 15,
+    "question": "Un bilan à faire devant une suspicion de fistule œsophago-bronchique devant un cancer de l'œsophage :",
+    "options": [
+      "Endoscopie gastro-œsophagienne",
+      "Scanner thoraco-abdominal",
+      "IRM cervico-thoracique",
+      "Bronchoscopie",
+      "Transit œsophagien"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 16,
+    "question": "Choisissez une seule réponse correcte pour la proposition ci-dessous concernant le bilan d'extension locorégional du cancer de l'œsophage :",
+    "options": [
+      "Bronchoscopie pour évaluer la fonction respiratoire",
+      "Le transit gastro-œsophagien (baryté) est contre-indiqué en cas de suspicion de fistule œsophago-bronchique de la tumeur",
+      "L'IRM cervicale est nécessaire pour évaluer l'atteinte ganglionnaire cervicale",
+      "L'endoscopie œsophago-gastrique est utilisée dans un but diagnostique uniquement",
+      "Le scanner thoracique est suffisant pour définir la localisation du cancer de l'œsophage"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "Choisissez une proposition correcte concernant la classification du cancer de l'œsophage :",
+    "options": [
+      "Taille tumorale (selon la profondeur de la muqueuse vers la séreuse), Nombre et taille ganglionnaire, Métastase à distance.",
+      "Taille tumorale (selon la profondeur de la muqueuse vers la séreuse), Nombre et taille ganglionnaire, Métastase à distance, Statut de performance.",
+      "Taille tumorale (selon la profondeur de la muqueuse vers la séreuse), Nombre et taille ganglionnaire, Métastase à distance, Localisation de la tumeur selon 3 portions (cervicale, thoracique, abdominale).",
+      "Taille tumorale, Nombre et taille ganglionnaire, Métastase à distance.",
+      "Taille tumorale (selon la profondeur de la muqueuse vers la séreuse), Nombre et taille ganglionnaire, Métastase à distance, Comorbidité."
+    ],
+    "correctAnswerIndex": 2
+  }
+]
