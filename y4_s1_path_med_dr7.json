@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Quel est le signe cutané rouge violacé douloureux au niveau de la pulpe des doigts ou orteils, fugace mais pathognomonique en cas d'EI ?",
+    "options": [
+      "Faux panaris d'Osler",
+      "Taches de Janeway",
+      "Purpura pétéchial",
+      "Hippocratisme digital",
+      "Nodule de Roth"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Toute fièvre chez un cardiaque est une ______ jusqu'à preuve du contraire.",
+    "options": [
+      "IDM",
+      "Péricardite",
+      "Myocardite",
+      "Endocardite",
+      "OAP"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "Toute insuffisance cardiaque fébrile doit faire évoquer le diagnostic de...",
+    "options": [
+      "Endocardite",
+      "Péricardite",
+      "Myocardite",
+      "IDM",
+      "OAP"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Toute apparition ou modification d'un souffle chez un patient fébrile, quel diagnostic évoquez-vous ?",
+    "options": [
+      "Myocardite",
+      "Péricardite",
+      "Endocardite",
+      "IDM",
+      "CMD"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Tout patient porteur d'une lésion cardiaque présentant une fièvre inexpliquée doit être considéré comme ayant une :",
+    "options": [
+      "Endocardite",
+      "Péricardite",
+      "Myocardite",
+      "Insuffisance aortique",
+      "Rétrécissement mitral"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Devant une endocardite avec BAV, quel diagnostic évoquez-vous ?",
+    "options": [
+      "Abcès splénique",
+      "Abcès cérébral",
+      "Abcès rénal",
+      "Abcès pulmonaire",
+      "Abcès septal"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 7,
+    "question": "Parmi les propositions citées ci-dessous, quelle est la pathologie valvulaire la plus touchée chez le patient porteur d'EI ?",
+    "options": [
+      "IM",
+      "IA",
+      "RA",
+      "RM",
+      "IP"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Quel est le germe transmis le plus souvent lors de soins dentaires ?",
+    "options": [
+      "Streptocoque",
+      "Entérocoque",
+      "Staphylocoque",
+      "Candida",
+      "Acinetobacter baumannii"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Parmi les complications d'EI citées ci-dessous, laquelle constitue la première cause de mortalité ?",
+    "options": [
+      "L'insuffisance cardiaque",
+      "Les troubles de la conduction auriculo-ventriculaires",
+      "Les abcès périvalvulaires",
+      "Myocardite",
+      "Péricardite"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Vous recevez Monsieur X., âgé de 45 ans pour une fièvre évoluant depuis un mois à 38.9°C. Vous notez une dyspnée de stade III de NYHA, une hépato-splénomégalie, un reflux hépato-jugulaire, des crépitants aux 2 bases pulmonaires, des taches pourpres ne s'effaçant pas à la vitropression des extrémités inférieures. Vous constatez également un souffle diastolique au 3ème EICG. Quel diagnostic évoquez-vous ?",
+    "options": [
+      "EI sur valve aortique compliquée d'IA et d'IC congestive",
+      "EI sur valve mitrale compliquée d'IM et d'IC congestive",
+      "EI sur valve aortique compliquée d'IM et d'IC congestive",
+      "EI sur valve mitrale compliquée d'IA et d'IC congestive",
+      "EI sur valve tricuspide compliquée d'IT et d'IC congestive"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
