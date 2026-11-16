@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "Vous êtes appelé pour avis pneumologique d'un patient de 26 ans pour aggravation de l'état respiratoire et apparition d'une nouvelle opacité sur le cliché de radiographie du thorax. Le patient est en réanimation depuis 6 jours sous ventilation mécanique dans un contexte d'accident de la route et de traumatisme crânien avec coma profond. Vous pensez à une pneumonie nosocomiale. Quel est le critère diagnostique que vous recherchez ?",
+    "options": [
+      "Fièvre > 38°C",
+      "Désaturation < 90%",
+      "Râles crépitants en foyer",
+      "Tachycardie > 120/min",
+      "Tachypnée > 30/min"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la bactérie responsable de la pneumonie nosocomiale tardive ?",
+    "options": [
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus",
+      "Chlamydia trachomatis",
+      "Bordetella pertussis",
+      "Burkholderia pseudomallei"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Comment faire le diagnostic bactériologique d'une pneumonie nosocomiale ?",
+    "options": [
+      "Biopsie muqueuse par fibroscope : recherche de la bactérie > 10⁷ UFC/mL",
+      "Aspiration bronchique par fibroscope : seuil de bactérie > 10⁵ UFC/mL",
+      "Lavage broncho-alvéolaire par fibroscope : seuil de bactérie > 10³ UFC/mL (seuil réel : ≥ 10⁴ UFC/mL)",
+      "Brosse bronchique protégée par fibroscope : seuil de bactérie > 10² UFC/mL (seuil réel : ≥ 10³ UFC/mL)",
+      "Aspiration endotrachéale par sonde : seuil de bactérie > 10⁵ UFC/mL (seuil réel : ≥ 10⁶ UFC/mL)"
+    ],
+    "correctAnswerIndex": 1
+  }
+]
