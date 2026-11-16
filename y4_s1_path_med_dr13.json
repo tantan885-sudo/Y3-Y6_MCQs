@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "La pneumoconiose est une maladie :",
+    "options": [
+      "Professionnelle pulmonaire et une maladie pulmonaire restrictive causée par l'inhalation de la poussière ;",
+      "Infectieuse causée par des groupes de bactéries contaminées par aérosol ;",
+      "Infectieuse causée par les virus respiratoires",
+      "Infectieuse causée par le Mycobacterium tuberculosis",
+      "Généralement interprétée comme un cancer broncho-pulmonaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Le mécanisme d'épuration de poussière pulmonaire est :",
+    "options": [
+      "Mécanisme de la toux",
+      "Système mucociliaire, Macrophages alvéolaires, Cinétique de l'épuration",
+      "Système mucociliaire, Macrophages alvéolaires, Cinétique de l'épuration, Ventilation",
+      "Ventilation",
+      "Phénomène de toux et expiration à fond"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "La poussière de carbone donne un type de pneumoconiose :",
+    "options": [
+      "Anthracose",
+      "Asbestose",
+      "Silicose",
+      "Sidérose",
+      "Talcose"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "La poussière d'amiante donne un type de pneumoconiose :",
+    "options": [
+      "Anthracose",
+      "Asbestose",
+      "Silicose",
+      "Sidérose",
+      "Talcose"
+    ],
+    "correctAnswerIndex": 1
+  }
+]
