@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la proposition de valeurs de pression définissant l'hypertension artérielle (HTA) ?",
+    "options": [
+      "PAS > 160 mmHg et PAD > 95 mmHg",
+      "PAS > 160 mmHg et PAD > 90 mmHg",
+      "PAS > 180 mmHg et PAD > 110 mmHg",
+      "PAS ≥ 140 mmHg et PAD ≥ 90 mmHg",
+      "PAS > 135 et PAD > 85 mmHg"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 2,
+    "question": "Quelle est l'anomalie qui peut faire évoquer la présence d'une hypertrophie ventriculaire gauche chez un sujet hypertendu ?",
+    "options": [
+      "un PR à 0.28",
+      "un BAV 3",
+      "une ischémie sous épicardique D1 aVL",
+      "un Sokolow à 40 mm",
+      "un axe hyper droit"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "Laquelle de ces propositions n'est pas une contre-indication au traitement par bêta-bloquants dans l'HTA ?",
+    "options": [
+      "Insuffisance rénale",
+      "Insuffisance cardiaque (décompensée)",
+      "Syndrome de Raynaud",
+      "Asthme",
+      "Artériopathie des membres inférieurs (sévère)"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Quel traitement anti-hypertenseur est à instaurer, en première intention et en l'absence de contre-indication, lorsque l'HTA est associée à une insuffisance coronarienne ?",
+    "options": [
+      "Inhibiteur de l'enzyme de conversion",
+      "Inhibiteur calcique",
+      "Diurétique",
+      "Alpha-bloquant",
+      "Bêta-bloquant"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 5,
+    "question": "Des chiffres de pression artérielle à 230/120 mmHg sont retrouvés chez une femme de 46 ans. Quelle est la circonstance clinique où cette HTA doit être respectée ?",
+    "options": [
+      "Grossesse",
+      "Dissection aortique",
+      "Infarctus du myocarde à la phase aiguë",
+      "Accident vasculaire cérébral ischémique",
+      "Œdème aigu du poumon cardiogénique"
+    ],
+    "correctAnswerIndex": 3
+  }
+]
