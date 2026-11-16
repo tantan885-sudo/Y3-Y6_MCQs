@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "question": "Which is incorrect regarding inflammatory bowel disease?",
+    "options": [
+      "The risk of developing ulcerative colitis is higher in non-smokers than smokers.",
+      "Patients with Crohn's disease are more at risk of colorectal cancer than UC patients.",
+      "Effectiveness of colonoscopic surveillance in detecting colorectal cancer is controversial in IBD.",
+      "Toxic megacolon occurs in Crohn's and ulcerative colitis.",
+      "Cobblestone appearance on bowel wall is more characteristic of Crohn's disease."
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Which is not an extra-abdominal manifestation of inflammatory bowel disease?",
+    "options": [
+      "Erythema marginatum",
+      "Ankylosing spondylitis",
+      "Episcleritis",
+      "Thromboembolic disease",
+      "Sacroiliitis"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Which is true of the complications of Crohn's disease?",
+    "options": [
+      "Perianal complications occur in 50% of patients.",
+      "GI bleeding is common and often life-threatening.",
+      "Toxic megacolon occurs in 6% but almost never perforates.",
+      "There is no increased risk of neoplasm of GI tract unlike UC.",
+      "The majority of patients will not require surgery throughout their illness."
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Which is incorrect regarding management of Crohn's Disease?",
+    "options": [
+      "Mesalamine (Pentasa) has fewer side effects than sulphasalazine.",
+      "Azathioprine has been used in severe cases.",
+      "Metronidazole has a role in long-term treatment of perianal disease postoperatively to prevent relapse.",
+      "Corticosteroids have a proven role in maintenance therapy to prevent relapse.",
+      "Loperamide can be used to control diarrhoea."
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Which is INCORRECT regarding Ulcerative Colitis?",
+    "options": [
+      "Affects men more than women",
+      "Mild disease affects 60% of patients and consists of less than 4 bowel motions per day, with the disease limited to rectum in 80%.",
+      "In severe disease there is usually hypoalbuminemia and mildly deranged LFTs.",
+      "Loperamide and other antidiarrhoeal agents should be avoided as they increase the risk of toxic megacolon.",
+      "Toxic megacolon is usually treated conservatively unless the bowel is wider than 6 cm or the patient is severely ill."
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Parmi les assertions suivantes, quelle est celle qui s'applique aux lésions anopérinéales de la maladie de Crohn ?",
+    "options": [
+      "Elles concernent moins de 20% des malades de Crohn",
+      "Les ulcérations, les suppurations et les sténoses en sont les trois types de lésions élémentaires",
+      "Les marisques sont des constatations banales et doivent être négligées lors d'une exploration clinique",
+      "La classification de Cardiff en permet l'évaluation des conséquences fonctionnelles et symptomatiques",
+      "Le TDM pelvien est l'exploration morphologique complémentaire de référence des lésions anopérinéales de Crohn (c'est l'IRM pelvienne / écho-endoscopie)"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "All the following are risk factors for gastric cancer except one:",
+    "options": [
+      "Helicobacter pylori infection",
+      "Atrophic gastritis",
+      "Pernicious anaemia",
+      "Alcohol abuse",
+      "Smoking"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "All the following investigations may be needed to stage gastric adenocarcinoma except one:",
+    "options": [
+      "Staging CT",
+      "Laparoscopy",
+      "Bone scan",
+      "EUS",
+      "Exploratory laparotomy"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Excision rather than bypass is preferred for surgical treatment of small intestinal Crohn's because:",
+    "options": [
+      "Excision is safer.",
+      "Bypass does not relieve symptoms.",
+      "Excision cures the patient of Crohn's disease but bypass does not.",
+      "Fewer early complications appear with excision.",
+      "The risk of small intestine cancer is reduced."
+    ],
+    "correctAnswerIndex": 4
+  }
+]
