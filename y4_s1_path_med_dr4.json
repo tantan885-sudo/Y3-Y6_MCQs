@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Une femme de 45 ans consulte pour un ictère fébrile. La Température est à 39°C. La TA est à 100/60 mmHg, le pouls est à 110/min. L'examen biologique montre : GB 20 Giga/L, CRP 200 mg/L, ASAT 60 UI/L, ALAT 120 UI/L, PAL 300 UI/L, GGT 122 UI/L, Bili T 100 mg/L, Bili D 45 mg/L. Quel examen de première intention demandez-vous pour confirmer le diagnostic ?",
+    "options": [
+      "ASP",
+      "Échographie abdominale",
+      "Scanner abdominal",
+      "IRM",
+      "CPRE"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Une femme de 45 ans sans antécédent particulier vient vous voir pour le bilan de santé. L'échographie abdominale montre un calcul de 10 mm dans la vésicule biliaire. Elle n'a ni fièvre ni douleur. L'examen physique est complètement normal. Quel traitement proposez-vous ?",
+    "options": [
+      "Cholécystectomie",
+      "CPRE avec sphinctérotomie",
+      "Abstention thérapeutique",
+      "Antibiothérapie",
+      "Traitement médical"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Une femme de 38 ans, obèse, admise aux Urgences pour une douleur HCD, fièvre et ictère. Ses symptômes commencent depuis environ 3 jours. À l'interrogatoire, elle vous révèle que la douleur survient brutalement et s'aggrave à l'inspiration profonde. L'examen physique montre un signe de Murphy positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Cholécystite aiguë lithiasique",
+      "Angiocholite lithiasique",
+      "Pancréatite aiguë",
+      "Abcès du foie",
+      "Colique hépatique"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Vous voyez en consultation une femme de 60 ans avec une douleur HCD minime intermittente depuis environ 6 mois. Il n'y a ni fièvre ni ictère. L'examen physique montre une douleur HCD minime à la palpation. Elle n'a pas d'ATCD particulier. L'échographie abdominale est demandée et montre un épaississement et une irrégularité de la paroi vésiculaire. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Cholécystite aiguë lithiasique",
+      "Cholécystite aiguë alithiasique",
+      "Cholécystite chronique",
+      "Cancer de la vésicule biliaire",
+      "Abcès de la vésicule biliaire"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Une femme de 45 ans sans antécédent particulier vient vous voir pour le bilan de santé. Elle est complètement asymptomatique. L'examen physique est complètement normal. L'échographie abdominale montre une vésicule biliaire scléro-atrophique. Quel traitement proposez-vous ?",
+    "options": [
+      "Cholécystectomie",
+      "Surveillance échographique",
+      "Abstention thérapeutique",
+      "Antibiothérapie",
+      "CPRE avec sphinctérotomie"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Une femme de 48 ans, obèse, admise aux Urgences pour une douleur HCD et fièvre. Ses symptômes commencent depuis environ 3 jours. À l'interrogatoire, elle vous révèle que la douleur survient brutalement et s'aggrave à l'inspiration profonde. L'examen physique montre un signe de Murphy positif. Il n'y a pas d'ictère. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Cholécystite aiguë lithiasique",
+      "Angiocholite lithiasique",
+      "Pancréatite aiguë",
+      "Abcès du foie",
+      "Colique hépatique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Un homme de 50 ans, obèse, vient vous voir en consultation spécialisée pour une vésicule porcelaine découverte fortuitement sur un bilan de santé. Il est complètement asymptomatique. Son médecin lui demande d'opérer, mais il a peur de l'opération. Il veut savoir votre avis. Quel est le risque s'il n'opère pas ?",
+    "options": [
+      "Cholécystite aiguë lithiasique",
+      "Angiocholite lithiasique",
+      "Pancréatite aiguë",
+      "Abcès du foie",
+      "Cancer de la vésicule biliaire"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 8,
+    "question": "Vous voyez en consultation une femme de 50 ans avec une douleur HCD minime intermittente depuis environ 3 mois. Il n'y a ni fièvre ni ictère. L'examen physique montre le signe de Murphy positif. Elle n'a pas d'ATCD particulier. L'échographie abdominale montre un calcul de 10 mm dans la vésicule biliaire. Quel est votre diagnostic ?",
+    "options": [
+      "Cholécystite aiguë lithiasique",
+      "Lithiase vésiculaire non compliquée",
+      "Cholécystite chronique",
+      "Angiocholite",
+      "Colique hépatique"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Vous voyez en consultation une femme de 50 ans avec une douleur HCD. Elle se plaint d'avoir des mêmes épisodes de douleur HCD intermittente depuis environ 3 mois. Il n'y a ni fièvre ni ictère. L'examen physique montre le signe de Murphy positif. Elle n'a pas d'ATCD particulier. L'échographie abdominale montre un calcul de 10 mm dans la vésicule biliaire. Quel traitement proposez-vous ?",
+    "options": [
+      "Cholécystectomie",
+      "Surveillance échographique",
+      "Abstention thérapeutique",
+      "Antibiothérapie",
+      "CPRE avec sphinctérotomie"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Une femme de 68 ans, obèse, admise aux Urgences pour une douleur HCD et fièvre. Ses symptômes commencent depuis environ 3 jours. À l'interrogatoire, elle vous révèle que la douleur survient brutalement et s'aggrave à l'inspiration profonde. L'examen physique montre un signe de Murphy positif. Il n'y a pas d'ictère. L'échographie abdominale montre un calcul de 10 mm dans la vésicule biliaire. Quel traitement proposez-vous ?",
+    "options": [
+      "Cholécystectomie après 48 à 72 heures d'antibiothérapie",
+      "Cholécystectomie en urgence",
+      "CPRE après 48 à 72 heures d'antibiothérapie",
+      "CPRE en urgence",
+      "Traitement médical seul"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
