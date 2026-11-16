@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "Définition de l'incontinence urinaire :",
+    "options": [
+      "Perte involontaire d'urines par l'urètre en dehors de la miction",
+      "Perte involontaire d'urines par l'urètre hors de la miction",
+      "Perte volontaire d'urines par l'urètre en dehors de la miction",
+      "Perte volontaire d'urines par l'urètre hors de la miction",
+      "Impossibilité totale et brutale d'uriner"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Chez la femme atteinte d'incontinence urinaire d'effort, la toux déclenche une pression intra-abdominale qui :",
+    "options": [
+      "S'exerce également sur la vessie et l'urètre proximal",
+      "S'exerce plus sur la vessie que sur l'urètre proximal",
+      "Entraîne une contraction réflexe du détrusor",
+      "Entraîne une contraction réflexe du sphincter",
+      "S'exerce surtout sur l'urètre proximal"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Une femme de 35 ans, porteuse d'une SEP présente une pollakiurie intense avec des mictions impérieuses et des fuites. Un cathétérisme vésical ramène 800 cc de résidu. On la met sous autosondage. 3 mois plus tard, elle se plaint d'une incontinence récurrente associée à une poussée évolutive de sa SEP qui nécessite un traitement stéroïdien. À quoi est due plus précisément cette incontinence ?",
+    "options": [
+      "Manque de compliance du fait des sondages",
+      "Une dyssynergie vésico-sphinctérienne",
+      "Une incontinence par regorgement",
+      "Un dysfonctionnement neuropathique urétral",
+      "Une dysfonction vésicale par hyperréflexie"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 4,
+    "question": "Les 4 étiologies des incontinences urinaires chez l'homme, sauf un(e), le ou laquelle ?",
+    "options": [
+      "Chirurgie de l'HBP",
+      "Cancer de la prostate",
+      "Traumatisme pelvi-périnéal",
+      "Cancer de la vessie",
+      "Neurologique"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Quelle triade biologique évoque une microangiopathie thrombotique ?",
+    "options": [
+      "Anémie hémolytique mécanique, thrombocytose, insuffisance hépatique",
+      "Anémie hémolytique mécanique, thrombocytose, insuffisance rénale",
+      "Anémie hémolytique mécanique, thrombopénie, insuffisance hépatique",
+      "Anémie hémolytique mécanique, thrombopénie, insuffisance rénale",
+      "Anémie hémolytique mécanique, thrombopénie, insuffisance endocrinienne"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "question": "Quelle est l'étiologie principale du syndrome hémolytique et urémique ?",
+    "options": [
+      "Infection à Escherichia coli",
+      "Infection à staphylocoque",
+      "Infection à streptocoque",
+      "Infection à entérocoque",
+      "Infection à pneumocoque"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Quels signes cliniques sont évocateurs d'une maladie des emboles de cristaux de cholestérol ?",
+    "options": [
+      "Orteils pourpres à pouls conservés, livedo, purpura, asthénie, surpoids",
+      "Orteils pourpres à pouls conservés, livedo, purpura, asthénie, myalgies",
+      "Orteils pourpres à pouls conservés, livedo, hyperthermie, asthénie, surpoids",
+      "Orteils pourpres à pouls conservés, livedo, purpura, asthénie, hypothermie",
+      "Orteils pourpres à pouls conservés, migraine, purpura, asthénie, myalgies"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Comment définit-on une HTA maligne ?",
+    "options": [
+      "HTA avec PAD > 12 cmHg et retentissement viscéral",
+      "HTA avec PAD > 13 cmHg et retentissement viscéral",
+      "HTA avec PAD > 14 cmHg et retentissement viscéral",
+      "HTA avec PAD > 13 cmHg et pas de retentissement viscéral",
+      "HTA avec PAS > 20 cmHg et retentissement viscéral"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Comment faire le diagnostic de certitude de périartérite noueuse ?",
+    "options": [
+      "Histologie (peau, muscle, nerf) : angéite nécrosante (nécrose fibrinoïde de la média, réaction inflammatoire).",
+      "Ponction de ganglion : angéite nécrosante (nécrose fibrinoïde de la média, réaction inflammatoire).",
+      "Biopsie rénale : angéite nécrosante (nécrose fibrinoïde de la média, réaction inflammatoire).",
+      "Fond d'œil. Histologie : biopsie cutanée ou rénale",
+      "Histologie (peau, muscle, nerf) et fond d'œil"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Les étiologies de l'incontinence urinaire par impériosités :",
+    "options": [
+      "Urologique, Neurologique, Psychogène",
+      "Urologique, Cardiaque, Psychogène",
+      "Urologique, Neurologique, Endocrinien",
+      "Vasculaire, Neurologique, Psychogène",
+      "Urologique, Neurologique, Traumatisme"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "Sur quel terrain surviennent les thromboses artérielles rénales ?",
+    "options": [
+      "Athérosclérose, fibrodysplasie, embolie artérielle, traumatisme et thrombophilie",
+      "Athérosclérose, malnutrition, traumatisme et thrombophilie",
+      "Athérosclérose, fibrodysplasie, embolie artérielle",
+      "Embolie artérielle, traumatisme et thrombophilie",
+      "Malnutrition, embolie artérielle, traumatisme et thrombophilie"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Expliquer brièvement la physiopathologie de la néphroangiosclérose maligne :",
+    "options": [
+      "Hypervolémie, activation du système rénine-angiotensine, hyperaldostéronisme secondaire.",
+      "Hypovolémie, activation du système rénine-angiotensine, hyperaldostéronisme secondaire.",
+      "Hypovolémie, activation du système rénine-angiotensine, hyperaldostéronisme primaire.",
+      "Hypervolémie, activation du système rénine-angiotensine, hyperaldostéronisme primaire.",
+      "Hypovolémie, activation du système rénine-angiotensine, hyperaldostéronisme tertiaire."
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Quels FDRCV doit-on systématiquement rechercher lors d'une HTA ?",
+    "options": [
+      "Âge (H > 50 ans, F > 60 ans), tabac, diabète, hypercholestérolémie, ATCD familiaux d'accidents vasculaires précoces.",
+      "Âge (H > 50 ans, F > 60 ans), hypercholestérolémie, ATCD familiaux d'accidents vasculaires précoces.",
+      "Âge (H > 30 ans, F > 40 ans), tabac, diabète, hypercholestérolémie, ATCD familiaux d'accidents vasculaires précoces.",
+      "Âge (H > 50 ans, F > 60 ans), tabac, diabète, hypercholestérolémie, ATCD familiaux de maladie héréditaire.",
+      "Âge (H > 50 ans, F > 60 ans), tabac, diabète, hypercholestérolémie, pas d'ATCD familiaux d'accidents vasculaires précoces."
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "Définition de la néphropathie tubulo-interstitielle chronique :",
+    "options": [
+      "L'atteinte de l'interstitium : infiltration cellulaire interstitielle (leucocytes).",
+      "L'atteinte de la membrane basale glomérulaire : fibrose interstitielle et d'une atrophie tubulaire, ± associées à une infiltration cellulaire interstitielle (leucocytes).",
+      "L'atteinte tubulaire : fibrose interstitielle et d'une atrophie tubulaire, ± associées à une infiltration cellulaire interstitielle (leucocytes).",
+      "L'atteinte du podocyte : fibrose interstitielle et d'une atrophie tubulaire, ± associées à une infiltration cellulaire interstitielle (leucocytes).",
+      "L'atteinte de l'interstitium : fibrose interstitielle et d'une atrophie tubulaire, ± associées à une infiltration cellulaire interstitielle (leucocytes)."
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 15,
+    "question": "Définition de la néphropathie tubulaire aiguë :",
+    "options": [
+      "Nécrose des cellules tubulaires + associée à une infiltration cellulaire interstitielle (leucocytes).",
+      "Nécrose des cellules tubulaires + associée à un œdème interstitiel et à une infiltration cellulaire interstitielle (leucocytes).",
+      "Nécrose des cellules interstitielles + associée à un œdème interstitiel et à une infiltration cellulaire interstitielle (leucocytes).",
+      "Nécrose des cellules tubulaires mais pas d'œdème interstitiel.",
+      "Nécrose des cellules tubulaires et à une infiltration cellulaire interstitielle (leucocytes)."
+    ],
+    "correctAnswerIndex": 1
+  }
+]
