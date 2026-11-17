@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Flashcards - រៀន និងប្រឡង</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Khmer:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* អនុញ្ញាតឱ្យទំព័រសរុប ឬ iframe អាច scroll បាន */
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow-y: auto; /* បើក Scrollbar ប្រសិនបើកម្ពស់លើស */
+            -webkit-overflow-scrolling: touch; /* ជំនួយការ scroll លើ mobile */
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans Khmer', sans-serif;
+            background-color: transparent;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* ដាក់ពីលើចុះក្រោមដើម្បីកុំឱ្យដាច់ក្បាល */
+        }
+
+        #app {
+            width: 100%;
+            max-width: 680px;
+            max-height: calc(100vh - 24px); /* កំណត់កម្ពស់អតិបរមា */
+            overflow-y: auto; /* បើក Scrollbar នៅខាងក្នុង Card ប្រសិនបើសំណួរវែង */
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        /* តុបតែង Scrollbar ឱ្យមើលទៅស្អាតទន់ភ្នែក */
+        #app::-webkit-scrollbar {
+            width: 6px;
+        }
+        #app::-webkit-scrollbar-thumb {
+            background-color: #d1d5db;
+            border-radius: 4px;
+        }
+        #app::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        @media (min-width: 640px) {
+            #app {
+                padding: 32px;
+            }
+        }
+
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .hidden { display: none !important; }
+
+        .title-main {
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+        
+        @media (min-width: 640px) {
+            .title-main { font-size: 2rem; }
+        }
+
+        .subtitle {
+            color: #6b7280;
+            margin-bottom: 24px;
+            font-size: 0.95rem;
+        }
+
+        .status-box {
+            background-color: #f9fafb;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            margin-bottom: 24px;
+            font-size: 0.875rem;
+            text-align: left;
+        }
+        .status-box p {
+            margin-bottom: 4px;
+        }
+
+        .reset-btn {
+            margin-top: 8px;
+            color: #ef4444;
+            background: none;
+            border: none;
+            font-size: 0.75rem;
+            text-decoration: underline;
+            cursor: pointer;
+            padding: 0;
+        }
+        .reset-btn:hover { color: #b91c1c; }
+
+        .input-group {
+            margin-bottom: 24px;
+        }
+        .input-label {
+            display: block;
+            color: #374151;
+            font-weight: 700;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .limit-input {
+            width: 96px;
+            text-align: center;
+            border: 2px solid #d1d5db;
+            border-radius: 8px;
+            padding: 8px;
+            font-size: 1.125rem;
+            outline: none;
+        }
+        .limit-input:focus {
+            border-color: #3b82f6;
+        }
+
+        .btn {
+            width: 100%;
+            font-weight: 700;
+            padding: 12px 16px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s, opacity 0.2s;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-purple { background-color: #a855f7; color: white; }
+        .btn-purple:hover:not(:disabled) { background-color: #9333ea; }
+
+        .btn-blue { background-color: #3b82f6; color: white; }
+        .btn-blue:hover:not(:disabled) { background-color: #2563eb; }
+
+        .btn-amber { background-color: #f59e0b; color: white; }
+        .btn-amber:hover:not(:disabled) { background-color: #d97706; }
+
+        .btn-dark { background-color: #1f2937; color: white; margin-top: 16px; }
+        .btn-dark:hover:not(:disabled) { background-color: #111827; }
+
+        .space-y-3 > * + * { margin-top: 12px; }
+        .space-y-4 > * + * { margin-top: 16px; }
+
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .badge-purple {
+            padding: 4px 12px;
+            background-color: #f3e8ff;
+            color: #6b21a8;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 700;
+        }
+        .badge-amber {
+            padding: 4px 12px;
+            background-color: #fef3c7;
+            color: #92400e;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 700;
+        }
+
+        .cards-left-text {
+            color: #6b7280;
+            font-weight: 700;
+        }
+
+        .timer-text {
+            color: #2563eb;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .timer-text.time-low { color: #dc2626; }
+
+        .question-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            text-align: left;
+        }
+        @media (min-width: 640px) {
+            .question-title { font-size: 1.15rem; }
+        }
+
+        .option-btn {
+            width: 100%;
+            text-align: left;
+            background-color: #f9fafb;
+            border: 2px solid #e5e7eb;
+            color: #1f2937;
+            font-weight: 500;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: background-color 0.15s, border-color 0.15s;
+            font-family: inherit;
+        }
+        .option-btn:hover:not(:disabled) {
+            background-color: #f3f4f6;
+            border-color: #d1d5db;
+        }
+        .option-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.9;
+        }
+
+        .flashcard-enter {
+            animation: fadeIn 0.3s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .correct-answer {
+            background-color: #10b981 !important;
+            color: white !important;
+            border-color: #10b981 !important;
+        }
+        .wrong-answer {
+            background-color: #ef4444 !important;
+            color: white !important;
+            border-color: #ef4444 !important;
+        }
+
+        .feedback-box {
+            margin-top: 20px;
+            text-align: center;
+            min-height: 32px;
+            font-weight: 700;
+            font-size: 1.125rem;
+        }
+
+        .score-big {
+            font-size: 3.5rem;
+            line-height: 1;
+            font-weight: 700;
+            color: #3b82f6;
+            margin-bottom: 8px;
+        }
+
+        /* Popup Banner Styles */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+            z-index: 9999;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+        .popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .popup-card {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease-in-out;
+            box-sizing: border-box;
+        }
+        .popup-overlay.active .popup-card {
+            transform: translateY(0);
+        }
+        .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #888;
+            padding: 0;
+            line-height: 1;
+        }
+        .close-btn:hover { color: #000; }
+        .popup-card h3 {
+            margin-top: 10px;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+        .popup-card p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 15px 0 25px;
+        }
+        .donate-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #0284c7;
+            color: white;
+            padding: 8px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.2s ease;
+        }
+        .donate-btn img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .donate-btn:hover { background-color: #0369a1; }
+
+        .support-image-overlay {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 10000;
+        }
+        .support-image-overlay.active { display: flex; }
+        .support-image-overlay img {
+            display: block;
+            max-width: min(100%, 600px);
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .support-image-close {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            border: 0;
+            background: transparent;
+            color: #fff;
+            font-size: 36px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        
+        <!-- Menu View -->
+        <div id="menu-view" class="text-center">
+            <h1 class="title-main">MCQ Flashcards</h1>
+            <p class="subtitle">រៀន និងសាកល្បងចំណេះដឹងរបស់អ្នក</p>
+            
+            <div class="status-box">
+                <p style="color: #374151;">📊 <b>ស្ថានភាពបច្ចុប្បន្ន៖</b></p>
+                <p style="color: #4b5563;">- សំណួរសរុប៖ <span id="total-available" style="font-weight: bold;">កំពុងទាញយក...</span></p>
+                <button onclick="resetProgress()" class="reset-btn">កំណត់ប្រវត្តិឡើងវិញ (Reset Progress)</button>
+            </div>
+
+            <div class="input-group">
+                <label for="card-limit" class="input-label">ជ្រើសរើសចំនួនកាតដែលអ្នកចង់ធ្វើតេស្តសមត្ថភាព</label>
+                <input type="number" id="card-limit" min="1" max="60" class="limit-input" value="60">
+            </div>
+
+            <div class="space-y-4">
+                <button id="start-btn" onclick="startSession('test')" class="btn btn-purple">
+                    📝 ចាប់ផ្តើមប្រឡង (Test សរុប)
+                </button>
+            </div>
+            <p style="margin-top: 16px; font-size: 0.75rem; color: #9ca3af;">*ចំពោះ "ប្រឡង" វានឹងចាប់យកសំណួរដោយចៃដន្យពីសំណួរសរុបទាំងអស់ (អតិបរមា ៦០ សំណួរ)។</p>
+        </div>
+
+        <!-- Flashcard View -->
+        <div id="flashcard-view" class="hidden">
+            <div class="header-bar">
+                <span id="mode-badge" class="badge-purple">ប្រឡង</span>
+                <span class="cards-left-text">នៅសល់: <span id="cards-left">0</span></span>
+            </div>
+            <div id="timer" class="timer-text" aria-live="polite">ពេលវេលា៖ 01:00</div>
+
+            <div id="card-container" class="flashcard-enter">
+                <h2 id="question-text" class="question-title">
+                    សំណួរនឹងបង្ហាញនៅទីនេះ?
+                </h2>
+                
+                <div id="options-container" class="space-y-3">
+                    <!-- Options will be injected here -->
+                </div>
+            </div>
+
+            <div id="feedback-container" class="feedback-box">
+                <!-- Feedback message -->
+            </div>
+            
+            <button id="next-btn" onclick="nextCard()" class="hidden btn btn-dark">
+                បន្តទៅមុខទៀត ➡️
+            </button>
+        </div>
+
+        <!-- Result View -->
+        <div id="result-view" class="hidden text-center">
+            <h2 style="font-size: 1.875rem; font-weight: 700; color: #1f2937; margin-bottom: 16px;">អបអរសាទរ! 🎉</h2>
+            <p style="color: #4b5563; margin-bottom: 24px;">អ្នកបានបញ្ចប់ការ<span id="result-mode">ប្រឡង</span>。</p>
+            
+            <div id="score-container" style="margin-bottom: 32px;">
+                <div class="score-big">
+                    <span id="score-correct">0</span> / <span id="score-total">0</span>
+                </div>
+                <p style="color: #6b7280;">ពិន្ទុដែលអ្នកឆ្លើយត្រូវ</p>
+            </div>
+
+            <div class="space-y-3">
+                <button id="review-btn" onclick="startReviewSession()" class="hidden btn btn-amber">
+                    🔍 Review សំណួរដែលឆ្លើយខុស (<span id="wrong-count">0</span>)
+                </button>
+                <button onclick="showMenu()" class="btn btn-blue">
+                    ត្រឡប់ទៅម៉ឺនុយដើម
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Donate Pop-up Overlay -->
+    <div class="popup-overlay" id="donatePopup">
+        <div class="popup-card">
+            <button class="close-btn" onclick="closePopup()">&times;</button>
+            <h3>❤️ ជួយគាំទ្របេសកកម្មរបស់យើង</h3>
+            <p>ការបរិច្ចាគថវិការបស់អ្នក ពិតជាមានតម្លៃណាស់ក្នុងការជួយឱ្យយើងបន្តផ្តល់ជូននូវខ្លឹមសារ និងសេវាកម្មល្អៗជាច្រើនទៀត។</p>
+            <button type="button" class="donate-btn" onclick="openSupportImage()">
+                <span>Support Us</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="support-image-overlay" id="supportImagePopup" onclick="closeSupportImage()" role="dialog" aria-modal="true" aria-label="Support Us image">
+        <button type="button" class="support-image-close" onclick="closeSupportImage()" aria-label="បិទ">&times;</button>
+        <img src="https://raw.githubusercontent.com/tantan885-sudo/LemmaLap/refs/heads/main/1000034665.jpg" alt="Support Us">
+    </div>
+
+    <script>
+        const dataUrl = `https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_med_test.json?t=${Date.now()}`;
+        const letters = ["A", "B", "C", "D", "E", "F"];
+        
+        let myQuestions = [];
+        let currentQuestions = [];
+        let currentIndex = 0;
+        let score = 0;
+        
+        let wrongQuestionsHistory = [];
+        let isCurrentQuestionAnswered = false;
+        let timerInterval = null;
+        let timeRemaining = 60;
+
+        async function loadQuestions() {
+            const startBtn = document.getElementById('start-btn');
+            startBtn.disabled = true;
+
+            try {
+                const res = await fetch(dataUrl, { cache: "no-store" });
+                if (!res.ok) throw new Error("រកមិនឃើញ File លើ GitHub ទេ!");
+
+                myQuestions = await res.json();
+                document.getElementById('total-available').textContent = myQuestions.length;
+                startBtn.disabled = false;
+            } catch (e) {
+                document.getElementById('total-available').textContent = "Error ក្នុងការទាញយកសំណួរ";
+                console.error(e);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadQuestions);
+
+        function shuffleArray(array) {
+            let arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
+        function shuffleOptions(questionObj) {
+            let options = [];
+            
+            if (Array.isArray(questionObj.options)) {
+                options = [...questionObj.options];
+            } else if (typeof questionObj.options === 'object' && questionObj.options !== null) {
+                options = Object.values(questionObj.options);
+            }
+
+            let correctText = "";
+            if (typeof questionObj.correctAnswerIndex === 'number') {
+                correctText = options[questionObj.correctAnswerIndex];
+            } else if (typeof questionObj.answer === 'string') {
+                const keys = ["A", "B", "C", "D"];
+                const idx = keys.indexOf(questionObj.answer);
+                correctText = idx !== -1 ? options[idx] : questionObj.answer;
+            }
+
+            const shuffledOptions = shuffleArray(options);
+            const newCorrectIndex = shuffledOptions.indexOf(correctText);
+
+            return {
+                ...questionObj,
+                options: shuffledOptions,
+                correctAnswerIndex: newCorrectIndex
+            };
+        }
+
+        function startSession(mode) {
+            if (!myQuestions.length) return;
+
+            score = 0;
+            currentIndex = 0;
+            wrongQuestionsHistory = [];
+
+            const limitInput = document.getElementById('card-limit').value;
+            let limit = parseInt(limitInput);
+            
+            if (isNaN(limit) || limit < 1) limit = 60;
+            limit = Math.min(limit, 60, myQuestions.length);
+
+            let selected = shuffleArray(myQuestions).slice(0, limit);
+            
+            currentQuestions = selected.map(q => ({
+                original: q,
+                shuffled: shuffleOptions(q)
+            }));
+
+            const badge = document.getElementById('mode-badge');
+            badge.textContent = 'ប្រឡង';
+            badge.className = 'badge-purple';
+
+            document.getElementById('menu-view').classList.add('hidden');
+            document.getElementById('result-view').classList.add('hidden');
+            document.getElementById('flashcard-view').classList.remove('hidden');
+
+            renderCard();
+        }
+
+        function startReviewSession() {
+            if (!wrongQuestionsHistory.length) return;
+
+            score = 0;
+            currentIndex = 0;
+            
+            let selected = shuffleArray(wrongQuestionsHistory);
+            wrongQuestionsHistory = [];
+
+            currentQuestions = selected.map(q => ({
+                original: q,
+                shuffled: shuffleOptions(q)
+            }));
+
+            const badge = document.getElementById('mode-badge');
+            badge.textContent = 'Review ខុស';
+            badge.className = 'badge-amber';
+
+            document.getElementById('result-view').classList.add('hidden');
+            document.getElementById('flashcard-view').classList.remove('hidden');
+
+            renderCard();
+        }
+
+        function startQuestionTimer() {
+            clearInterval(timerInterval);
+            timeRemaining = 60;
+            const timer = document.getElementById('timer');
+            timer.textContent = 'ពេលវេលា៖ 01:00';
+            timer.classList.remove('time-low');
+
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                const minutes = String(Math.floor(timeRemaining / 60)).padStart(2, '0');
+                const seconds = String(timeRemaining % 60).padStart(2, '0');
+                timer.textContent = `ពេលវេលា៖ ${minutes}:${seconds}`;
+
+                if (timeRemaining <= 10) timer.classList.add('time-low');
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    handleTimeUp();
+                }
+            }, 1000);
+        }
+
+        function handleTimeUp() {
+            if (isCurrentQuestionAnswered) return;
+            isCurrentQuestionAnswered = true;
+
+            const currentItem = currentQuestions[currentIndex];
+            const q = currentItem.shuffled;
+            wrongQuestionsHistory.push(currentItem.original);
+            document.getElementById('feedback-container').innerHTML =
+                '<span style="color: #ef4444;">⏰ អស់ពេលហើយ! (Time is up)</span>';
+
+            document.querySelectorAll('.option-btn').forEach((btn, index) => {
+                btn.disabled = true;
+                if (index === q.correctAnswerIndex) btn.classList.add('correct-answer');
+            });
+
+            document.getElementById('next-btn').classList.remove('hidden');
+        }
+
+        function renderCard() {
+            const container = document.getElementById('card-container');
+            
+            container.classList.remove('flashcard-enter');
+            void container.offsetWidth;
+            container.classList.add('flashcard-enter');
+
+            document.getElementById('cards-left').textContent = (currentQuestions.length - currentIndex);
+            
+            const currentItem = currentQuestions[currentIndex];
+            const q = currentItem.shuffled;
+            
+            document.getElementById('question-text').textContent = `${currentIndex + 1}. ${q.question}`;
+
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+            
+            q.options.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                
+                const letterPrefix = letters[index] || (index + 1);
+                btn.textContent = `${letterPrefix}. ${opt}`;
+                
+                btn.onclick = () => checkAnswer(index, btn);
+                optionsContainer.appendChild(btn);
+            });
+
+            document.getElementById('feedback-container').innerHTML = '';
+            document.getElementById('next-btn').classList.add('hidden');
+            isCurrentQuestionAnswered = false;
+            startQuestionTimer();
+
+            // Scroll ទៅលើគេវិញស្វ័យប្រវត្តិពេលប្តូរសំណួរថ្មី
+            document.getElementById('app').scrollTop = 0;
+        }
+
+        function checkAnswer(selectedIndex, selectedBtn) {
+            if (isCurrentQuestionAnswered) return;
+            isCurrentQuestionAnswered = true;
+            clearInterval(timerInterval);
+
+            const currentItem = currentQuestions[currentIndex];
+            const q = currentItem.shuffled;
+            const isCorrect = (selectedIndex === q.correctAnswerIndex);
+            
+            const feedbackContainer = document.getElementById('feedback-container');
+
+            if (isCorrect) {
+                score++;
+                feedbackContainer.innerHTML = '<span style="color: #10b981;">✅ ត្រឹមត្រូវ! (Correct)</span>';
+                selectedBtn.classList.add('correct-answer');
+            } else {
+                feedbackContainer.innerHTML = '<span style="color: #ef4444;">❌ ខុសហើយ! (Incorrect)</span>';
+                selectedBtn.classList.add('wrong-answer');
+
+                wrongQuestionsHistory.push(currentItem.original);
+            }
+
+            const optionBtns = document.querySelectorAll('.option-btn');
+            optionBtns.forEach((btn, index) => {
+                btn.disabled = true;
+                if (index === q.correctAnswerIndex) {
+                    btn.classList.add('correct-answer');
+                }
+            });
+
+            const nextBtn = document.getElementById('next-btn');
+            nextBtn.classList.remove('hidden');
+
+            // Scroll ចុះក្រោមស្វ័យប្រវត្តិតិចៗដើម្បីបង្ហាញប៊ូតុង "បន្តទៅមុខទៀត"
+            setTimeout(() => {
+                nextBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+        }
+
+        function nextCard() {
+            currentIndex++;
+            if (currentIndex < currentQuestions.length) {
+                renderCard();
+            } else {
+                showResult();
+            }
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.code !== 'Space' || event.repeat || event.ctrlKey || event.altKey || event.metaKey) return;
+
+            const nextBtn = document.getElementById('next-btn');
+            const flashcardView = document.getElementById('flashcard-view');
+            if (!flashcardView.classList.contains('hidden') && !nextBtn.classList.contains('hidden')) {
+                event.preventDefault();
+                nextBtn.click();
+            }
+        });
+
+        function showResult() {
+            clearInterval(timerInterval);
+            document.getElementById('flashcard-view').classList.add('hidden');
+            document.getElementById('result-view').classList.remove('hidden');
+            
+            document.getElementById('score-container').classList.remove('hidden');
+            document.getElementById('score-correct').textContent = score;
+            document.getElementById('score-total').textContent = currentQuestions.length;
+
+            const reviewBtn = document.getElementById('review-btn');
+            const wrongCountSpan = document.getElementById('wrong-count');
+
+            if (wrongQuestionsHistory.length > 0) {
+                wrongCountSpan.textContent = wrongQuestionsHistory.length;
+                reviewBtn.classList.remove('hidden');
+            } else {
+                reviewBtn.classList.add('hidden');
+            }
+
+            document.getElementById('app').scrollTop = 0;
+        }
+
+        function showMenu() {
+            clearInterval(timerInterval);
+            document.getElementById('result-view').classList.add('hidden');
+            document.getElementById('flashcard-view').classList.add('hidden');
+            document.getElementById('menu-view').classList.remove('hidden');
+            document.getElementById('app').scrollTop = 0;
+        }
+
+        function resetProgress() {
+            alert("ប្រវត្តិត្រូវបានកំណត់ឡើងវិញ! (Progress Reset)");
+            document.getElementById('card-limit').value = 60;
+        }
+
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('donatePopup').classList.add('active');
+            }, 15000);
+
+            setInterval(function() {
+                document.getElementById('donatePopup').classList.add('active');
+            }, 300000);
+        });
+
+        function closePopup() {
+            document.getElementById('donatePopup').classList.remove('active');
+        }
+
+        function openSupportImage() {
+            document.getElementById('donatePopup').classList.remove('active');
+            document.getElementById('supportImagePopup').classList.add('active');
+        }
+
+        function closeSupportImage() {
+            document.getElementById('supportImagePopup').classList.remove('active');
+        }
+    </script>
+</body>
+</html>
