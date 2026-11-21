@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "question": "ក្នុងចំណោម embole ខាងក្រោម តើ embole ប្រភេទមួយណាដែលជាមូលហេតុបណ្តាលអោយកើត embolies artérielles des membres ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Végétations septiques",
+      "Fragments de plaque athéromateuse",
+      "Caillots rouges (thrombus cruorique d'origine cardiaque)",
+      "Fragments de tumeurs cardiaques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "ក្នុងចំណោមជម្ងឺបេះដូងខាងក្រោម តើជម្ងឺមួយណាដែលជាមូលហេតុបណ្ដាលអោយកើត embolies artérielles des membres ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Fibrillation auriculaire (FA)",
+      "Infarctus du myocarde",
+      "Endocardite infectieuse",
+      "Myxome de l'oreillette"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "នៅក្នុងជម្ងឺ embolies artérielles des membres inférieurs, តើ artère ណាដែលមាន embolies ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Aorte sous-rénale",
+      "Artère iliaque primitive",
+      "Artère fémorale commune (et sa bifurcation)",
+      "Artère poplitée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, ក្នុងចំណោមអំណះអំណាងខាងក្រោម តើអំណះអំណាងណាមួយដែលមិនត្រឹមត្រូវ?",
+    "options": [
+      "L'anoxie tissulaire est en fonction de la topographie des embolies",
+      "L'anoxie tissulaire est en fonction de la nature des emboles",
+      "L'anoxie tissulaire est en fonction de la qualité de la perfusion systémique",
+      "L'anoxie tissulaire est en fonction de la qualité de la circulation collatérale"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Œdème គឺជា conséquence locale de la recirculation brutale sur un membre ischémique នៅក្នុងជំងឺ ischémie aigue du membre inférieur វាបណ្ដាលមកពី",
+    "options": [
+      "Thrombose veineuse profonde",
+      "Altération de la perméabilité de la membrane capillaire (syndrome de revascularisation / hyperperméabilité)",
+      "Insuffisance rénale",
+      "Insuffisance cardiaque"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "ក្នុងចំណោមអំណះអំណាងខាងក្រោម តើអំណះអំណាងណាមួយដែលអ្នកគិតថាវាជា embolies artérielle des membres inférieurs?",
+    "options": [
+      "Douleur spontanée du mollet accompagnée de signes inflammatoires localisés",
+      "Douleur du mollet de type crampe musculaire d'apparition progressive à la marche",
+      "Douleurs très intenses au pied à type de brûlures survenant quelques heures après le décubitus",
+      "La douleur spontanée du mollet de début brutal, intense, à type de broiement avec membre froid et pâle"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, តើរោគសញ្ញាមួយណាដែលតំរូវអោយគ្រូពេទ្យត្រូវធ្វើ revascularisation urgente ?",
+    "options": [
+      "Collapsus des veines superficielles",
+      "Pied froid et livide",
+      "Douleur à la pression du mollet",
+      "Paralysie sensitivomotrice (déficit moteur et sensitif débutant)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, តើរោគសញ្ញាមួយណាដែលតំរូវអោយគ្រូពេទ្យត្រូវធ្វើ amputation d'emblée ?",
+    "options": [
+      "Collapsus des veines superficielles",
+      "Pied froid et livide",
+      "Rigidité musculaire invétérée et présence de phlyctènes (nécrose tissulaire fixée)",
+      "Paralysie sensitivomotrice débutante"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "ក្នុងបណ្តារ conséquences générales ខាងក្រោម តើ conséquence ណាមួយដែលអាចបណ្តាលអោយមាន arrêt cardiaque នៅពេលធ្វើ recirculation brutale sur un membre ischémique ?",
+    "options": [
+      "Acidose métabolique",
+      "Hyperkaliémie brutale",
+      "Myoglobinémie",
+      "Infection"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "ក្នុងបណ្តារ conséquences générales ខាងក្រោម តើ conséquence ណាមួយដែលអាចបណ្តាលអោយមាន insuffisance rénale aiguë នៅពេលធ្វើ recirculation du membre ischémique ?",
+    "options": [
+      "Acidose métabolique",
+      "Hyperkaliémie",
+      "Myoglobinémie (rhabdomyolyse et nécrose tubulaire aiguë)",
+      "Infection"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë tronculaire à la phase précoce, ដើម្បីការពារការរាលដាលនៃ thrombus តើអ្នកគួរប្រើ anticoagulant ណាមួយក្នុងចំណោម anticoagulant ខាងក្រោម?",
+    "options": [
+      "Héparine (HNF en bolus IV puis perfusion continue)",
+      "Aspirine",
+      "Plavix (Clopidogrel)",
+      "Antivitamine K (AVK)"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
