@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "question": "À la suite d'un accident par bâillement, depuis ce matin environ à 06h, une cultivatrice âgée de 60 ans se présente avec la bouche ouverte qu'elle ne peut refermer malgré ses efforts, des joues aplaties, le menton projeté en bas et vers l'avant (abaissé par pression mais impossible à relever). À la palpation, on sent une dépression en avant du conduit auditif externe. Le relief des condyles est perceptible plus en avant de cette dépression. Le doigt introduit au fond du vestibule de la région molaire supérieure révèle la saillie des apophyses coronoïdes. La salive s'écoule, la déglutition et l'élocution sont très difficiles, la mastication impossible. Quel est le diagnostic ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire",
+      "Luxation postérieure de l'articulation temporo-mandibulaire",
+      "Luxation supérieure de l'articulation temporo-mandibulaire",
+      "Luxation latérale de l'articulation temporo-mandibulaire",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 2,
+    "question": "Un cultivateur âgé de 50 ans a été victime d'un accident par un choc horizontal sur la mandibule gauche, s'accompagnant d'otorragie gauche. L'ouverture buccale est limitée et les incisives inférieures sont en retrait de 2 cm par rapport aux supérieures. Le scanner crânio-facial confirme la fracture du tympanal et le déplacement du condyle mandibulaire. Quel est le diagnostic ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation postérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation supérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation latérale de l'articulation temporo-mandibulaire gauche",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Une maçonne âgée de 55 ans a été victime d'un accident par un cri violent à 14h. Elle présente une bouche ouverte qu'elle ne peut refermer malgré ses efforts, sa joue droite est aplatie et paraît creuse du côté gauche. L'orthopantomogramme et l'incidence de Schüller confirment la position du condyle mandibulaire en avant de l'éminence temporale (luxation récente unilatérale droite). Par quelle manœuvre doit-elle être réduite ?",
+    "options": [
+      "Manœuvre de Barré",
+      "Manœuvre de Nélaton",
+      "Manœuvre de Lasègue",
+      "Manœuvre de Kernig"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Un maçon âgé de 50 ans a été victime d'un accident par un cri violent à 15h (luxation récente unilatérale droite de l'ATM). Il a bénéficié d'une réduction par manœuvre de Nélaton. Après réduction, un bandage doit être appliqué pour limiter l'ouverture buccale. Quelle est la durée de cette immobilisation ?",
+    "options": [
+      "À appliquer pendant 24 à 48 heures",
+      "À appliquer pendant 48 à 72 heures",
+      "À appliquer pendant 1 à 2 semaines",
+      "À appliquer pendant 2 à 3 semaines",
+      "À appliquer pendant 3 à 4 semaines"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Un journaliste âgé de 57 ans présente une luxation récente unilatérale droite réduite par manœuvre de Nélaton. Un bandage de maintien est en place. Quel est le régime alimentaire préconisé pour ce patient ?",
+    "options": [
+      "Nutrition par perfusion",
+      "Alimentation par sonde naso-gastrique",
+      "Alimentation normale",
+      "Alimentation liquide"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "question": "Un cultivateur âgé de 64 ans se présente après un bâillement avec une bouche grande ouverte, une sialorrhée commissurale, une impression d'allongement du visage et une béance antérieure. Le panoramique dentaire et l'incidence de Schüller confirment quel type de luxation de l'ATM ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire",
+      "Luxation postérieure gauche de l'articulation temporo-mandibulaire",
+      "Luxation supérieure droite de l'articulation temporo-mandibulaire",
+      "Luxation latérale gauche de l'articulation temporo-mandibulaire",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche au niveau du cou gauche (zone II). Elle a des signes \"forts\" avec saignement actif, hématome expansif, abolition des pouls en aval et choc circulatoire. Dans quelle catégorie de lésion s'inscrit cette plaie ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Un ouvrier de 35 ans présente une plaie pénétrante par arme blanche au cou gauche (zone I) avec signes \"faibles\" (saignement de faible abondance, petit hématome, pouls perçus en aval). Quelle lésion principale est suspectée ?",
+    "options": [
+      "Les lésions vasculaires",
+      "Les lésions nerveuses",
+      "Les lésions des voies aériennes",
+      "Les lésions du tractus digestif",
+      "Les lésions neurologiques"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche en zone II du cou gauche avec signes \"forts\" de détresse respiratoire aiguë, bulles d'air extériorisées par la plaie, hémoptysie à la toux et emphysème sous-cutané. Quel type de lésion présente-t-elle ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Un maçon de 39 ans présente une plaie pénétrante par arme blanche en zone II du cou droit avec emphysème sous-cutané et suspicion d'atteinte respiratoire. Quel type de lésion recherche-t-on prioritairement ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche en zone II du cou droit avec des signes \"faibles\" à type d'odynophagie, hématémèse et emphysème sous-cutané. Quelle est la lésion responsable ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions médullaires",
+      "Lésions du tractus digestif"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 12,
+    "question": "Un policier de 39 ans présente une plaie pénétrante par arme à feu en zone II du cou droit avec tétraplégie, troubles sphinctériens et signe de Babinski bilatéral. Quel est le niveau lésionnel ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions médullaires cervicales"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 13,
+    "question": "Un policier de 30 ans présente une plaie par arme à feu en zone II du cou gauche, comateux (Glasgow 8/15), avec emphysème sous-cutané majeur, hématome expansif et stridor. L'intubation est très difficile. Quelle méthode de libération chirurgicale des voies aériennes doit être pratiquée d'urgence ?",
+    "options": [
+      "Tamponnage par sonde de Foley",
+      "Cricothyroïdotomie",
+      "Cannule oropharyngée (Guedel)",
+      "Cannule nasopharyngée"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Un journaliste de 35 ans présente un traumatisme auriculaire droit avec douleurs vives en avant de l'oreille à la mastication et à la mobilité buccale. Palpation douloureuse au col du condyle latéral droit, ouverture limitée avec latéro-déviation droite. Quel est le diagnostic du scanner ?",
+    "options": [
+      "Fracture condylienne mandibulaire droite",
+      "Fracture condylienne mandibulaire bilatérale",
+      "Fracture parasymphysaire mandibulaire droite",
+      "Fracture de la branche montante mandibulaire droite",
+      "Fracture du coroné mandibulaire droit"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "Un policier de 37 ans présente un traumatisme de la mâchoire gauche avec œdème/déformation du menton gauche, douleur vive à la palpation et déchirure de la muqueuse gingivale gauche. Le scanner confirme le diagnostic. De quelle fracture s'agit-il ?",
+    "options": [
+      "Fracture capitale de la mandibule gauche",
+      "Fracture condylienne de la mandibule gauche",
+      "Fracture parasymphysaire de la mandibule gauche",
+      "Fracture du ramus de la mandibule gauche",
+      "Fracture du coroné de la mandibule gauche"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Suite à une chute d'un arbre avec choc direct sur le processus mentonnier droit, un patient présente une béance controlatérale, une limitation douloureuse de l'ouverture buccale et une tuméfaction jugale droite. Quel est le diagnostic scanner ?",
+    "options": [
+      "Fracture capitale mandibulaire droite",
+      "Fracture condylienne mandibulaire droite",
+      "Fracture parasymphysaire droite de la mandibule",
+      "Fracture du ramus mandibulaire droit",
+      "Fracture du coroné mandibulaire droit"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "À la suite d'un choc violent sur le processus mentonnier gauche, le scanner retrouve une fracture parasymphysaire. De quel type est-elle le plus fréquemment ?",
+    "options": [
+      "Fracture oblique de la branche horizontale mandibulaire gauche",
+      "Fracture oblique condylienne mandibulaire gauche",
+      "Fracture oblique parasymphysaire mandibulaire gauche",
+      "Fracture transversale parasymphysaire mandibulaire gauche",
+      "Fracture transversale du coroné mandibulaire gauche"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 18,
+    "question": "Un choc violent sur le globe oculaire peut entraîner une fracture dite « trap-door » (en trappe) du plancher orbitaire avec incarcération du muscle droit inférieur. Quel nerf risque d'être le plus directement comprimé ?",
+    "options": [
+      "Compression du nerf sous-orbitaire",
+      "Compression du nerf facial",
+      "Compression du nerf trijumeau",
+      "Compression du nerf mandibulaire (V3)",
+      "Compression du nerf ophtalmique (V1)"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Une policière de 30 ans subit un choc direct à l'angle mandibulaire gauche avec déformation, œdème, vive douleur et trismus important. Le scanner confirme une fracture déplacée. Quel est le diagnostic ?",
+    "options": [
+      "Fracture de l'angle de la mandibule gauche",
+      "Fracture de l'angle de la mandibule droite",
+      "Fracture de la branche horizontale mandibulaire gauche",
+      "Fracture de la branche montante mandibulaire gauche",
+      "Fracture du condyle mandibulaire gauche"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Une ouvrière de 34 ans présente un traumatisme de la mâchoire avec asymétrie faciale, menton déporté vers la droite et anesthésie labio-mentonnière droite. Le panoramique dentaire montre des fractures associées. Quel nerf sensitif dentaire est atteint ?",
+    "options": [
+      "Nerf alvéolaire inférieur",
+      "Nerf ophtalmique (V1)",
+      "Nerf maxillaire (V2)",
+      "Nerf mandibulaire (V3)",
+      "Nerf infra-orbitaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "Une disjonction isolée de type LeFort I comporte typiquement quel(s) signe(s) parmi les suivants ?",
+    "options": [
+      "Énophtalmie",
+      "Mobilité de la pyramide nasale",
+      "Un trouble de l'articulé dentaire",
+      "Anesthésie sous-orbitaire bilatérale",
+      "Hémosinus"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 22,
+    "question": "À la suite d'un traumatisme de la face, un patient se plaint d'une diplopie dans le regard vers le haut. Quelle est l'étiologie la plus probable ?",
+    "options": [
+      "Fracture de LeFort III",
+      "Fracture du plancher de l'orbite",
+      "Paralysie traumatique du nerf oculomoteur (III)",
+      "Atteinte du nerf sous-orbitaire",
+      "Ébranlement rétinien dû au choc"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 23,
+    "question": "À la suite d'une chute de cheval, une patiente présente un traumatisme crânio-facial avec impact mentonnier, limitation de l'ouverture buccale et contact molaire prématuré droit. De quelle fracture s'agit-il ?",
+    "options": [
+      "Fracture de l'apophyse coronoïde de la mandibule",
+      "Fracture de l'arcade zygomatique",
+      "Fracture de l'étage antérieur de la base du crâne",
+      "Fracture mandibulaire de la région symphysaire",
+      "Fracture du condyle mandibulaire droit"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 24,
+    "question": "Une fracture de la paroi antérieure du sinus maxillaire nécessite une prise en charge opératoire si elle est associée à :",
+    "options": [
+      "Un hémosinus",
+      "Une anesthésie de la lèvre inférieure",
+      "Une anesthésie de la joue",
+      "Un trouble oculomoteur",
+      "Un trouble de l'articulé dentaire"
+    ],
+    "correctAnswerIndex": 2
+  }
+]
