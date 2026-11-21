@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la définition exacte d'une hémorragie ?",
+    "options": [
+      "Un saignement superficiel",
+      "Un écoulement du sang en dehors de son circuit naturel (artères seules)",
+      "Un écoulement du sang en dehors de son circuit naturel (veines seules)",
+      "Un écoulement du sang en dehors de son circuit naturel constitué par le cœur et les vaisseaux sanguins (veines et artères)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 2,
+    "question": "Quelle est la conséquence hémodynamique majeure d'une hémorragie non compensée pouvant conduire au collapsus ?",
+    "options": [
+      "Anémie isolée",
+      "Diminution de l'oxygénation tissulaire",
+      "Chute de la pression artérielle",
+      "Perte de globules rouges"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Combien existe-t-il de différents types d'hémorragies selon leur siège topographique ?",
+    "options": [
+      "2 types",
+      "3 types (externe, extériorisée, interne)",
+      "4 types",
+      "5 types"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Quelle est la définition d'une hémorragie externe ?",
+    "options": [
+      "Le sang s'écoule à l'extérieur du corps par une plaie cutanée",
+      "Saignement sous-cutané",
+      "Le sang s'écoule dans une cavité visible seulement à la chirurgie",
+      "Un saignement extracellulaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Quelle est la définition d'une hémorragie extériorisée ?",
+    "options": [
+      "Le sang s'écoule directement par une plaie cutanée",
+      "La fuite sanguine a lieu à l'intérieur du corps, mais le sang s'évacue vers l'extérieur par un orifice naturel",
+      "Le sang s'écoule uniquement dans les tissus profonds",
+      "Un saignement intracellulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Quelle est la définition d'une hémorragie interne ?",
+    "options": [
+      "Le sang s'écoule par une effraction cutanée",
+      "Le sang s'écoule par les orifices naturels",
+      "Le sang s'écoule et s'accumule à l'intérieur d'une cavité du corps sans orifice de sortie",
+      "Un saignement extracellulaire"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Parmi les propositions suivantes, laquelle correspond à une hémorragie extériorisée ?",
+    "options": [
+      "Hématémèse",
+      "Hémopéritoine",
+      "Hémothorax",
+      "Hémopéricarde",
+      "Hémarthrose"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Parmi les propositions suivantes, laquelle correspond à une hémorragie interne pure ?",
+    "options": [
+      "Épistaxis",
+      "Otorragie",
+      "Rectorragie",
+      "Hématémèse",
+      "Hémothorax"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 9,
+    "question": "Quelle est la cause traumatique d'hémorragie la plus grave et délabrante ?",
+    "options": [
+      "Coupure par objet tranchant",
+      "Traumatisme crânien simple",
+      "Choc direct mineur",
+      "Plaie par arme à feu"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "En cas d'hémorragie traumatique aiguë, quel risque systémique vital immédiat ne faut-il jamais oublier ?",
+    "options": [
+      "Nécrose des membres",
+      "Infection secondaire",
+      "État de choc hypovolémique",
+      "Traumatisme crânien"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Quelle est la définition générale du choc traumatique ?",
+    "options": [
+      "Un traumatisme physique grave entraînant un ensemble de défaillances hémodynamiques et systémiques",
+      "Une fracture isolée des membres",
+      "Un traumatisme thoraco-abdominal isolé",
+      "Une contusion cérébrale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Les paramètres suivants : Perte sanguine = 750-1500 mL, FC > 100 bpm, PA normale, Pression pulsée diminuée, FR = 20-30/min, Diurèse = 20-30 mL/h, État mental = anxieux. À quelle classe de choc hémorragique cela correspond-il ?",
+    "options": [
+      "Classe 1",
+      "Classe 2",
+      "Classe 3",
+      "Classe 4"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Les paramètres suivants : Perte sanguine < 750 mL, FC < 100 bpm, PA normale, Pression pulsée normale, FR = 14-20/min, Diurèse > 30 mL/h, État mental = peu anxieux. À quelle classe cela correspond-il ?",
+    "options": [
+      "Classe 1",
+      "Classe 2",
+      "Classe 3",
+      "Classe 4"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "Quelle est la cause la plus fréquente de polytraumatisme dans notre pratique ?",
+    "options": [
+      "Écrasement professionnel",
+      "Défenestration",
+      "Accident de la voie publique (AVP)",
+      "Plaie par balle"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "Parmi les organes abdominaux suivants, lequel est le plus fréquemment lésé en cas de polytraumatisme fermé ?",
+    "options": [
+      "Vessie",
+      "Rein",
+      "Cordon colique",
+      "Rate"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 16,
+    "question": "Selon les lois de la physique de la décélération (masse × accélération), pour un choc à 36 km/h avec un coefficient multiplicateur de 10, quel devient le poids relatif d'une rate de 250 g ?",
+    "options": [
+      "2,0 kg",
+      "2,2 kg",
+      "2,5 kg",
+      "2,75 kg"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 17,
+    "question": "Quelle est la définition des hémorragies traumatiques multisites ?",
+    "options": [
+      "Un saignement actif dans au moins deux sites distincts engageant le pronostic vital en l'absence de traitement",
+      "Un traumatisme de deux organes avec un seul saignement",
+      "Deux plaies superficielles saignantes",
+      "Deux fractures dont une ouverte"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Chez un polytraumatisé, quelle source d'hémorragie interne peut être la plus abondante et rapidement cataclysmique ?",
+    "options": [
+      "Intestin grêle",
+      "Fracture complexe du Bassin",
+      "Mésentère",
+      "Tibia"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 19,
+    "question": "Lors d'une hémorragie post-traumatique massive, à quel moment la transfusion de produits sanguins et facteurs de coagulation doit-elle être initiée idéalement ?",
+    "options": [
+      "Le plus précocement possible avant l'apparition de la CIVD (coagulation intravasculaire disséminée)",
+      "Seulement si l'hémoglobine chute sous 7 g/dL",
+      "Après évaluation exacte des pertes",
+      "Après obtention complète des bilans biologiques de laboratoire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Quel est le « Gold Standard » pour le contrôle temporaire urgent d'une hémorragie externe d'un membre ?",
+    "options": [
+      "Ligature vasculaire d'emblée",
+      "Clampage aux pinces hémostatiques en aveugle",
+      "Pansement compressif (ou garrot si échec/délabrement)",
+      "Intervention chirurgicale d'emblée sans geste d'urgence"
+    ],
+    "correctAnswerIndex": 2
+  }
+]
