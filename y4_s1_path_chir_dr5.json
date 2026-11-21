@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "question": "La stabilité secondaire (ligamentaire) de l'articulation de la cheville est assurée par :",
+    "options": [
+      "La mortaise tibio-péronière",
+      "Le système des ligaments de la cheville",
+      "La malléole externe plus longue que la malléole interne",
+      "La syndesmose tibio-fibulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "La classification anatomopathologique des fractures bi-malléolaires (classification de Duparc / Lauge-Hansen) repose sur :",
+    "options": [
+      "Le niveau du trait de fracture malléolaire externe par rapport aux tubercules",
+      "Le niveau du trait de fracture malléolaire interne",
+      "Le niveau du trait de fracture de la malléole externe par rapport à l'interligne articulaire (sous, trans, ou sus-tuberculaires)",
+      "La hauteur du trait par rapport à la tubérosité tibiale antérieure"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Le mécanisme d'abduction forcée de l'avant-pied entraîne typiquement :",
+    "options": [
+      "Une fracture de la malléole interne seule",
+      "Une rupture de la syndesmose pure",
+      "Une déchirure isolée de la membrane interosseuse",
+      "Une fracture de la malléole externe en sus-tuberculaire",
+      "Une fracture de la malléole externe en sous-tuberculaire"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Le mécanisme d'adduction forcée de l'avant-pied entraîne typiquement :",
+    "options": [
+      "Une entorse du ligament collatéral médial",
+      "Une entorse du ligament collatéral latéral",
+      "Une rupture du ligament tibio-péronier antérieur",
+      "Une rupture du ligament tibio-péronier postérieur",
+      "Une fracture de la malléole externe sous-tuberculaire (transversale)"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 5,
+    "question": "Les éléments suivants sont tous des facteurs de mauvais pronostic d'une fracture bi-malléolaire, SAUF un. Lequel ?",
+    "options": [
+      "Le terrain du patient (âge, ostéoporose, diabète)",
+      "Le type anatomique complexe de la fracture",
+      "Les lésions vasculaires ou cutanées associées",
+      "Une mauvaise réduction anatomique",
+      "Douleurs et impotence fonctionnelle totale initiales du cou-de-pied"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 6,
+    "question": "Le diagnostic positif et le bilan lésionnel d'une fracture bi-malléolaire sont confirmés par :",
+    "options": [
+      "Le mécanisme lésionnel",
+      "L'examen clinique seul",
+      "La radiographie de la cheville seule",
+      "La radiographie de la cheville (Face-Profil) et de la jambe entière (Face-Profil) prenant le genou et la cheville",
+      "Le scanner de cheville d'emblée"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Quel est le mécanisme lésionnel le plus probable pour cette fracture à la cheville lors du tennis ?",
+    "options": [
+      "Rotation externe forcée",
+      "Abduction forcée",
+      "Adduction forcée",
+      "Flexion plantaire forcée",
+      "Flexion dorsale forcée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Sur les clichés radiographiques de cette fracture grave de la cheville, quelle est la lésion la plus péjorative pour la stabilité articulaire ?",
+    "options": [
+      "Fracture de la malléole interne",
+      "Fracture de la malléole externe",
+      "Lésion (diastasis) de la syndesmose tibio-fibulaire",
+      "Rupture du ligament latéral externe",
+      "Rupture du ligament latéral interne"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Afin de ne pas méconnaître une fracture très haute du péroné (fracture de Maisonneuve), quel examen paraclinique complémentaire devez-vous impérativement demander ?",
+    "options": [
+      "Radiographie de la jambe entière (Face + Profil) incluant le genou et la cheville",
+      "Radiographie du pied",
+      "Échographie de cheville",
+      "Scanner de la cheville",
+      "IRM de la cheville"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Le diagnostic de fracture bi-malléolaire sus-tuberculaire déstabilisée est confirmé. Quelle est la prise en charge thérapeutique adaptée ?",
+    "options": [
+      "Plâtre cruro-pédieux 45 jours puis botte de marche",
+      "Extension continue",
+      "Enclouage centromédullaire de la jambe",
+      "Ostéosynthèse chirurgicale : plaque vissée pour le péroné et vissage pour la malléole interne",
+      "Fixateur externe isolé"
+    ],
+    "correctAnswerIndex": 3
+  }
+]
