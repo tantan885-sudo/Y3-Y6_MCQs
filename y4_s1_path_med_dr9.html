@@ -9,10 +9,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+html{scroll-behavior:smooth}
 body{font-family:'Kantumruy Pro','Inter',sans-serif;background:#f0f9ff;-webkit-tap-highlight-color:transparent}
 button,a{touch-action:manipulation}
-.flashcard-enter{animation:fadeIn .25s ease-out forwards}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.flashcard-enter{animation:fadeIn .32s cubic-bezier(.2,.7,.3,1) both}
+.view-enter{animation:viewFade .28s ease-out both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes viewFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 .correct-answer{background:#10b981!important;color:#fff!important;border-color:#10b981!important}
 .correct-answer span{color:#fff!important}
 .wrong-answer{background:#ef4444!important;color:#fff!important;border-color:#ef4444!important}
@@ -61,6 +64,7 @@ button,a{touch-action:manipulation}
 </div>
 <div class="space-y-3 pb-2 mt-auto">
 <button id="start-btn" onclick="startSession('learn')" disabled class="w-full bg-sky-500 hover:bg-sky-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-sky-500/20">📚 ចាប់ផ្តើមរៀនបន្ត (Learn)</button>
+<button id="bookmarks-start-btn" onclick="startBookmarkSession()" disabled class="w-full bg-amber-500 hover:bg-amber-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-amber-500/20">🔖 មើលសំណួរដែលបាន Bookmark (<span id="bookmarks-count">0</span>)</button>
 </div>
 </div>
 
@@ -83,6 +87,7 @@ button,a{touch-action:manipulation}
 </div>
 </div>
 <div id="feedback-container" class="mt-3 text-center min-h-[1.5rem] flex-shrink-0 text-sm font-semibold" aria-live="polite"></div>
+<button id="bookmark-btn" onclick="toggleBookmark()" aria-pressed="false" class="hidden w-full mt-3 bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 font-semibold py-3 px-4 rounded-xl transition flex-shrink-0">☆ រក្សាទុកសំណួរនេះ (Bookmark)</button>
 <button id="next-btn" onclick="nextCard()" class="hidden w-full mt-3 bg-sky-800 hover:bg-sky-900 text-white font-semibold py-3 px-4 rounded-xl transition shadow-md flex-shrink-0">បន្តទៅមុខទៀត ➡️</button>
 </div>
 
@@ -118,9 +123,12 @@ button,a{touch-action:manipulation}
 <script>
 const DATA_URL='https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_med_dr9.json';
 const CACHE_KEY='mcq_questions_cache',STORAGE_KEY='mcq_learned_questions';
+// Give each quiz a unique ID; change this if another quiz uses the same data URL.
+const TEST_ID='y4_s1_path_med_dr9';
+const BOOKMARKS_KEY='mcq_bookmarked_questions_v3:'+TEST_ID;
 const KEYS='ABCDEFGH';
 let myQuestions=[],currentQueue=[],wrongQuestionsInSession=[],shown=[];
-let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0;
+let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0,answeredQuestion=null,popupTimer=null;
 const $=id=>document.getElementById(id);
 
 function store(k,v){try{v===null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
@@ -132,6 +140,23 @@ function normalize(raw){
     id:q.id??i,case:q.case||null,question:q.question,options:q.options,
     correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''
   })).filter(q=>q.question&&Array.isArray(q.options)&&q.options.length>1&&q.options[q.correctAnswerIndex]!==undefined);
+}
+
+function bookmarkKey(q){
+  return JSON.stringify([TEST_ID,q.case||'',q.question,q.options]);
+}
+
+function getBookmarks(){
+  try{
+    const saved=JSON.parse(read(BOOKMARKS_KEY));
+    return Array.isArray(saved)?saved.filter(b=>b&&b.source===TEST_ID&&b.question&&Array.isArray(b.options)):[];
+  }catch(e){return []}
+}
+function isBookmarked(q){return getBookmarks().some(b=>b.key===bookmarkKey(q))}
+function updateBookmarkStats(){
+  const count=getBookmarks().length;
+  $('bookmarks-count').textContent=count;
+  $('bookmarks-start-btn').disabled=count===0;
 }
 
 async function loadQuestions(){
@@ -181,6 +206,7 @@ function updateStats(){
   $('total-available').textContent=myQuestions.length;
   $('learned-count').textContent=learned;
   $('unlearned-count').textContent=Math.max(0,myQuestions.length-learned);
+  updateBookmarkStats();
   const st=$('load-status');
   if(myQuestions.length&&learned>=myQuestions.length){
     st.className='mt-2 text-xs text-emerald-600 font-medium';
@@ -196,10 +222,12 @@ function shuffle(a){
 
 function showView(id){
   ['menu-view','flashcard-view','result-view'].forEach(v=>{
-    const el=$(v);el.classList.add('hidden');el.classList.remove('flex');
+    const el=$(v);el.classList.add('hidden');el.classList.remove('flex','view-enter');
   });
   const t=$(id);t.classList.remove('hidden');
   if(id!=='menu-view')t.classList.add('flex');
+  void t.offsetWidth;
+  t.classList.add('view-enter');
   if(id==='menu-view')updateStats();
 }
 function showMenu(){showView('menu-view')}
@@ -230,7 +258,8 @@ function initQueue(arr){
   const cfg={
     learn:['រៀន (Learn)','bg-sky-100 text-sky-700 border-sky-200'],
     review:['រំលឹកសំណួរខុស (Review)','bg-amber-100 text-amber-800 border-amber-200'],
-    test:['ប្រឡង (Test)','bg-sky-200 text-sky-900 border-sky-300']
+    test:['ប្រឡង (Test)','bg-sky-200 text-sky-900 border-sky-300'],
+    bookmarks:['Bookmark','bg-amber-100 text-amber-800 border-amber-200']
   }[currentMode];
   b.textContent=cfg[0];
   b.className='px-3 py-1 border rounded-full text-xs font-semibold '+cfg[1];
@@ -242,10 +271,18 @@ function startReviewSession(){
   currentMode='review';initQueue([...wrongQuestionsInSession]);
 }
 
+function startBookmarkSession(){
+  const saved=getBookmarks();
+  if(!saved.length)return;
+  currentMode='bookmarks';
+  initQueue(saved.map(b=>({...b,bookmarkKey:b.key,isFirstTry:true})));
+}
+
 function renderCard(){
   if(!currentQueue.length){endSession();return}
-  isAnswering=false;
+  isAnswering=false;answeredQuestion=null;
   $('next-btn').classList.add('hidden');
+  $('bookmark-btn').classList.add('hidden');
   $('feedback-container').textContent='';
   $('explanation-container').classList.add('hidden');
   $('cards-left').textContent=currentQueue.length;
@@ -271,6 +308,7 @@ function selectAnswer(i,btn){
   if(isAnswering)return;
   isAnswering=true;
   const q=currentQueue[0],btns=document.querySelectorAll('.option-btn');
+  answeredQuestion=q;
   const ok=shown[i].originalIndex===q.correctAnswerIndex;
   btns.forEach(b=>b.disabled=true);
   const fb=$('feedback-container');
@@ -294,16 +332,36 @@ function selectAnswer(i,btn){
     const pos=currentQueue.length?1+Math.floor(Math.random()*currentQueue.length):0;
     currentQueue.splice(pos,0,q);
   }
+  const mark=$('bookmark-btn');
+  mark.classList.remove('hidden');
+  updateBookmarkButton(q);
   $('next-btn').classList.remove('hidden');
   const ex=$('explanation-container');
   setTimeout(()=>(q.explanation?ex:$('next-btn')).scrollIntoView({behavior:'smooth',block:'nearest'}),60);
+}
+
+function updateBookmarkButton(q){
+  const btn=$('bookmark-btn'),saved=isBookmarked(q);
+  btn.setAttribute('aria-pressed',String(saved));
+  btn.textContent=saved?'🔖 បានរក្សាទុកហើយ (ចុចដើម្បីដកចេញ)':'☆ រក្សាទុកសំណួរនេះ (Bookmark)';
+  btn.className='w-full mt-3 font-semibold py-3 px-4 rounded-xl transition flex-shrink-0 '+(saved?'bg-amber-500 hover:bg-amber-600 text-white':'bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200');
+}
+
+function toggleBookmark(){
+  if(!isAnswering||!answeredQuestion)return;
+  const q=answeredQuestion,key=bookmarkKey(q);
+  let saved=getBookmarks();
+  if(saved.some(b=>b.key===key))saved=saved.filter(b=>b.key!==key);
+  else saved.push({key,source:TEST_ID,case:q.case||null,question:q.question,options:q.options,correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''});
+  store(BOOKMARKS_KEY,JSON.stringify(saved));
+  updateBookmarkButton(q);updateBookmarkStats();
 }
 
 function nextCard(){renderCard()}
 
 function endSession(){
   showView('result-view');
-  $('result-mode').textContent={learn:'រៀន',test:'ប្រឡង',review:'រំលឹកសំណួរខុស'}[currentMode];
+  $('result-mode').textContent={learn:'រៀន',test:'ប្រឡង',review:'រំលឹកសំណួរខុស',bookmarks:'សំណួរដែលបាន Bookmark'}[currentMode];
   const sc=$('score-container');
   if(currentMode!=='learn'){
     sc.classList.remove('hidden');$('score-correct').textContent=score;$('score-total').textContent=initialCardCount;
@@ -315,6 +373,7 @@ function endSession(){
 
 /* Keyboard: A-D or 1-9 to answer, Enter/Space for next, Esc to close pop-up */
 document.addEventListener('keydown',e=>{
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='u'){e.preventDefault();e.stopPropagation();return}
   if(e.key==='Escape'){closePopup();return}
   if(e.ctrlKey||e.metaKey||e.altKey||$('donatePopup').classList.contains('active'))return;
   if(/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)||$('flashcard-view').classList.contains('hidden'))return;
@@ -323,14 +382,21 @@ document.addEventListener('keydown',e=>{
     let i=/^[1-9]$/.test(k)?+k-1:KEYS.indexOf(k);
     const btns=document.querySelectorAll('.option-btn');
     if(k.length===1&&i>=0&&btns[i])btns[i].click();
-  }else if(e.key==='Enter'||e.key===' '){e.preventDefault();nextCard()}
+  }else if(e.key==='Enter'||e.code==='Space'){
+    e.preventDefault();
+    if(!$('next-btn').classList.contains('hidden'))nextCard();
+  }
 });
 
 /* Donate pop-up: only on menu/result screens, never mid-question, max 3 times */
 function tryPopup(){
   if(popupCount>=3)return;
-  if($('flashcard-view').classList.contains('hidden')){$('donatePopup').classList.add('active');popupCount++}
-  else setTimeout(tryPopup,10000);
+  if($('flashcard-view').classList.contains('hidden')){
+    $('donatePopup').classList.add('active');popupCount++;
+    if(popupTimer){clearTimeout(popupTimer);popupTimer=null}
+  }else if(!popupTimer){
+    popupTimer=setTimeout(()=>{popupTimer=null;tryPopup()},10000);
+  }
 }
 function showSupportImage(){
   $('support-btn').classList.add('hidden');
