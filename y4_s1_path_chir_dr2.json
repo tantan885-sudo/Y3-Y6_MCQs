@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Un homme de 23 ans a subi un traumatisme direct au Bassin. Il a été transféré immédiatement au service d'accueil urgent de votre hôpital. Sa conscience est conservée. Vous trouvez un globe vésical (rétention urinaire) à l'examen clinique. Une mise en place d'une sonde urinaire n'est pas possible. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Une fracture grave du bassin",
+      "Fracture du bassin avec rupture vésicale",
+      "Fracture du bassin avec lésion urétrale",
+      "Arrachement de la symphyse pubienne",
+      "Lésion du plexus sacré"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "Une femme de 32 ans est tombée par terre de sa moto lors d'un accident de la voie publique. Puis, une voiture a roulé sur ses deux fesses. L'examen radiologique montre une fracture du bassin. Quel est le mécanisme de cette fracture ?",
+    "options": [
+      "Compression antéro-postérieure",
+      "Compression latérale",
+      "Compression axiale",
+      "Cisaillement du bassin",
+      "Compression oblique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Une jeune femme de 24 ans a chuté d'une hauteur de 2 mètres sur ses deux fesses. Une radiographie montre une fracture déplacée du cadre obturateur droit. Quelle est la complication à long terme pour cette patiente ?",
+    "options": [
+      "Une pseudarthrose douloureuse",
+      "Un cal vicieux avec déformation du bassin",
+      "Complication obstétricale",
+      "Arthrose de la hanche",
+      "Syndrome algodystrophique"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Une femme de 80 ans a chuté aux toilettes. Sa famille l'a transférée vers votre hôpital immédiatement. Elle se plaint d'une douleur vive de sa hanche gauche avec une impotence fonctionnelle. À l'examen clinique, vous trouvez un raccourcissement de son membre inférieur gauche avec rotation externe. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Fracture du col du fémur",
+      "Fracture trochantérienne",
+      "Luxation de la hanche gauche",
+      "Fracture de l'extrémité supérieure du fémur",
+      "Fracture du bassin"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Un homme de 78 ans avec antécédents de cardiopathie ischémique et diabète de type II a fait une chute sur le trottoir. La radiographie montre une fracture du col fémoral. Quelle est la complication secondaire la plus grave pour ce patient ?",
+    "options": [
+      "Hémorragie et choc",
+      "Déplacement secondaire",
+      "Infection au foyer fracturaire",
+      "Nécrose de la tête fémorale",
+      "Décompensation de tare organique"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 6,
+    "question": "Un jeune homme de 18 ans a été transféré aux urgences suite à un accident de voie publique. Le bilan global montre une fracture fermée au 1/3 moyen du fémur droit sans autre traumatisme associé. Quel est votre traitement de choix ?",
+    "options": [
+      "Un embrochage à foyer fermé",
+      "Une extension continue",
+      "Un vissage et cerclage",
+      "Un enclouage centromédullaire",
+      "Un fixateur externe"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "Une jeune fille de 16 ans a fait une fracture ouverte grave du fémur lors d'un accident de la voie publique. Elle a été transférée au bloc opératoire immédiatement pour parage chirurgical et ostéosynthèse. Quelle méthode d'ostéosynthèse proposez-vous ?",
+    "options": [
+      "Un embrochage à foyer fermé",
+      "Une extension continue",
+      "Un vissage et cerclage",
+      "Un enclouage centromédullaire",
+      "Un fixateur externe"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 8,
+    "question": "Un homme de 46 ans a fait une fracture supra- et intercondylienne du fémur gauche. Quel est l'examen clinique nécessaire pour évaluer l'état de gravité de la fracture ?",
+    "options": [
+      "Prise de pouls distaux",
+      "Craquement osseux à la mobilisation",
+      "Paresthésie du membre inférieur gauche",
+      "Examen clinique du bassin",
+      "Mensuration pour évaluer la longueur du membre"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Une femme de 60 ans avec antécédent de cancer du sein se plaint d'une douleur vive à la région trochantérienne depuis un mois. Un jour avant son entrée, elle ne peut plus marcher. Vous faites une radiographie du bassin. Vous voyez une fracture complète à ce niveau avec quelques zones ostéolytiques. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Une fracture ostéolytique",
+      "Une fracture pathologique",
+      "Une fracture ostéoporotique",
+      "Une fracture post-traumatique",
+      "Une fracture de fatigue"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "Une femme de 32 ans a fait un traumatisme du genou droit suite à un accident de moto. Vous soupçonnez une fracture du condyle fémoral. Quelle incidence radiologique prescrivez-vous pour cette femme ?",
+    "options": [
+      "Radiographie du fémur droit et du bassin",
+      "Radiographie du genou droit et du poumon",
+      "Radiographie du bassin et du genou droit",
+      "Radiographie du fémur droit et de la jambe droite",
+      "Radiographie du fémur droit et du genou droit"
+    ],
+    "correctAnswerIndex": 4
+  }
+]
