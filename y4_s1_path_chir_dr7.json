@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "question": "Un homme de 37 ans est admis pour fracture des 2 os de la jambe droite suite à un AVP. Il présente une plaie cutanée de 7 cm au niveau du foyer de fracture avec un trait légèrement comminutif. Selon la classification de Gustilo-Anderson, s'agit-il d'une :",
+    "options": ["Fracture ouverte type I", "Fracture ouverte type II", "Fracture ouverte type III A", "Fracture ouverte type III B"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Même patient, mais la plaie cutanée mesure 1 cm au niveau du foyer et le trait de fracture est simple. Selon Gustilo :",
+    "options": ["Fracture ouverte type I", "Fracture ouverte type II", "Fracture ouverte type III A", "Fracture ouverte type III B"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "La fracture se situe au niveau de l'extrémité proximale des deux os de la jambe, près du col du péroné. Quel nerf risque d'être lésé ?",
+    "options": ["Nerf crural", "Nerf sciatique poplité interne (tibial)", "Nerf sciatique poplité externe (fibulair commun)", "Nerf saphène"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Un jour après la fracture des 2 os de la jambe, le patient présente un œdème tendu, une douleur vive non soulagée par les antalgiques habituels et une hypoesthésie cutanée. Quel est le diagnostic le plus probable ?",
+    "options": ["Syndrome de loge", "Écrasement musculaire", "Rupture nerveuse", "Ischémie aiguë de la jambe"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Au 4e jour d'une fracture de jambe, le patient présente de la fièvre et des frissons. Le diagnostic le plus probable est :",
+    "options": ["Tétanos déclaré", "Infection du foyer de fracture", "Résorption d'hématome", "Phlébite"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Au 4e jour, le patient présente un œdème du mollet, une douleur à la dorsiflexion du pied (signe de Homans) et une température de 38,5 °C. Que suspectez-vous ?",
+    "options": ["Résorption d'hématome", "Phlébite (thrombose veineuse profonde)", "Infection osseuse", "Syndrome de loge"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "Quelle est la complication secondaire générale la plus grave à redouter chez un patient présentant une fracture des os longs ?",
+    "options": ["Phlébite", "Embolie graisseuse", "Déplacement secondaire", "Algoneurodystrophie"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Un an après la fracture des 2 os de la jambe, le patient présente une pseudarthrose. Quel est le signe clinique le plus évocateur ?",
+    "options": ["Marche douloureuse", "Persistance d'une mobilité anormale du foyer de fracture", "Foyer restant chaud", "Raccourcissement du membre"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Quelle est la conséquence articulaire à long terme d'un cal vicieux des os de la jambe ?",
+    "options": ["Raccourcissement isolé", "Difficulté à la marche", "Arthrose sus- et sous-jacente (genou / cheville)", "Trouble de croissance"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Quelle est la complication générale immédiate grave d'une fracture majeure pouvant retentir sur l'ensemble des organes ?",
+    "options": ["Ouverture cutanée", "Phlébite", "État de choc hypovolémique/traumatique", "Hémorragie locale"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Une patiente de 39 ans présente une fracture de la partie moyenne de l'olécrane. Concernant l'anatomie de l'olécrane :",
+    "options": ["C'est la partie proximale du radius", "Il forme avec l'apophyse coronoïde la grande cavité sigmoïde de l'ulna", "Il reçoit l'insertion du biceps brachial", "Il effectue la prono-supination"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "Quel est le mécanisme direct classique d'une fracture de l'olécrane ?",
+    "options": ["Chute sur l'épaule", "Chute sur la main en extension", "Chute directe sur le coude fléchi", "Choc sur l'avant-bras"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 13,
+    "question": "En cas de fracture déplaçée de l'olécrane, quel est le nerf périphérique le plus exposé au traumatisme ?",
+    "options": ["Nerf musculocutané", "Nerf médian", "Nerf radial", "Nerf ulnaire (cubital)"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "À l'examen clinique d'une fracture déplacée de l'olécrane, quel signe retrouve-t-on de façon caractéristique ?",
+    "options": ["Pas de douleur", "Pas d'impotence", "Perte de l'extension active du coude contre pesanteur", "Absence d'œdème"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "Comment peut-on différencier une fracture de l'olécrane d'une luxation postérieure du coude à l'examen clinique ?",
+    "options": ["L'intensité de la douleur", "La mobilité des doigts", "La modification de la ligne et du triangle de Nelaton (repères anatomiques du coude) et l'hématome", "L'attitude vicieuse"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Sur une radiographie du coude de profil, le trait de fracture traverse le tiers moyen du processus olécrânien. Il s'agit d'une :",
+    "options": ["Fracture transversale du 1/3 moyen de l'olécrane", "Fracture du bec de l'olécrane", "Fracture de la base de l'olécrane", "Fracture oblique simple"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Quelle proposition indique une complication cutanée aiguë d'une fracture de l'olécrane très déplacée ?",
+    "options": ["Fracture du 1/3 moyen", "Le fragment osseux proximal perfore la peau (ouverture cutanée)", "Trait oblique", "Absence d'hématome"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 18,
+    "question": "4 mois après une fracture de l'olécrane, le coude est enraidi et limité à 60° de flexion. De quoi s'agit-il ?",
+    "options": ["Cal fibreux", "Arthrose précocement destructrice", "Raideur articulaire du coude", "Compression nerveuse"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "Plus tard, si une fracture de l'olécrane ne consolide pas (pseudarthrose), le patient perd principalement quel mouvement ?",
+    "options": ["L'extension active du coude", "La flexion", "La pronation", "La supination"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Au 2e mois après une fracture de l'olécrane, si les 4e et 5e doigts présentent des paresthésies, quelle en est la cause ?",
+    "options": ["Rupture du tendon extenseur", "Le nerf ulnaire est comprimé dans le cal osseux", "Le nerf radial est englobé", "Le nerf médian est comprimé"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 21,
+    "question": "La limite distale du territoire des fractures diaphysaires des deux os de l'avant-bras se situe au-dessus de l'articulation radio-ulnaire inférieure à une distance de :",
+    "options": ["4 cm au-dessus de l'articulation radio-ulnaire inférieure", "2 cm au-dessus", "6 cm au-dessus", "8 cm au-dessus"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "Concernant l'anatomie des os de l'avant-bras :",
+    "options": ["L'ulna est situé latéralement par rapport au radius", "La tête radiale s'unit à la tête ulnaire en proximal", "L'olécrane constitue l'extrémité proximale de l'ulna", "Le ligament triangulaire fixe les deux diaphyses"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Concernant la physiologie du mouvement de prono-supination :",
+    "options": ["L'ulna tourne autour du radius", "Le radius tourne autour de l'ulna, l'axe passant en haut par le centre de la tête radiale", "L'extrémité distale du radius est médiale en supination", "L'ulna est mobile"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "La radiographie montre une discontinuité osseuse nette au milieu des deux diaphyses antébrachiales. Quel est le diagnostic ?",
+    "options": ["Fracture du tiers moyen de la diaphyse des deux os de l'avant-bras", "Fracture sous-périostée chez l'enfant", "Fracture spiroïde isolée du radius", "Luxation radio-ulnaire pure"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "Quel est le type de trait le plus fréquent dans les fractures de l'avant-bras par choc direct ?",
+    "options": ["Trait spiroïdal", "Trait transverse ou oblique court", "Fracture sous-périostée", "Fracture en bois vert"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Quel signe clinique doit faire rechercher immédiatement une complication vasculaire aiguë lors d'une fracture des deux os de l'avant-bras ?",
+    "options": ["Échymose", "Raccourcissement", "Angulation", "Abolition du pouls radial et ulnaire", "Impotence fonctionnelle"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 27,
+    "question": "L'examen paraclinique de choix pour confirmer et typer la fracture des deux os de l'avant-bras est :",
+    "options": ["La palpation", "La mensuration", "La radiographie de l'avant-bras (Face et Profil incluant poignet et coude)", "L'inspection"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 28,
+    "question": "Après réduction et contention adéquate d'une fracture des 2 os de l'avant-bras chez l'adulte, le délai minimal moyen de consolidation est de :",
+    "options": ["1 mois", "2 mois", "3 mois", "5 mois"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 29,
+    "question": "En cas de fracture des deux os de l'avant-bras avec interposition musculaire importante entre les fragments, vers quelle complication évolue-t-on ?",
+    "options": ["Atrophie musculaire simple", "Cal vicieux", "Rétraction tendineuse", "Pseudarthrose (absence de consolidation)"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 30,
+    "question": "Au 4e mois après contention d'une fracture des 2 os de l'avant-bras, le patient consulte pour mobilité anormale indolore au foyer. De quoi s'agit-il ?",
+    "options": ["Déplacement secondaire", "Cal vicieux", "Pseudarthrose établie", "Retard de consolidation"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 31,
+    "question": "Chez un enfant de 10 ans présentant au 2e jour d'un plâtre d'avant-bras un œdème tendu des doigts et une douleur insupportable aux antalgiques, quel est le diagnostic ?",
+    "options": ["Rupture artérielle", "Compression nerveuse isolée", "Syndrome de loge (ou syndrome de Volkmann)", "Crush injury"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 32,
+    "question": "L'ostéomyélite aiguë est une infection suppurée nécrosante de quel tissu ?",
+    "options": ["Des muscles", "Des vaisseaux", "Du tissu osseux et de la moelle osseuse", "Du système nerveux"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 33,
+    "question": "Quel est le germe le plus fréquemment responsable de l'ostéomyélite aiguë hématogène chez l'enfant ?",
+    "options": ["Streptocoque", "Pneumocoque", "Staphylocoque doré", "Gonocoque"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 34,
+    "question": "Quelle est la porte d'entrée cutanée ou périphérique la plus classique d'une ostéomyélite aiguë chez l'enfant ?",
+    "options": ["Infection urinaire", "Pneumopathie", "Panaris / furoncle cutané", "Tumeur osseuse"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 35,
+    "question": "Quelle est la localisation squelettique préférentielle de l'ostéomyélite aiguë hématogène chez l'enfant ?",
+    "options": ["Os iliaque", "Omoplate", "Clavicule", "Métaphyse des os longs près des genoux (ex: métaphyse distale du fémur)"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 36,
+    "question": "Parmi les conditions suivantes, laquelle constitue un facteur terrain prédisposant à l'ostéomyélite ?",
+    "options": ["Hyperthyroïdie", "Obésité", "Diabète (ou immunodépression)", "Ulcère gastrique"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 37,
+    "question": "Dans la physiopathologie de l'ostéomyélite aiguë hématogène, le stade d'abcès sous-périosté entraîne :",
+    "options": ["Une nécrose et destruction osseuse (ischémie par thrombose vasculaire)", "Une reconstruction immédiate", "Une consolidation spontanée sans séquelle", "Un épaississement des cartilages de croissance"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "La chronicisation d'une ostéomyélite avec poussées de réchauffement successives est entretenue par la présence de :",
+    "options": ["Germes intramusculaires isolés", "Nouvelles portes d'entrée", "Séquestres osseux (fragments d'os mort dévitalisé encerclés par l'involucre)", "Bactéries volantes"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 39,
+    "question": "Dans l'ostéomyélite de la métaphyse distale du fémur, quelle est la caractéristique de la douleur à la palpation de la cuisse ?",
+    "options": ["Douleur antérieure isolée", "Douleur postérieure isolée", "Douleur vive « en virole » (circulaire tout autour de la métaphyse)", "Douleur projetée à la cheville"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 40,
+    "question": "À la période d'état d'une ostéomyélite aiguë de l'extrémité inférieure du fémur, l'attitude antalgique du genou est :",
+    "options": ["Genou en extension complète", "Genou fléchi (attitude antalgique en demi-flexion)", "Genou en recurvatum", "Genou en rotation externe forcée"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "Lors de l'évolution de l'ostéomyélite aiguë, la fistulisation à la peau avec écoulement de pus apporte quel effet fonctionnel immédiat ?",
+    "options": ["Aggravation immédiate des douleurs", "Soulagement temporaire de la douleur par décompression sous-cutanée", "Guérison définitive sans antibiotique", "Nécrose cutanée extensive systématique"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 42,
+    "question": "Concernant une fracture de l'extrémité supérieure de l'humérus engrenée, quel signe la différencie d'une fracture non engrenée déplacée ?",
+    "options": ["L'absence totale de gonflement", "L'absence d'écchymose brachio-thoracique de Hennequin", "La conservation de quelques mouvements automatiques ou passifs du bras", "L'impossibilité de bouger les doigts"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 43,
+    "question": "Concernant l'anatomie fonctionnelle du carpe et des métacarpes, la colonne fixe centrale de la main est formée par :",
+    "options": ["Les 1er et 2e métacarpens", "Les 2e et 3e métacarpens (solidement articulés avec le carpe)", "Les 3e et 4e métacarpens", "Les 4e et 5e métacarpens"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "Pour les fractures de la base des métacarpiens articulaires, le trait de fracture peut prendre la forme de :",
+    "options": ["Trait spiroïde purement diaphysaire", "Trait en T ou en Y articulaire", "Trait extra-articulaire en V", "Trait transversal isolé"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 45,
+    "question": "Quel signe clinique évocateur faut-il rechercher devant une suspicion de fracture diaphysaire non déplacée d'un métacarpien ?",
+    "options": ["Douleur exquise à la pression axiale (refoulement) et à la torsion douce du doigt correspondant", "Raccourcissement de 3 cm", "Angulation visible d'emblée", "Échymose immédiate en bracelet"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "Quel est le mécanisme le plus fréquent des fractures des phalanges chez l'adulte ?",
+    "options": ["Mécanisme direct par écrasement ou choc direct", "Torsion indirecte", "Traction axiale", "Hyperextension forcée"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "Les fractures du houppette ou du corps de la 3e phalange (P3) ont très fréquemment un trait :",
+    "options": ["Oblique long", "Spiroïdal", "Comminutif (par écrasement du pulp)", "Engrené"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 48,
+    "question": "Qu'est-ce que la fracture-luxation de Bennett ?",
+    "options": ["Une fracture articulaire de la base du premier métacarpien (M1) détachant un fragment volo-médial", "Une fracture du col du premier métacarpien", "Une fracture de la tête de M1", "Une fracture comminutive à 3 fragments"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "Quel est le déplacement caractéristique du gros fragment diaphysaire dans la fracture de Bennett ?",
+    "options": ["Luxation antérieure", "Luxation (ou subluxation) postéro-externe sous l'action du long abducteur du pouce", "Luxation interne", "Enfoncement axial"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "Après un traumatisme de la main, une saillie osseuse anormale comble la tabatière anatomique. Que suspectez-vous ?",
+    "options": ["Fracture du trapèze", "Fracture du scaphoïde ou luxation/fracture de la base du 1er métacarpien", "Fracture du capitatum", "Fracture du pisiforme"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 51,
+    "question": "Quelle est la séquelle fonctionnelle d'une fracture de Bennett mal réduite ?",
+    "options": ["Atrophie du 1er interosseux", "Cal vicieux articulaire responsable d'une arthrose trapezometacarpienne et limitation de l'abduction du pouce", "Instabilité des autres doigts", "Ankylose du poignet"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 52,
+    "question": "Les os formant la première rangée (rangée proximale) du carpe sont :",
+    "options": ["Scaphoïde, Lunatum (Sémilunaire), Triquetrum (Pyramidal), Pisiforme", "Scaphoïde, Lunatum, Trapèze, Trapézoïde", "Triquetrum, Pisiforme, Trapèze, Capitatum", "Pisiforme, Hamatum, Lunatum, Trapèze"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 53,
+    "question": "Les éléments osseux constituant la colonne externe du poignet et de la main comprennent :",
+    "options": ["Radius, Scaphoïde, Trapèze, Trapézoïde et 1er-2e-3e métacarpiens", "Ulna, Triquetrum, Pisiforme, Hamatum", "Radius, Triquetrum, Pisiforme", "Ulna, Capitatum, Hamatum"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 54,
+    "question": "Quel est le mécanisme classique de la fracture du scaphoïde carpien ?",
+    "options": ["Chute sur le coude", "Chute sur la paume de la main en hyperextension du poignet", "Choc direct sur la tabatière anatomique", "Chute sur le poignet fléchi"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "Dans la luxation rétrolunaire du carpe (ou luxation péricapitato-lunomédiane) :",
+    "options": ["Le lunatum reste en place avec le radius, tandis que le capitatum et le reste du carpe sont luxés en arrière (ou le lunatum bascule en avant dans le canal carpien)", "Le scaphoïde est luxé isolément en arrière", "Le triquetrum est avulsé", "L'ulna est déplacé"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 56,
+    "question": "Quel est le signe pathognomique à la palpation d'une fracture du scaphoïde ?",
+    "options": ["Douleur au petit doigt", "Main en inclinaison ulnaire", "Douleur exquise à la pression au fond de la tabatière anatomique", "Impotence totale du coude"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 57,
+    "question": "En raison de sa vascularisation terminale rétrograde fragile, quelle est la complication évolutive majeure d'une fracture du scaphoïde ?",
+    "options": ["Ostéomyélite", "Pseudarthrose et nécrose avasculaire du pôle supérieur", "Raideur du pouce seule", "Atrophie des interosseux"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 58,
+    "question": "Quel signe neurologique d'urgence doit-on rechercher devant une luxation de la rangée proximale du carpe dans le canal carpien ?",
+    "options": ["Paralysie du nerf radial", "Signe de compression du nerf médian (paresthésies des 3 premiers doigts)", "Paralysie du nerf ulnaire", "Anesthésie du dos de la main"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "Concernant le traitement des fractures du scaphoïde carpien :",
+    "options": ["L'immobilisation est inutile après 3 semaines", "Une nécrose du fragment proximal ou une pseudarthrose avérée relève d'un traitement chirurgical (greffe/vissage)", "Le plâtre ne prend pas le pouce", "Aucun traitement en cas d'arthrose"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "Concernant le traitement orthopédique d'une fracture non déplacée du scaphoïde carpien :",
+    "options": ["Elle peut être traitée efficacement par une immobilisation plâtrée incluant la première phalange du pouce pour 6 à 12 semaines", "Le pouce doit être en adduction serrée", "Le poignet doit être en supination forcée", "La durée du plâtre est de 3 semaines"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 61,
+    "question": "Concernant la prise en charge d'une luxation rétrolunaire récente du carpe :",
+    "options": ["La réduction doit être réalisée en urgence sous anesthésie, suivie d'une immobilisation ou d'un embrochage", "Elle doit être traitée uniquement par des antalgiques", "L'immobilisation dure 5 jours", "L'ablation systématique du lunatum est la règle"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 62,
+    "question": "La grande cavité sigmoïde du coude (incisura trochlearis) est constituée par :",
+    "options": ["La face antérieure de l'olécrane et la face supérieure du processus coronoïde", "L'olécrane et la tête radiale", "La trochlée fémorale", "Le capitulum et la trochlée"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 63,
+    "question": "La luxation vraie du coude correspond anatomiquement à :",
+    "options": ["La luxation radio-ulnaire distale", "La disjonction / luxation huméro-ulnaire (et huméro-radiale)", "La luxation condylo-radiale isolée", "La luxation de l'épaule"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 64,
+    "question": "Lors d'une luxation postérieure classique du coude :",
+    "options": ["L'olécrane passe en avant de l'humérus", "L'olécrane et la tête radiale se déplacent en arrière de la palette humérale", "Le processus coronoïde reste sous la trochlée", "Le cubitus migre en latéral pur"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 65,
+    "question": "L'attitude traumatique classique du membre supérieur (attitude de Desault) lors d'une luxation du coude est :",
+    "options": ["Le membre en abduction soutenue", "Le patient soutient le membre traumatisé fléchi par la main saine", "Le bras complètement ballant", "La main en extension dorsale pure"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 66,
+    "question": "Parmi les signes suivants, lequel fait partie du tableau clinique typique d'une luxation aiguë du coude ?",
+    "options": ["Pas d'œdème", "Pas de douleur", "Déformation majeure avec élargissement antéro-postérieur du coude et impotence fonctionnelle totale", "Pas d'hématome"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 67,
+    "question": "Les 3 points de repère osseux fondamentaux de l'examen clinique du coude sont :",
+    "options": ["L'épicondyle médial (épitrochlée), l'épicondyle latéral et le sommet de l'olécrane", "La tête radiale, la trochlée et l'olécrane", "Le capitulum, le condyle et l'olécrane", "Le styloïde radial et ulnaire"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 68,
+    "question": "Dans une luxation postérieure du coude, la relation spatiale entre les 3 repères osseux est modifiée de quelle façon ?",
+    "options": ["Ils restent parfaitement alignés en extension", "La ligne droite de Malgaigne (en extension) et le triangle d'Huter (en flexion) sont perturbés : l'olécrane est ascensionné en arrière", "L'épicondyle devient plus bas que l'olécrane", "L'épitrochlée disparaît"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 69,
+    "question": "Parmi les complications tardives d'une luxation du coude mal rééduquée ou négligée, on note :",
+    "options": ["La raideur articulaire sévère ou ankylose et les ostéomes péri-articulaires", "La pseudarthrose diaphysaire", "L'ostéomyélite hématogène", "La laxité bénigne"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 70,
+    "question": "Quel élément permet de faire la différence entre une luxation postérieure du coude et une fracture supracondylienne de l'humérus ?",
+    "options": ["Dans la fracture supracondylienne, les 3 repères du coude (triangle d'Huter) conservent leurs rapports anatomiques normaux, alors qu'ils sont désorganisés dans la luxation", "L'absence de douleur dans la fracture", "L'absence d'œdème dans la luxation", "L'absence d'hématome dans la fracture"],
+    "correctAnswerIndex": 0
+  }
+]
