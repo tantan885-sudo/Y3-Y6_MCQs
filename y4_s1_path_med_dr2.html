@@ -9,10 +9,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+html{scroll-behavior:smooth}
 body{font-family:'Kantumruy Pro','Inter',sans-serif;background:#f0f9ff;-webkit-tap-highlight-color:transparent}
 button,a{touch-action:manipulation}
-.flashcard-enter{animation:fadeIn .25s ease-out forwards}
-@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.flashcard-enter{animation:fadeIn .32s cubic-bezier(.2,.7,.3,1) both}
+.view-enter{animation:viewFade .28s ease-out both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes viewFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 .correct-answer{background:#10b981!important;color:#fff!important;border-color:#10b981!important}
 .correct-answer span{color:#fff!important}
 .wrong-answer{background:#ef4444!important;color:#fff!important;border-color:#ef4444!important}
@@ -119,7 +122,10 @@ button,a{touch-action:manipulation}
 
 <script>
 const DATA_URL='https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_med_dr2.json';
-const CACHE_KEY='mcq_questions_cache',STORAGE_KEY='mcq_learned_questions',BOOKMARKS_KEY='mcq_bookmarked_questions_v2';
+const CACHE_KEY='mcq_questions_cache',STORAGE_KEY='mcq_learned_questions';
+// Give each quiz a unique ID; change this if another quiz uses the same data URL.
+const TEST_ID='y4_s1_path_med_dr2';
+const BOOKMARKS_KEY='mcq_bookmarked_questions_v3:'+TEST_ID;
 const KEYS='ABCDEFGH';
 let myQuestions=[],currentQueue=[],wrongQuestionsInSession=[],shown=[];
 let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0;
@@ -137,13 +143,13 @@ function normalize(raw){
 }
 
 function bookmarkKey(q){
-  return JSON.stringify([DATA_URL,q.case||'',q.question,q.options]);
+  return JSON.stringify([TEST_ID,q.case||'',q.question,q.options]);
 }
 
 function getBookmarks(){
   try{
     const saved=JSON.parse(read(BOOKMARKS_KEY));
-    return Array.isArray(saved)?saved.filter(b=>b&&b.source===DATA_URL&&b.question&&Array.isArray(b.options)):[];
+    return Array.isArray(saved)?saved.filter(b=>b&&b.source===TEST_ID&&b.question&&Array.isArray(b.options)):[];
   }catch(e){return []}
 }
 function isBookmarked(q){return getBookmarks().some(b=>b.key===bookmarkKey(q))}
@@ -216,10 +222,12 @@ function shuffle(a){
 
 function showView(id){
   ['menu-view','flashcard-view','result-view'].forEach(v=>{
-    const el=$(v);el.classList.add('hidden');el.classList.remove('flex');
+    const el=$(v);el.classList.add('hidden');el.classList.remove('flex','view-enter');
   });
   const t=$(id);t.classList.remove('hidden');
   if(id!=='menu-view')t.classList.add('flex');
+  void t.offsetWidth;
+  t.classList.add('view-enter');
   if(id==='menu-view')updateStats();
 }
 function showMenu(){showView('menu-view')}
@@ -343,7 +351,7 @@ function toggleBookmark(){
   const q=currentQueue[0],key=bookmarkKey(q);
   let saved=getBookmarks();
   if(saved.some(b=>b.key===key))saved=saved.filter(b=>b.key!==key);
-  else saved.push({key,source:DATA_URL,case:q.case||null,question:q.question,options:q.options,correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''});
+  else saved.push({key,source:TEST_ID,case:q.case||null,question:q.question,options:q.options,correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''});
   store(BOOKMARKS_KEY,JSON.stringify(saved));
   updateBookmarkButton(q);updateBookmarkStats();
 }
