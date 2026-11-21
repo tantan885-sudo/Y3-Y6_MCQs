@@ -1,0 +1,2158 @@
+[
+  {
+    "id": 1,
+    "question": "Donnez une définition de syndrome de compression médullaire lente ? Quel est la phrase la plus vraie :",
+    "options": [
+      "C'est le syndrome neurologique causé par la compression lente de la moelle épinière ou de ses racines",
+      "C'est le syndrome neurologique causé par la compression lente de la moelle",
+      "C'est le syndrome neurologique causé par la compression lente de nerf rachidien",
+      "C'est le syndrome neurologique causé par la compression lente du canal médullaire",
+      "C'est le syndrome neurologique causé par la compression lente de foramen neural"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "La notion de compression lente est variable, choisir la réponse la plus vraie :",
+    "options": [
+      "L'évolution de la compression peut durer quelques semaines, mois et années",
+      "L'évolution de la compression peut durer quelques jours et une semaine",
+      "L'évolution de la compression peut durer quelques jours",
+      "L'évolution de la compression peut durer quelques heures"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Le plus souvent il s'agit de douleur sur le trajet d'une racine caractérisée fixe et vive, à recrudescence nocturne et impulsive à l'effort et s'associe avec des signes subjectifs à type de paresthésies dans le même territoire radiculaire et abolition de réflexe ostéo-articulaire. Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel",
+      "Syndrome de la queue de cheval"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Il est traduit par l'atteinte des fibres médullaires longues et ne se manifeste qu'au-dessous du niveau lésionnel. Ce syndrome va intéresser à des degrés divers la motricité, la sensibilité et la fonction sphinctérienne. Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel",
+      "Syndrome de la queue de cheval"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "La manifestation clinique au début par des troubles de la marche à type de claudication neurogène indolore obligeant le patient à l'arrêt après un certain périmètre de marche qui devient de plus en plus court et il fait suite par une paraparésie puis la paraplégie spasmodique. Quel est l'atteinte fonctionnelle la plus probable :",
+    "options": [
+      "Atteinte de la fonction motrice",
+      "Atteinte de la fonction sensitive",
+      "Atteinte de la fonction sphinctérienne",
+      "Atteinte de la fonction réflexe",
+      "Atteinte de la fonction musculaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Devant l'atteinte de trouble thermique donne une hypo ou anesthésie au-dessous de la lésion et dont la limite supérieure oriente vers le niveau lésionnel. Quelle est la sensibilité qui est atteinte ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Atteinte de la sensibilité proprioceptive",
+      "Atteinte de la sensibilité profonde",
+      "Atteinte de la sensibilité superficielle",
+      "Atteinte du cône postérieur"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Devant la manifestation de l'instabilité avec tendance à la chute dans le noir ou les yeux fermés. Quelle est la sensibilité qui est atteinte ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Atteinte de la sensibilité proprioceptive",
+      "Atteinte de la sensibilité profonde",
+      "Atteinte de la sensibilité superficielle",
+      "Atteinte de la corne postérieure"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Devant la douleur rachidienne de type inflammatoire est diurne et nocturne, peu calmée par les antalgiques, elle précède de plusieurs jours ou plusieurs semaines les signes neurologiques. À l'examen, on peut déclencher une douleur segmentaire à la palpation et à la percussion (signe de la Sonnette). Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Quel est le moyen le plus important pour faire le diagnostic de syndrome de compression médullaire lente ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Examen clinique neurologique",
+      "Examen sanguin",
+      "Examen du liquide céphalo-rachidien",
+      "Examen radiologique",
+      "Examen anatomopathologique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Quelles sont les causes intradurales-extramédullaires dans le syndrome de compression médullaire lente ?",
+    "options": [
+      "Mal de Pott",
+      "Schwannome",
+      "Syringomyélie",
+      "Hernie discale",
+      "Épendymome"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, face postéro-externe de cuisse et jambe, en avant de la malléole externe, dos du pied, le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, irradie vers la face antérieure de cuisse et à la crête tibiale, le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, face postérieure de cuisse, mollet, talon, plante du pied (bord externe), le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "Un homme de 34 ans avec un antécédent de lumbago chronique depuis 1 an présentant un déficit sensitivo-moteur bilatéral avec anesthésie en selle, paraplégie flasque, incontinence urinaire ou fécale, impuissance et abolition des Réflexes Ostéo-Tendineux et Cutané-Plantaire en flexion. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Syndrome de la Queue de cheval"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 15,
+    "question": "Donnez une définition de l'hernie discale ? Quel est la phrase la plus vraie :",
+    "options": [
+      "Une hernie discale est la rupture de l'enveloppe fibreuse d'un disque intervertébral, qui provoque le glissement du noyau pulpeux vers l'extérieur",
+      "Une hernie discale est la rupture du ligament vertébral commun antérieur, qui provoque la rupture de l'enveloppe fibreuse",
+      "Une hernie discale est la rupture du ligament vertébral commun postérieur, qui provoque la rupture de l'enveloppe fibreuse",
+      "Une hernie discale est la rupture du ligament vertébral commun antérieur et luxation facettaire bilatérale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Expliquez le terme « Dégénérescence discale ». Quel est la phrase la plus vraie :",
+    "options": [
+      "La structure discale est déshydratée",
+      "La structure discale est hyper-hydratée",
+      "La structure discale est contuse",
+      "La structure discale est œdématiée",
+      "La structure discale est dure"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Quel est le moyen le plus important pour faire le diagnostic de hernie discale ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Examen clinique",
+      "Examen sanguin",
+      "Examen du liquide céphalo-rachidien",
+      "Examen radiologique",
+      "Examen anatomopathologique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Le tableau clinique de l'hernie discale cervicale. Choisir la réponse la plus vraie dans les phrases suivantes :",
+    "options": [
+      "Douleur scapulo-vertébrale, irradiation vers le membre supérieur et aggravation au décubitus",
+      "Douleur scapulo-vertébrale ou pectorale, irradiation vers le membre supérieur et soulagée au décubitus",
+      "Douleur scapulo-pectorale, irradiation vers le membre supérieur gauche et mâchoire",
+      "Douleur scapulo-vertébrale ou pectorale, sans irradiation",
+      "Douleur de la nuque avec fièvre, irradiation vers la partie postérieure de la tête"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Expliquez le terme « Myélopathie » dans l'hernie discale cervicale. Quel est la réponse la plus vraie :",
+    "options": [
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale",
+      "C'est un trouble neurologique causé par la compression de la racine cervicale",
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale et de ses racines",
+      "C'est un syndrome douloureux causé par le phénomène inflammatoire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Expliquez le terme « Radiculopathie » dans l'hernie discale cervicale. Quel est la réponse la plus vraie :",
+    "options": [
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale",
+      "C'est un trouble neurologique causé par la compression de la racine cervicale",
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale et de ses racines",
+      "C'est un syndrome douloureux causé par le phénomène inflammatoire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 21,
+    "question": "Fracture de Jefferson :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 et entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture du corps de l'apophyse odontoïde"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "Fracture de Hangman :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture de l'apophyse odontoïde"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Fracture de l'odontoïde :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture qui sépare l’apophyse odontoïde du corps de C2"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 24,
+    "question": "Hernie discale cervicale post-traumatique :",
+    "options": [
+      "Secondaire à des étirements ligamentaires et hyperpression sur le disque par flexion-compression et provoque la rupture discale",
+      "Secondaire à des étirements ligamentaires épineux et luxation unilatérale de l'articulation postérieure",
+      "Secondaire à un phénomène de dessiccation de l'anneau fibreux",
+      "Secondaire à un étirement ligamentaire transversal"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "Contusion médullaire :",
+    "options": [
+      "C'est des lésions microscopiques, présence de foyers de nécrose et d'hémorragie mal limitée avec œdème superficiel mineur",
+      "C'est des lésions macroscopiques, présence de foyers de nécrose et d'hémorragie plus ou moins étendue",
+      "C'est des lésions macroscopiques, présence d'un hématome épidural étendu",
+      "C'est des lésions macroscopiques, présence d'une transection de la moelle épinière"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Comment est la lésion médullaire haute ?",
+    "options": [
+      "Lésion traumatique atteignant jusqu'à C4",
+      "Lésion traumatique atteignant jusqu'à C2",
+      "Lésion traumatique atteignant de C4 à C7",
+      "Lésion traumatique atteignant de C3 à C7"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "Un homme de 23 ans a subi un traumatisme direct au Bassin. Il a été transféré immédiatement au service d'accueil urgent de votre hôpital. Sa conscience est conservée. Vous trouvez un globe vésical (rétention urinaire) à l'examen clinique. Une mise en place d'une sonde urinaire n'est pas possible. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Une fracture grave du bassin",
+      "Fracture du bassin avec rupture vésicale",
+      "Fracture du bassin avec lésion urétrale",
+      "Arrachement de la symphyse pubienne",
+      "Lésion du plexus sacré"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 28,
+    "question": "Une femme de 32 ans est tombée par terre de sa moto lors d'un accident de la voie publique. Puis, une voiture a roulé sur ses deux fesses. L'examen radiologique montre une fracture du bassin. Quel est le mécanisme de cette fracture ?",
+    "options": [
+      "Compression antéro-postérieure",
+      "Compression latérale",
+      "Compression axiale",
+      "Cisaillement du bassin",
+      "Compression oblique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "Une jeune femme de 24 ans a chuté d'une hauteur de 2 mètres sur ses deux fesses. Une radiographie montre une fracture déplacée du cadre obturateur droit. Quelle est la complication à long terme pour cette patiente ?",
+    "options": [
+      "Une pseudarthrose douloureuse",
+      "Un cal vicieux avec déformation du bassin",
+      "Complication obstétricale",
+      "Arthrose de la hanche",
+      "Syndrome algodystrophique"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 30,
+    "question": "Une femme de 80 ans a chuté aux toilettes. Sa famille l'a transférée vers votre hôpital immédiatement. Elle se plaint d'une douleur vive de sa hanche gauche avec une impotence fonctionnelle. À l'examen clinique, vous trouvez un raccourcissement de son membre inférieur gauche avec rotation externe. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Fracture du col du fémur",
+      "Fracture trochantérienne",
+      "Luxation de la hanche gauche",
+      "Fracture de l'extrémité supérieure du fémur",
+      "Fracture du bassin"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 31,
+    "question": "Un homme de 78 ans avec antécédents de cardiopathie ischémique et diabète de type II a fait une chute sur le trottoir. La radiographie montre une fracture du col fémoral. Quelle est la complication secondaire la plus grave pour ce patient ?",
+    "options": [
+      "Hémorragie et choc",
+      "Déplacement secondaire",
+      "Infection au foyer fracturaire",
+      "Nécrose de la tête fémorale",
+      "Décompensation de tare organique"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 32,
+    "question": "Un jeune homme de 18 ans a été transféré aux urgences suite à un accident de voie publique. Le bilan global montre une fracture fermée au 1/3 moyen du fémur droit sans autre traumatisme associé. Quel est votre traitement de choix ?",
+    "options": [
+      "Un embrochage à foyer fermé",
+      "Une extension continue",
+      "Un vissage et cerclage",
+      "Un enclouage centromédullaire",
+      "Un fixateur externe"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 33,
+    "question": "Une jeune fille de 16 ans a fait une fracture ouverte grave du fémur lors d'un accident de la voie publique. Elle a été transférée au bloc opératoire immédiatement pour parage chirurgical et ostéosynthèse. Quelle méthode d'ostéosynthèse proposez-vous ?",
+    "options": [
+      "Un embrochage à foyer fermé",
+      "Une extension continue",
+      "Un vissage et cerclage",
+      "Un enclouage centromédullaire",
+      "Un fixateur externe"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 34,
+    "question": "Un homme de 46 ans a fait une fracture supra- et intercondylienne du fémur gauche. Quel est l'examen clinique nécessaire pour évaluer l'état de gravité de la fracture ?",
+    "options": [
+      "Prise de pouls distaux",
+      "Craquement osseux à la mobilisation",
+      "Paresthésie du membre inférieur gauche",
+      "Examen clinique du bassin",
+      "Mensuration pour évaluer la longueur du membre"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "Une femme de 60 ans avec antécédent de cancer du sein se plaint d'une douleur vive à la région trochantérienne depuis un mois. Un jour avant son entrée, elle ne peut plus marcher. Vous faites une radiographie du bassin. Vous voyez une fracture complète à ce niveau avec quelques zones ostéolytiques. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Une fracture ostéolytique",
+      "Une fracture pathologique",
+      "Une fracture ostéoporotique",
+      "Une fracture post-traumatique",
+      "Une fracture de fatigue"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 36,
+    "question": "Une femme de 32 ans a fait un traumatisme du genou droit suite à un accident de moto. Vous soupçonnez une fracture du condyle fémoral. Quelle incidence radiologique prescrivez-vous pour cette femme ?",
+    "options": [
+      "Radiographie du fémur droit et du bassin",
+      "Radiographie du genou droit et du poumon",
+      "Radiographie du bassin et du genou droit",
+      "Radiographie du fémur droit et de la jambe droite",
+      "Radiographie du fémur droit et du genou droit"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 37,
+    "question": "À la suite d'un accident par bâillement, depuis ce matin environ à 06h, une cultivatrice âgée de 60 ans se présente avec la bouche ouverte qu'elle ne peut refermer malgré ses efforts, des joues aplaties, le menton projeté en bas et vers l'avant (abaissé par pression mais impossible à relever). À la palpation, on sent une dépression en avant du conduit auditif externe. Le relief des condyles est perceptible plus en avant de cette dépression. Le doigt introduit au fond du vestibule de la région molaire supérieure révèle la saillie des apophyses coronoïdes. La salive s'écoule, la déglutition et l'élocution sont très difficiles, la mastication impossible. Quel est le diagnostic ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire",
+      "Luxation postérieure de l'articulation temporo-mandibulaire",
+      "Luxation supérieure de l'articulation temporo-mandibulaire",
+      "Luxation latérale de l'articulation temporo-mandibulaire",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 38,
+    "question": "Un cultivateur âgé de 50 ans a été victime d'un accident par un choc horizontal sur la mandibule gauche, s'accompagnant d'otorragie gauche. L'ouverture buccale est limitée et les incisives inférieures sont en retrait de 2 cm par rapport aux supérieures. Le scanner crânio-facial confirme la fracture du tympanal et le déplacement du condyle mandibulaire. Quel est le diagnostic ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation postérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation supérieure de l'articulation temporo-mandibulaire gauche",
+      "Luxation latérale de l'articulation temporo-mandibulaire gauche",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Une maçonne âgée de 55 ans a été victime d'un accident par un cri violent à 14h. Elle présente une bouche ouverte qu'elle ne peut refermer malgré ses efforts, sa joue droite est aplatie et paraît creuse du côté gauche. L'orthopantomogramme et l'incidence de Schüller confirment la position du condyle mandibulaire en avant de l'éminence temporale (luxation récente unilatérale droite). Par quelle manœuvre doit-elle être réduite ?",
+    "options": [
+      "Manœuvre de Barré",
+      "Manœuvre de Nélaton",
+      "Manœuvre de Lasègue",
+      "Manœuvre de Kernig"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 40,
+    "question": "Un maçon âgé de 50 ans a été victime d'un accident par un cri violent à 15h (luxation récente unilatérale droite de l'ATM). Il a bénéficié d'une réduction par manœuvre de Nélaton. Après réduction, un bandage doit être appliqué pour limiter l'ouverture buccale. Quelle est la durée de cette immobilisation ?",
+    "options": [
+      "À appliquer pendant 24 à 48 heures",
+      "À appliquer pendant 48 à 72 heures",
+      "À appliquer pendant 1 à 2 semaines",
+      "À appliquer pendant 2 à 3 semaines",
+      "À appliquer pendant 3 à 4 semaines"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 41,
+    "question": "Un journaliste âgé de 57 ans présente une luxation récente unilatérale droite réduite par manœuvre de Nélaton. Un bandage de maintien est en place. Quel est le régime alimentaire préconisé pour ce patient ?",
+    "options": [
+      "Nutrition par perfusion",
+      "Alimentation par sonde naso-gastrique",
+      "Alimentation normale",
+      "Alimentation liquide"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 42,
+    "question": "Un cultivateur âgé de 64 ans se présente après un bâillement avec une bouche grande ouverte, une sialorrhée commissurale, une impression d'allongement du visage et une béance antérieure. Le panoramique dentaire et l'incidence de Schüller confirment quel type de luxation de l'ATM ?",
+    "options": [
+      "Luxation antérieure de l'articulation temporo-mandibulaire",
+      "Luxation postérieure gauche de l'articulation temporo-mandibulaire",
+      "Luxation supérieure droite de l'articulation temporo-mandibulaire",
+      "Luxation latérale gauche de l'articulation temporo-mandibulaire",
+      "Luxation bilatérale de l'articulation temporo-mandibulaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche au niveau du cou gauche (zone II). Elle a des signes \"forts\" avec saignement actif, hématome expansif, abolition des pouls en aval et choc circulatoire. Dans quelle catégorie de lésion s'inscrit cette plaie ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "Un ouvrier de 35 ans présente une plaie pénétrante par arme blanche au cou gauche (zone I) avec signes \"faibles\" (saignement de faible abondance, petit hématome, pouls perçus en aval). Quelle lésion principale est suspectée ?",
+    "options": [
+      "Les lésions vasculaires",
+      "Les lésions nerveuses",
+      "Les lésions des voies aériennes",
+      "Les lésions du tractus digestif",
+      "Les lésions neurologiques"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche en zone II du cou gauche avec signes \"forts\" de détresse respiratoire aiguë, bulles d'air extériorisées par la plaie, hémoptysie à la toux et emphysème sous-cutané. Quel type de lésion présente-t-elle ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 46,
+    "question": "Un maçon de 39 ans présente une plaie pénétrante par arme blanche en zone II du cou droit avec emphysème sous-cutané et suspicion d'atteinte respiratoire. Quel type de lésion recherche-t-on prioritairement ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions neurologiques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 47,
+    "question": "Une ouvrière de 30 ans présente une plaie pénétrante par arme blanche en zone II du cou droit avec des signes \"faibles\" à type d'odynophagie, hématémèse et emphysème sous-cutané. Quelle est la lésion responsable ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions médullaires",
+      "Lésions du tractus digestif"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 48,
+    "question": "Un policier de 39 ans présente une plaie pénétrante par arme à feu en zone II du cou droit avec tétraplégie, troubles sphinctériens et signe de Babinski bilatéral. Quel est le niveau lésionnel ?",
+    "options": [
+      "Lésions vasculaires",
+      "Lésions nerveuses",
+      "Lésions des voies aériennes",
+      "Lésions du tractus digestif",
+      "Lésions médullaires cervicales"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 49,
+    "question": "Un policier de 30 ans présente une plaie par arme à feu en zone II du cou gauche, comateux (Glasgow 8/15), avec emphysème sous-cutané majeur, hématome expansif et stridor. L'intubation est très difficile. Quelle méthode de libération chirurgicale des voies aériennes doit être pratiquée d'urgence ?",
+    "options": [
+      "Tamponnage par sonde de Foley",
+      "Cricothyroïdotomie",
+      "Cannule oropharyngée (Guedel)",
+      "Cannule nasopharyngée"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "Un journaliste de 35 ans présente un traumatisme auriculaire droit avec douleurs vives en avant de l'oreille à la mastication et à la mobilité buccale. Palpation douloureuse au col du condyle latéral droit, ouverture limitée avec latéro-déviation droite. Quel est le diagnostic du scanner ?",
+    "options": [
+      "Fracture condylienne mandibulaire droite",
+      "Fracture condylienne mandibulaire bilatérale",
+      "Fracture parasymphysaire mandibulaire droite",
+      "Fracture de la branche montante mandibulaire droite",
+      "Fracture du coroné mandibulaire droit"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 51,
+    "question": "Un policier de 37 ans présente un traumatisme de la mâchoire gauche avec œdème/déformation du menton gauche, douleur vive à la palpation et déchirure de la muqueuse gingivale gauche. Le scanner confirme le diagnostic. De quelle fracture s'agit-il ?",
+    "options": [
+      "Fracture capitale de la mandibule gauche",
+      "Fracture condylienne de la mandibule gauche",
+      "Fracture parasymphysaire de la mandibule gauche",
+      "Fracture du ramus de la mandibule gauche",
+      "Fracture du coroné de la mandibule gauche"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 52,
+    "question": "Suite à une chute d'un arbre avec choc direct sur le processus mentonnier droit, un patient présente une béance controlatérale, une limitation douloureuse de l'ouverture buccale et une tuméfaction jugale droite. Quel est le diagnostic scanner ?",
+    "options": [
+      "Fracture capitale mandibulaire droite",
+      "Fracture condylienne mandibulaire droite",
+      "Fracture parasymphysaire droite de la mandibule",
+      "Fracture du ramus mandibulaire droit",
+      "Fracture du coroné mandibulaire droit"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 53,
+    "question": "À la suite d'un choc violent sur le processus mentonnier gauche, le scanner retrouve une fracture parasymphysaire. De quel type est-elle le plus fréquemment ?",
+    "options": [
+      "Fracture oblique de la branche horizontale mandibulaire gauche",
+      "Fracture oblique condylienne mandibulaire gauche",
+      "Fracture oblique parasymphysaire mandibulaire gauche",
+      "Fracture transversale parasymphysaire mandibulaire gauche",
+      "Fracture transversale du coroné mandibulaire gauche"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 54,
+    "question": "Un choc violent sur le globe oculaire peut entraîner une fracture dite « trap-door » (en trappe) du plancher orbitaire avec incarcération du muscle droit inférieur. Quel nerf risque d'être le plus directement comprimé ?",
+    "options": [
+      "Compression du nerf sous-orbitaire",
+      "Compression du nerf facial",
+      "Compression du nerf trijumeau",
+      "Compression du nerf mandibulaire (V3)",
+      "Compression du nerf ophtalmique (V1)"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 55,
+    "question": "Une policière de 30 ans subit un choc direct à l'angle mandibulaire gauche avec déformation, œdème, vive douleur et trismus important. Le scanner confirme une fracture déplacée. Quel est le diagnostic ?",
+    "options": [
+      "Fracture de l'angle de la mandibule gauche",
+      "Fracture de l'angle de la mandibule droite",
+      "Fracture de la branche horizontale mandibulaire gauche",
+      "Fracture de la branche montante mandibulaire gauche",
+      "Fracture du condyle mandibulaire gauche"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 56,
+    "question": "Une ouvrière de 34 ans présente un traumatisme de la mâchoire avec asymétrie faciale, menton déporté vers la droite et anesthésie labio-mentonnière droite. Le panoramique dentaire montre des fractures associées. Quel nerf sensitif dentaire est atteint ?",
+    "options": [
+      "Nerf alvéolaire inférieur",
+      "Nerf ophtalmique (V1)",
+      "Nerf maxillaire (V2)",
+      "Nerf mandibulaire (V3)",
+      "Nerf infra-orbitaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 57,
+    "question": "Une disjonction isolée de type LeFort I comporte typiquement quel(s) signe(s) parmi les suivants ?",
+    "options": [
+      "Énophtalmie",
+      "Mobilité de la pyramide nasale",
+      "Un trouble de l'articulé dentaire",
+      "Anesthésie sous-orbitaire bilatérale",
+      "Hémosinus"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 58,
+    "question": "À la suite d'un traumatisme de la face, un patient se plaint d'une diplopie dans le regard vers le haut. Quelle est l'étiologie la plus probable ?",
+    "options": [
+      "Fracture de LeFort III",
+      "Fracture du plancher de l'orbite",
+      "Paralysie traumatique du nerf oculomoteur (III)",
+      "Atteinte du nerf sous-orbitaire",
+      "Ébranlement rétinien dû au choc"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "À la suite d'une chute de cheval, une patiente présente un traumatisme crânio-facial avec impact mentonnier, limitation de l'ouverture buccale et contact molaire prématuré droit. De quelle fracture s'agit-il ?",
+    "options": [
+      "Fracture de l'apophyse coronoïde de la mandibule",
+      "Fracture de l'arcade zygomatique",
+      "Fracture de l'étage antérieur de la base du crâne",
+      "Fracture mandibulaire de la région symphysaire",
+      "Fracture du condyle mandibulaire droit"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 60,
+    "question": "Une fracture de la paroi antérieure du sinus maxillaire nécessite une prise en charge opératoire si elle est associée à :",
+    "options": [
+      "Un hémosinus",
+      "Une anesthésie de la lèvre inférieure",
+      "Une anesthésie de la joue",
+      "Un trouble oculomoteur",
+      "Un trouble de l'articulé dentaire"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 61,
+    "question": "Quelle variété de fracture de la rotule est extra-articulaire ?",
+    "options": [
+      "Fracture du cadran supéro-externe",
+      "Fracture verticale",
+      "Fracture transversale",
+      "Fracture de la pointe"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 62,
+    "question": "Parmi les fractures de jambe suivantes, laquelle est considérée comme stable ?",
+    "options": [
+      "Fracture comminutive",
+      "Fracture en aile de papillon",
+      "Fracture transversale",
+      "Fracture oblique à biseau long"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 63,
+    "question": "La recherche d'une rupture isolée du ligament collatéral médial (LCI) par examen de la laxité interne se fait sur un genou en :",
+    "options": [
+      "Extension complète",
+      "Flexion (à 30°)",
+      "Extension forcée",
+      "Flexion forcée"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 64,
+    "question": "Comment définit-on une rotule qui se luxe spontanément à chaque mouvement de flexion du genou ?",
+    "options": [
+      "Luxation récidivante",
+      "Luxation permanente",
+      "Luxation habituelle",
+      "Luxation négligée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 65,
+    "question": "Quelle variété de fracture de la rotule provoque systématiquement la perte de l'extension active du genou ?",
+    "options": [
+      "Fracture verticale",
+      "Fracture du cadran supéro-externe",
+      "Fracture transversale non déplacée",
+      "Fracture transversale déplacée"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 66,
+    "question": "Quelle est la complication la plus fréquemment rencontrée dans les fractures fermées de la rotule après traitement orthopédique ?",
+    "options": [
+      "Ostéite",
+      "Pseudarthrose",
+      "Raideur articulaire",
+      "Ankylose"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 67,
+    "question": "Comment peut-on diagnostiquer la luxation traumatique de la rotule lorsqu'elle s'est déjà réduite spontanément lors d'un mouvement d'extension ?",
+    "options": [
+      "On ne peut pas la diagnostiquer",
+      "Douleur et ecchymose au bord interne de la rotule",
+      "Rupture de l'aileron interne à la radiographie standard",
+      "Douleur et ecchymose au bord externe de la rotule"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 68,
+    "question": "Pourquoi la luxation traumatique de la rotule se fait-elle presque toujours vers l'extérieur (externe) ?",
+    "options": [
+      "Les traumatismes surviennent toujours sur la face interne",
+      "La résistance de l'aileron rotulien interne est moindre",
+      "L'axe du fémur forme avec l'axe du tibia un angle obtus ouvert en dehors (valgus physiologique)",
+      "La rotule se situe un peu au-dessus de la trochlée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 69,
+    "question": "Quelle est la valeur sémiologique du test de Lachman-Trillat ?",
+    "options": [
+      "Rupture du ligament collatéral médial (LCI)",
+      "Rupture du ligament collatéral latéral (LCE)",
+      "Rupture du tendon rotulien",
+      "Rupture du ligament croisé antérieur (LCA)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 70,
+    "question": "Quelle variété de fracture du plateau tibial est provoquée par une compression purement verticale et axiale du fémur sur le tibia ?",
+    "options": [
+      "Fracture unitubérositaire",
+      "Fracture spino-tubérositaire",
+      "Fracture bitubérositaire",
+      "Fracture de l'épine tibiale"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 71,
+    "question": "Quel est le muscle principal de l'appareil extenseur du genou ?",
+    "options": [
+      "Le muscle quadriceps fémoral",
+      "Le muscle semi-tendineux",
+      "Le muscle tenseur du fascia lata",
+      "Le muscle poplité"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 72,
+    "question": "Le ligament collatéral latéral (LCE) du genou :",
+    "options": [
+      "Est un ligament très grêle",
+      "Est tendu entre l'épicondyle médial et la tête du péroné",
+      "Est tendu entre l'épicondyle latéral et la tête du péroné",
+      "S'insère sur le ménisque externe"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 73,
+    "question": "Le ligament croisé postérieur (LCP) :",
+    "options": [
+      "Naît de la face postérieure du ménisque externe",
+      "Se termine sur la face axiale du condyle latéral du fémur",
+      "Se termine sur la face axiale du condyle médial du fémur",
+      "Est croisé avec le ligament collatéral médial dans le plan frontal"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 74,
+    "question": "Quelle est la modalité de traitement chirurgical de choix pour les fractures transversales déplacées de la rotule ?",
+    "options": [
+      "Vissage par 2 vis parallèles",
+      "Cerclage simple",
+      "Plaque vissée",
+      "Haubanage appuyé sur 2 broches parallèles"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 75,
+    "question": "Quelle est la modalité de traitement préférentielle pour les fractures diaphysaires complexes, fermées et déplacées du tibia chez l'adulte ?",
+    "options": [
+      "Plaque vissée",
+      "Enclouage centromédullaire verrouillé",
+      "Fixateur externe",
+      "Réduction fermée + plâtre cruro-pédieux"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 76,
+    "question": "Quelle variété de fracture de la rotule ne provoque PAS de perte de l'extension active du genou ?",
+    "options": [
+      "Fracture verticale déplacée",
+      "Fracture comminutive déplacée",
+      "Fracture de la pointe déplacée",
+      "Fracture transversale déplacée"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 77,
+    "question": "Quelle est la variété de fracture du plateau tibial provoquée par une compression axiale associée à une contrainte latérale (valgus/varus) lorsque les ligaments collatéraux résistent ?",
+    "options": [
+      "Fracture unitubérositaire",
+      "Fracture spino-tubérositaire",
+      "Fracture bitubérositaire",
+      "Fracture de l'épine tibiale"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 78,
+    "question": "Quelle est la variété de fracture du plateau tibial provoquée par une compression purement latérale du fémur sur le tibia lorsque les ligaments résistent ?",
+    "options": [
+      "Fracture unitubérositaire",
+      "Fracture spino-tubérositaire",
+      "Fracture bitubérositaire",
+      "Fracture de l'épine tibiale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 79,
+    "question": "Parmi les éléments suivants, lequel fait partie de l'appareil extenseur du genou ?",
+    "options": [
+      "Le tendon rotulien",
+      "L'aileron rotulien interne",
+      "Le ligament croisé antérieur",
+      "Le ligament collatéral médial"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 80,
+    "question": "Quel est le signe clinique principal qui motive la consultation en cas d'instabilité ou laxité chronique de la rotule ?",
+    "options": [
+      "Douleur isolée du genou",
+      "Marche difficile",
+      "Signe de Smellie",
+      "Gros genou par hydarthrose récidivante"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 81,
+    "question": "La stabilité secondaire (ligamentaire) de l'articulation de la cheville est assurée par :",
+    "options": [
+      "La mortaise tibio-péronière",
+      "Le système des ligaments de la cheville",
+      "La malléole externe plus longue que la malléole interne",
+      "La syndesmose tibio-fibulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 82,
+    "question": "La classification anatomopathologique des fractures bi-malléolaires (classification de Duparc / Lauge-Hansen) repose sur :",
+    "options": [
+      "Le niveau du trait de fracture malléolaire externe par rapport aux tubercules",
+      "Le niveau du trait de fracture malléolaire interne",
+      "Le niveau du trait de fracture de la malléole externe par rapport à l'interligne articulaire (sous, trans, ou sus-tuberculaires)",
+      "La hauteur du trait par rapport à la tubérosité tibiale antérieure"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 83,
+    "question": "Le mécanisme d'abduction forcée de l'avant-pied entraîne typiquement :",
+    "options": [
+      "Une fracture de la malléole interne seule",
+      "Une rupture de la syndesmose pure",
+      "Une déchirure isolée de la membrane interosseuse",
+      "Une fracture de la malléole externe en sus-tuberculaire",
+      "Une fracture de la malléole externe en sous-tuberculaire"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 84,
+    "question": "Le mécanisme d'adduction forcée de l'avant-pied entraîne typiquement :",
+    "options": [
+      "Une entorse du ligament collatéral médial",
+      "Une entorse du ligament collatéral latéral",
+      "Une rupture du ligament tibio-péronier antérieur",
+      "Une rupture du ligament tibio-péronier postérieur",
+      "Une fracture de la malléole externe sous-tuberculaire (transversale)"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 85,
+    "question": "Les éléments suivants sont tous des facteurs de mauvais pronostic d'une fracture bi-malléolaire, SAUF un. Lequel ?",
+    "options": [
+      "Le terrain du patient (âge, ostéoporose, diabète)",
+      "Le type anatomique complexe de la fracture",
+      "Les lésions vasculaires ou cutanées associées",
+      "Une mauvaise réduction anatomique",
+      "Douleurs et impotence fonctionnelle totale initiales du cou-de-pied"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 86,
+    "question": "Le diagnostic positif et le bilan lésionnel d'une fracture bi-malléolaire sont confirmés par :",
+    "options": [
+      "Le mécanisme lésionnel",
+      "L'examen clinique seul",
+      "La radiographie de la cheville seule",
+      "La radiographie de la cheville (Face-Profil) et de la jambe entière (Face-Profil) prenant le genou et la cheville",
+      "Le scanner de cheville d'emblée"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 87,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Quel est le mécanisme lésionnel le plus probable pour cette fracture à la cheville lors du tennis ?",
+    "options": [
+      "Rotation externe forcée",
+      "Abduction forcée",
+      "Adduction forcée",
+      "Flexion plantaire forcée",
+      "Flexion dorsale forcée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 88,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Sur les clichés radiographiques de cette fracture grave de la cheville, quelle est la lésion la plus péjorative pour la stabilité articulaire ?",
+    "options": [
+      "Fracture de la malléole interne",
+      "Fracture de la malléole externe",
+      "Lésion (diastasis) de la syndesmose tibio-fibulaire",
+      "Rupture du ligament latéral externe",
+      "Rupture du ligament latéral interne"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 89,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Afin de ne pas méconnaître une fracture très haute du péroné (fracture de Maisonneuve), quel examen paraclinique complémentaire devez-vous impérativement demander ?",
+    "options": [
+      "Radiographie de la jambe entière (Face + Profil) incluant le genou et la cheville",
+      "Radiographie du pied",
+      "Échographie de cheville",
+      "Scanner de la cheville",
+      "IRM de la cheville"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 90,
+    "question": "Cas clinique : Un jeune homme de 27 ans est amené à l'hôpital pour un traumatisme de la cheville droite survenu lors d'un match de tennis. La cheville est très gonflée et déformée. Elle est immobilisée temporairement par une attelle avant radiographie. Le diagnostic de fracture bi-malléolaire sus-tuberculaire déstabilisée est confirmé. Quelle est la prise en charge thérapeutique adaptée ?",
+    "options": [
+      "Plâtre cruro-pédieux 45 jours puis botte de marche",
+      "Extension continue",
+      "Enclouage centromédullaire de la jambe",
+      "Ostéosynthèse chirurgicale : plaque vissée pour le péroné et vissage pour la malléole interne",
+      "Fixateur externe isolé"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 91,
+    "question": "Quelle est la définition exacte d'une hémorragie ?",
+    "options": [
+      "Un saignement superficiel",
+      "Un écoulement du sang en dehors de son circuit naturel (artères seules)",
+      "Un écoulement du sang en dehors de son circuit naturel (veines seules)",
+      "Un écoulement du sang en dehors de son circuit naturel constitué par le cœur et les vaisseaux sanguins (veines et artères)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 92,
+    "question": "Quelle est la conséquence hémodynamique majeure d'une hémorragie non compensée pouvant conduire au collapsus ?",
+    "options": [
+      "Anémie isolée",
+      "Diminution de l'oxygénation tissulaire",
+      "Chute de la pression artérielle",
+      "Perte de globules rouges"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 93,
+    "question": "Combien existe-t-il de différents types d'hémorragies selon leur siège topographique ?",
+    "options": [
+      "2 types",
+      "3 types (externe, extériorisée, interne)",
+      "4 types",
+      "5 types"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 94,
+    "question": "Quelle est la définition d'une hémorragie externe ?",
+    "options": [
+      "Le sang s'écoule à l'extérieur du corps par une plaie cutanée",
+      "Saignement sous-cutané",
+      "Le sang s'écoule dans une cavité visible seulement à la chirurgie",
+      "Un saignement extracellulaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 95,
+    "question": "Quelle est la définition d'une hémorragie extériorisée ?",
+    "options": [
+      "Le sang s'écoule directement par une plaie cutanée",
+      "La fuite sanguine a lieu à l'intérieur du corps, mais le sang s'évacue vers l'extérieur par un orifice naturel",
+      "Le sang s'écoule uniquement dans les tissus profonds",
+      "Un saignement intracellulaire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 96,
+    "question": "Quelle est la définition d'une hémorragie interne ?",
+    "options": [
+      "Le sang s'écoule par une effraction cutanée",
+      "Le sang s'écoule par les orifices naturels",
+      "Le sang s'écoule et s'accumule à l'intérieur d'une cavité du corps sans orifice de sortie",
+      "Un saignement extracellulaire"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 97,
+    "question": "Parmi les propositions suivantes, laquelle correspond à une hémorragie extériorisée ?",
+    "options": [
+      "Hématémèse",
+      "Hémopéritoine",
+      "Hémothorax",
+      "Hémopéricarde",
+      "Hémarthrose"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 98,
+    "question": "Parmi les propositions suivantes, laquelle correspond à une hémorragie interne pure ?",
+    "options": [
+      "Épistaxis",
+      "Otorragie",
+      "Rectorragie",
+      "Hématémèse",
+      "Hémothorax"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 99,
+    "question": "Quelle est la cause traumatique d'hémorragie la plus grave et délabrante ?",
+    "options": [
+      "Coupure par objet tranchant",
+      "Traumatisme crânien simple",
+      "Choc direct mineur",
+      "Plaie par arme à feu"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 100,
+    "question": "En cas d'hémorragie traumatique aiguë, quel risque systémique vital immédiat ne faut-il jamais oublier ?",
+    "options": [
+      "Nécrose des membres",
+      "Infection secondaire",
+      "État de choc hypovolémique",
+      "Traumatisme crânien"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 101,
+    "question": "Quelle est la définition générale du choc traumatique ?",
+    "options": [
+      "Un traumatisme physique grave entraînant un ensemble de défaillances hémodynamiques et systémiques",
+      "Une fracture isolée des membres",
+      "Un traumatisme thoraco-abdominal isolé",
+      "Une contusion cérébrale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 102,
+    "question": "Les paramètres suivants : Perte sanguine = 750-1500 mL, FC > 100 bpm, PA normale, Pression pulsée diminuée, FR = 20-30/min, Diurèse = 20-30 mL/h, État mental = anxieux. À quelle classe de choc hémorragique cela correspond-il ?",
+    "options": [
+      "Classe 1",
+      "Classe 2",
+      "Classe 3",
+      "Classe 4"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 103,
+    "question": "Les paramètres suivants : Perte sanguine < 750 mL, FC < 100 bpm, PA normale, Pression pulsée normale, FR = 14-20/min, Diurèse > 30 mL/h, État mental = peu anxieux. À quelle classe cela correspond-il ?",
+    "options": [
+      "Classe 1",
+      "Classe 2",
+      "Classe 3",
+      "Classe 4"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 104,
+    "question": "Quelle est la cause la plus fréquente de polytraumatisme dans notre pratique ?",
+    "options": [
+      "Écrasement professionnel",
+      "Défenestration",
+      "Accident de la voie publique (AVP)",
+      "Plaie par balle"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 105,
+    "question": "Parmi les organes abdominaux suivants, lequel est le plus fréquemment lésé en cas de polytraumatisme fermé ?",
+    "options": [
+      "Vessie",
+      "Rein",
+      "Cordon colique",
+      "Rate"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 106,
+    "question": "Selon les lois de la physique de la décélération (masse × accélération), pour un choc à 36 km/h avec un coefficient multiplicateur de 10, quel devient le poids relatif d'une rate de 250 g ?",
+    "options": [
+      "2,0 kg",
+      "2,2 kg",
+      "2,5 kg",
+      "2,75 kg"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 107,
+    "question": "Quelle est la définition des hémorragies traumatiques multisites ?",
+    "options": [
+      "Un saignement actif dans au moins deux sites distincts engageant le pronostic vital en l'absence de traitement",
+      "Un traumatisme de deux organes avec un seul saignement",
+      "Deux plaies superficielles saignantes",
+      "Deux fractures dont une ouverte"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 108,
+    "question": "Chez un polytraumatisé, quelle source d'hémorragie interne peut être la plus abondante et rapidement cataclysmique ?",
+    "options": [
+      "Intestin grêle",
+      "Fracture complexe du Bassin",
+      "Mésentère",
+      "Tibia"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 109,
+    "question": "Lors d'une hémorragie post-traumatique massive, à quel moment la transfusion de produits sanguins et facteurs de coagulation doit-elle être initiée idéalement ?",
+    "options": [
+      "Le plus précocement possible avant l'apparition de la CIVD (coagulation intravasculaire disséminée)",
+      "Seulement si l'hémoglobine chute sous 7 g/dL",
+      "Après évaluation exacte des pertes",
+      "Après obtention complète des bilans biologiques de laboratoire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 110,
+    "question": "Quel est le « Gold Standard » pour le contrôle temporaire urgent d'une hémorragie externe d'un membre ?",
+    "options": [
+      "Ligature vasculaire d'emblée",
+      "Clampage aux pinces hémostatiques en aveugle",
+      "Pansement compressif (ou garrot si échec/délabrement)",
+      "Intervention chirurgicale d'emblée sans geste d'urgence"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 111,
+    "question": "Un homme de 37 ans est admis pour fracture des 2 os de la jambe droite suite à un AVP. Il présente une plaie cutanée de 7 cm au niveau du foyer de fracture avec un trait légèrement comminutif. Selon la classification de Gustilo-Anderson, s'agit-il d'une :",
+    "options": [
+      "Fracture ouverte type I",
+      "Fracture ouverte type II",
+      "Fracture ouverte type III A",
+      "Fracture ouverte type III B"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 112,
+    "question": "Même patient, mais la plaie cutanée mesure 1 cm au niveau du foyer et le trait de fracture est simple. Selon Gustilo :",
+    "options": [
+      "Fracture ouverte type I",
+      "Fracture ouverte type II",
+      "Fracture ouverte type III A",
+      "Fracture ouverte type III B"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 113,
+    "question": "La fracture se situe au niveau de l'extrémité proximale des deux os de la jambe, près du col du péroné. Quel nerf risque d'être lésé ?",
+    "options": [
+      "Nerf crural",
+      "Nerf sciatique poplité interne (tibial)",
+      "Nerf sciatique poplité externe (fibulair commun)",
+      "Nerf saphène"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 114,
+    "question": "Un jour après la fracture des 2 os de la jambe, le patient présente un œdème tendu, une douleur vive non soulagée par les antalgiques habituels et une hypoesthésie cutanée. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Syndrome de loge",
+      "Écrasement musculaire",
+      "Rupture nerveuse",
+      "Ischémie aiguë de la jambe"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 115,
+    "question": "Au 4e jour d'une fracture de jambe, le patient présente de la fièvre et des frissons. Le diagnostic le plus probable est :",
+    "options": [
+      "Tétanos déclaré",
+      "Infection du foyer de fracture",
+      "Résorption d'hématome",
+      "Phlébite"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 116,
+    "question": "Au 4e jour, le patient présente un œdème du mollet, une douleur à la dorsiflexion du pied (signe de Homans) et une température de 38,5 °C. Que suspectez-vous ?",
+    "options": [
+      "Résorption d'hématome",
+      "Phlébite (thrombose veineuse profonde)",
+      "Infection osseuse",
+      "Syndrome de loge"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 117,
+    "question": "Quelle est la complication secondaire générale la plus grave à redouter chez un patient présentant une fracture des os longs ?",
+    "options": [
+      "Phlébite",
+      "Embolie graisseuse",
+      "Déplacement secondaire",
+      "Algoneurodystrophie"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 118,
+    "question": "Un an après la fracture des 2 os de la jambe, le patient présente une pseudarthrose. Quel est le signe clinique le plus évocateur ?",
+    "options": [
+      "Marche douloureuse",
+      "Persistance d'une mobilité anormale du foyer de fracture",
+      "Foyer restant chaud",
+      "Raccourcissement du membre"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 119,
+    "question": "Quelle est la conséquence articulaire à long terme d'un cal vicieux des os de la jambe ?",
+    "options": [
+      "Raccourcissement isolé",
+      "Difficulté à la marche",
+      "Arthrose sus- et sous-jacente (genou / cheville)",
+      "Trouble de croissance"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 120,
+    "question": "Quelle est la complication générale immédiate grave d'une fracture majeure pouvant retentir sur l'ensemble des organes ?",
+    "options": [
+      "Ouverture cutanée",
+      "Phlébite",
+      "État de choc hypovolémique/traumatique",
+      "Hémorragie locale"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 121,
+    "question": "Une patiente de 39 ans présente une fracture de la partie moyenne de l'olécrane. Concernant l'anatomie de l'olécrane :",
+    "options": [
+      "C'est la partie proximale du radius",
+      "Il forme avec l'apophyse coronoïde la grande cavité sigmoïde de l'ulna",
+      "Il reçoit l'insertion du biceps brachial",
+      "Il effectue la prono-supination"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 122,
+    "question": "Quel est le mécanisme direct classique d'une fracture de l'olécrane ?",
+    "options": [
+      "Chute sur l'épaule",
+      "Chute sur la main en extension",
+      "Chute directe sur le coude fléchi",
+      "Choc sur l'avant-bras"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 123,
+    "question": "En cas de fracture déplaçée de l'olécrane, quel est le nerf périphérique le plus exposé au traumatisme ?",
+    "options": [
+      "Nerf musculocutané",
+      "Nerf médian",
+      "Nerf radial",
+      "Nerf ulnaire (cubital)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 124,
+    "question": "À l'examen clinique d'une fracture déplacée de l'olécrane, quel signe retrouve-t-on de façon caractéristique ?",
+    "options": [
+      "Pas de douleur",
+      "Pas d'impotence",
+      "Perte de l'extension active du coude contre pesanteur",
+      "Absence d'œdème"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 125,
+    "question": "Comment peut-on différencier une fracture de l'olécrane d'une luxation postérieure du coude à l'examen clinique ?",
+    "options": [
+      "L'intensité de la douleur",
+      "La mobilité des doigts",
+      "La modification de la ligne et du triangle de Nelaton (repères anatomiques du coude) et l'hématome",
+      "L'attitude vicieuse"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 126,
+    "question": "Sur une radiographie du coude de profil, le trait de fracture traverse le tiers moyen du processus olécrânien. Il s'agit d'une :",
+    "options": [
+      "Fracture transversale du 1/3 moyen de l'olécrane",
+      "Fracture du bec de l'olécrane",
+      "Fracture de la base de l'olécrane",
+      "Fracture oblique simple"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 127,
+    "question": "Quelle proposition indique une complication cutanée aiguë d'une fracture de l'olécrane très déplacée ?",
+    "options": [
+      "Fracture du 1/3 moyen",
+      "Le fragment osseux proximal perfore la peau (ouverture cutanée)",
+      "Trait oblique",
+      "Absence d'hématome"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 128,
+    "question": "4 mois après une fracture de l'olécrane, le coude est enraidi et limité à 60° de flexion. De quoi s'agit-il ?",
+    "options": [
+      "Cal fibreux",
+      "Arthrose précocement destructrice",
+      "Raideur articulaire du coude",
+      "Compression nerveuse"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 129,
+    "question": "Plus tard, si une fracture de l'olécrane ne consolide pas (pseudarthrose), le patient perd principalement quel mouvement ?",
+    "options": [
+      "L'extension active du coude",
+      "La flexion",
+      "La pronation",
+      "La supination"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 130,
+    "question": "Au 2e mois après une fracture de l'olécrane, si les 4e et 5e doigts présentent des paresthésies, quelle en est la cause ?",
+    "options": [
+      "Rupture du tendon extenseur",
+      "Le nerf ulnaire est comprimé dans le cal osseux",
+      "Le nerf radial est englobé",
+      "Le nerf médian est comprimé"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 131,
+    "question": "La limite distale du territoire des fractures diaphysaires des deux os de l'avant-bras se situe au-dessus de l'articulation radio-ulnaire inférieure à une distance de :",
+    "options": [
+      "4 cm au-dessus de l'articulation radio-ulnaire inférieure",
+      "2 cm au-dessus",
+      "6 cm au-dessus",
+      "8 cm au-dessus"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 132,
+    "question": "Concernant l'anatomie des os de l'avant-bras :",
+    "options": [
+      "L'ulna est situé latéralement par rapport au radius",
+      "La tête radiale s'unit à la tête ulnaire en proximal",
+      "L'olécrane constitue l'extrémité proximale de l'ulna",
+      "Le ligament triangulaire fixe les deux diaphyses"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 133,
+    "question": "Concernant la physiologie du mouvement de prono-supination :",
+    "options": [
+      "L'ulna tourne autour du radius",
+      "Le radius tourne autour de l'ulna, l'axe passant en haut par le centre de la tête radiale",
+      "L'extrémité distale du radius est médiale en supination",
+      "L'ulna est mobile"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 134,
+    "question": "La radiographie montre une discontinuité osseuse nette au milieu des deux diaphyses antébrachiales. Quel est le diagnostic ?",
+    "options": [
+      "Fracture du tiers moyen de la diaphyse des deux os de l'avant-bras",
+      "Fracture sous-périostée chez l'enfant",
+      "Fracture spiroïde isolée du radius",
+      "Luxation radio-ulnaire pure"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 135,
+    "question": "Quel est le type de trait le plus fréquent dans les fractures de l'avant-bras par choc direct ?",
+    "options": [
+      "Trait spiroïdal",
+      "Trait transverse ou oblique court",
+      "Fracture sous-périostée",
+      "Fracture en bois vert"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 136,
+    "question": "Quel signe clinique doit faire rechercher immédiatement une complication vasculaire aiguë lors d'une fracture des deux os de l'avant-bras ?",
+    "options": [
+      "Échymose",
+      "Raccourcissement",
+      "Angulation",
+      "Abolition du pouls radial et ulnaire",
+      "Impotence fonctionnelle"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 137,
+    "question": "L'examen paraclinique de choix pour confirmer et typer la fracture des deux os de l'avant-bras est :",
+    "options": [
+      "La palpation",
+      "La mensuration",
+      "La radiographie de l'avant-bras (Face et Profil incluant poignet et coude)",
+      "L'inspection"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 138,
+    "question": "Après réduction et contention adéquate d'une fracture des 2 os de l'avant-bras chez l'adulte, le délai minimal moyen de consolidation est de :",
+    "options": [
+      "1 mois",
+      "2 mois",
+      "3 mois",
+      "5 mois"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 139,
+    "question": "En cas de fracture des deux os de l'avant-bras avec interposition musculaire importante entre les fragments, vers quelle complication évolue-t-on ?",
+    "options": [
+      "Atrophie musculaire simple",
+      "Cal vicieux",
+      "Rétraction tendineuse",
+      "Pseudarthrose (absence de consolidation)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 140,
+    "question": "Au 4e mois après contention d'une fracture des 2 os de l'avant-bras, le patient consulte pour mobilité anormale indolore au foyer. De quoi s'agit-il ?",
+    "options": [
+      "Déplacement secondaire",
+      "Cal vicieux",
+      "Pseudarthrose établie",
+      "Retard de consolidation"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 141,
+    "question": "Chez un enfant de 10 ans présentant au 2e jour d'un plâtre d'avant-bras un œdème tendu des doigts et une douleur insupportable aux antalgiques, quel est le diagnostic ?",
+    "options": [
+      "Rupture artérielle",
+      "Compression nerveuse isolée",
+      "Syndrome de loge (ou syndrome de Volkmann)",
+      "Crush injury"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 142,
+    "question": "L'ostéomyélite aiguë est une infection suppurée nécrosante de quel tissu ?",
+    "options": [
+      "Des muscles",
+      "Des vaisseaux",
+      "Du tissu osseux et de la moelle osseuse",
+      "Du système nerveux"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 143,
+    "question": "Quel est le germe le plus fréquemment responsable de l'ostéomyélite aiguë hématogène chez l'enfant ?",
+    "options": [
+      "Streptocoque",
+      "Pneumocoque",
+      "Staphylocoque doré",
+      "Gonocoque"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 144,
+    "question": "Quelle est la porte d'entrée cutanée ou périphérique la plus classique d'une ostéomyélite aiguë chez l'enfant ?",
+    "options": [
+      "Infection urinaire",
+      "Pneumopathie",
+      "Panaris / furoncle cutané",
+      "Tumeur osseuse"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 145,
+    "question": "Quelle est la localisation squelettique préférentielle de l'ostéomyélite aiguë hématogène chez l'enfant ?",
+    "options": [
+      "Os iliaque",
+      "Omoplate",
+      "Clavicule",
+      "Métaphyse des os longs près des genoux (ex: métaphyse distale du fémur)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 146,
+    "question": "Parmi les conditions suivantes, laquelle constitue un facteur terrain prédisposant à l'ostéomyélite ?",
+    "options": [
+      "Hyperthyroïdie",
+      "Obésité",
+      "Diabète (ou immunodépression)",
+      "Ulcère gastrique"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 147,
+    "question": "Dans la physiopathologie de l'ostéomyélite aiguë hématogène, le stade d'abcès sous-périosté entraîne :",
+    "options": [
+      "Une nécrose et destruction osseuse (ischémie par thrombose vasculaire)",
+      "Une reconstruction immédiate",
+      "Une consolidation spontanée sans séquelle",
+      "Un épaississement des cartilages de croissance"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 148,
+    "question": "La chronicisation d'une ostéomyélite avec poussées de réchauffement successives est entretenue par la présence de :",
+    "options": [
+      "Germes intramusculaires isolés",
+      "Nouvelles portes d'entrée",
+      "Séquestres osseux (fragments d'os mort dévitalisé encerclés par l'involucre)",
+      "Bactéries volantes"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 149,
+    "question": "Dans l'ostéomyélite de la métaphyse distale du fémur, quelle est la caractéristique de la douleur à la palpation de la cuisse ?",
+    "options": [
+      "Douleur antérieure isolée",
+      "Douleur postérieure isolée",
+      "Douleur vive « en virole » (circulaire tout autour de la métaphyse)",
+      "Douleur projetée à la cheville"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 150,
+    "question": "À la période d'état d'une ostéomyélite aiguë de l'extrémité inférieure du fémur, l'attitude antalgique du genou est :",
+    "options": [
+      "Genou en extension complète",
+      "Genou fléchi (attitude antalgique en demi-flexion)",
+      "Genou en recurvatum",
+      "Genou en rotation externe forcée"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 151,
+    "question": "Lors de l'évolution de l'ostéomyélite aiguë, la fistulisation à la peau avec écoulement de pus apporte quel effet fonctionnel immédiat ?",
+    "options": [
+      "Aggravation immédiate des douleurs",
+      "Soulagement temporaire de la douleur par décompression sous-cutanée",
+      "Guérison définitive sans antibiotique",
+      "Nécrose cutanée extensive systématique"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 152,
+    "question": "Concernant une fracture de l'extrémité supérieure de l'humérus engrenée, quel signe la différencie d'une fracture non engrenée déplacée ?",
+    "options": [
+      "L'absence totale de gonflement",
+      "L'absence d'écchymose brachio-thoracique de Hennequin",
+      "La conservation de quelques mouvements automatiques ou passifs du bras",
+      "L'impossibilité de bouger les doigts"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 153,
+    "question": "Concernant l'anatomie fonctionnelle du carpe et des métacarpes, la colonne fixe centrale de la main est formée par :",
+    "options": [
+      "Les 1er et 2e métacarpens",
+      "Les 2e et 3e métacarpens (solidement articulés avec le carpe)",
+      "Les 3e et 4e métacarpens",
+      "Les 4e et 5e métacarpens"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 154,
+    "question": "Pour les fractures de la base des métacarpiens articulaires, le trait de fracture peut prendre la forme de :",
+    "options": [
+      "Trait spiroïde purement diaphysaire",
+      "Trait en T ou en Y articulaire",
+      "Trait extra-articulaire en V",
+      "Trait transversal isolé"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 155,
+    "question": "Quel signe clinique évocateur faut-il rechercher devant une suspicion de fracture diaphysaire non déplacée d'un métacarpien ?",
+    "options": [
+      "Douleur exquise à la pression axiale (refoulement) et à la torsion douce du doigt correspondant",
+      "Raccourcissement de 3 cm",
+      "Angulation visible d'emblée",
+      "Échymose immédiate en bracelet"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 156,
+    "question": "Quel est le mécanisme le plus fréquent des fractures des phalanges chez l'adulte ?",
+    "options": [
+      "Mécanisme direct par écrasement ou choc direct",
+      "Torsion indirecte",
+      "Traction axiale",
+      "Hyperextension forcée"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 157,
+    "question": "Les fractures du houppette ou du corps de la 3e phalange (P3) ont très fréquemment un trait :",
+    "options": [
+      "Oblique long",
+      "Spiroïdal",
+      "Comminutif (par écrasement du pulp)",
+      "Engrené"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 158,
+    "question": "Qu'est-ce que la fracture-luxation de Bennett ?",
+    "options": [
+      "Une fracture articulaire de la base du premier métacarpien (M1) détachant un fragment volo-médial",
+      "Une fracture du col du premier métacarpien",
+      "Une fracture de la tête de M1",
+      "Une fracture comminutive à 3 fragments"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 159,
+    "question": "Quel est le déplacement caractéristique du gros fragment diaphysaire dans la fracture de Bennett ?",
+    "options": [
+      "Luxation antérieure",
+      "Luxation (ou subluxation) postéro-externe sous l'action du long abducteur du pouce",
+      "Luxation interne",
+      "Enfoncement axial"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 160,
+    "question": "Après un traumatisme de la main, une saillie osseuse anormale comble la tabatière anatomique. Que suspectez-vous ?",
+    "options": [
+      "Fracture du trapèze",
+      "Fracture du scaphoïde ou luxation/fracture de la base du 1er métacarpien",
+      "Fracture du capitatum",
+      "Fracture du pisiforme"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 161,
+    "question": "Quelle est la séquelle fonctionnelle d'une fracture de Bennett mal réduite ?",
+    "options": [
+      "Atrophie du 1er interosseux",
+      "Cal vicieux articulaire responsable d'une arthrose trapezometacarpienne et limitation de l'abduction du pouce",
+      "Instabilité des autres doigts",
+      "Ankylose du poignet"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 162,
+    "question": "Les os formant la première rangée (rangée proximale) du carpe sont :",
+    "options": [
+      "Scaphoïde, Lunatum (Sémilunaire), Triquetrum (Pyramidal), Pisiforme",
+      "Scaphoïde, Lunatum, Trapèze, Trapézoïde",
+      "Triquetrum, Pisiforme, Trapèze, Capitatum",
+      "Pisiforme, Hamatum, Lunatum, Trapèze"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 163,
+    "question": "Les éléments osseux constituant la colonne externe du poignet et de la main comprennent :",
+    "options": [
+      "Radius, Scaphoïde, Trapèze, Trapézoïde et 1er-2e-3e métacarpiens",
+      "Ulna, Triquetrum, Pisiforme, Hamatum",
+      "Radius, Triquetrum, Pisiforme",
+      "Ulna, Capitatum, Hamatum"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 164,
+    "question": "Quel est le mécanisme classique de la fracture du scaphoïde carpien ?",
+    "options": [
+      "Chute sur le coude",
+      "Chute sur la paume de la main en hyperextension du poignet",
+      "Choc direct sur la tabatière anatomique",
+      "Chute sur le poignet fléchi"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 165,
+    "question": "Dans la luxation rétrolunaire du carpe (ou luxation péricapitato-lunomédiane) :",
+    "options": [
+      "Le lunatum reste en place avec le radius, tandis que le capitatum et le reste du carpe sont luxés en arrière (ou le lunatum bascule en avant dans le canal carpien)",
+      "Le scaphoïde est luxé isolément en arrière",
+      "Le triquetrum est avulsé",
+      "L'ulna est déplacé"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 166,
+    "question": "Quel est le signe pathognomique à la palpation d'une fracture du scaphoïde ?",
+    "options": [
+      "Douleur au petit doigt",
+      "Main en inclinaison ulnaire",
+      "Douleur exquise à la pression au fond de la tabatière anatomique",
+      "Impotence totale du coude"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 167,
+    "question": "En raison de sa vascularisation terminale rétrograde fragile, quelle est la complication évolutive majeure d'une fracture du scaphoïde ?",
+    "options": [
+      "Ostéomyélite",
+      "Pseudarthrose et nécrose avasculaire du pôle supérieur",
+      "Raideur du pouce seule",
+      "Atrophie des interosseux"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 168,
+    "question": "Quel signe neurologique d'urgence doit-on rechercher devant une luxation de la rangée proximale du carpe dans le canal carpien ?",
+    "options": [
+      "Paralysie du nerf radial",
+      "Signe de compression du nerf médian (paresthésies des 3 premiers doigts)",
+      "Paralysie du nerf ulnaire",
+      "Anesthésie du dos de la main"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 169,
+    "question": "Concernant le traitement des fractures du scaphoïde carpien :",
+    "options": [
+      "L'immobilisation est inutile après 3 semaines",
+      "Une nécrose du fragment proximal ou une pseudarthrose avérée relève d'un traitement chirurgical (greffe/vissage)",
+      "Le plâtre ne prend pas le pouce",
+      "Aucun traitement en cas d'arthrose"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 170,
+    "question": "Concernant le traitement orthopédique d'une fracture non déplacée du scaphoïde carpien :",
+    "options": [
+      "Elle peut être traitée efficacement par une immobilisation plâtrée incluant la première phalange du pouce pour 6 à 12 semaines",
+      "Le pouce doit être en adduction serrée",
+      "Le poignet doit être en supination forcée",
+      "La durée du plâtre est de 3 semaines"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 171,
+    "question": "Concernant la prise en charge d'une luxation rétrolunaire récente du carpe :",
+    "options": [
+      "La réduction doit être réalisée en urgence sous anesthésie, suivie d'une immobilisation ou d'un embrochage",
+      "Elle doit être traitée uniquement par des antalgiques",
+      "L'immobilisation dure 5 jours",
+      "L'ablation systématique du lunatum est la règle"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 172,
+    "question": "La grande cavité sigmoïde du coude (incisura trochlearis) est constituée par :",
+    "options": [
+      "La face antérieure de l'olécrane et la face supérieure du processus coronoïde",
+      "L'olécrane et la tête radiale",
+      "La trochlée fémorale",
+      "Le capitulum et la trochlée"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 173,
+    "question": "La luxation vraie du coude correspond anatomiquement à :",
+    "options": [
+      "La luxation radio-ulnaire distale",
+      "La disjonction / luxation huméro-ulnaire (et huméro-radiale)",
+      "La luxation condylo-radiale isolée",
+      "La luxation de l'épaule"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 174,
+    "question": "Lors d'une luxation postérieure classique du coude :",
+    "options": [
+      "L'olécrane passe en avant de l'humérus",
+      "L'olécrane et la tête radiale se déplacent en arrière de la palette humérale",
+      "Le processus coronoïde reste sous la trochlée",
+      "Le cubitus migre en latéral pur"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 175,
+    "question": "L'attitude traumatique classique du membre supérieur (attitude de Desault) lors d'une luxation du coude est :",
+    "options": [
+      "Le membre en abduction soutenue",
+      "Le patient soutient le membre traumatisé fléchi par la main saine",
+      "Le bras complètement ballant",
+      "La main en extension dorsale pure"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 176,
+    "question": "Parmi les signes suivants, lequel fait partie du tableau clinique typique d'une luxation aiguë du coude ?",
+    "options": [
+      "Pas d'œdème",
+      "Pas de douleur",
+      "Déformation majeure avec élargissement antéro-postérieur du coude et impotence fonctionnelle totale",
+      "Pas d'hématome"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 177,
+    "question": "Les 3 points de repère osseux fondamentaux de l'examen clinique du coude sont :",
+    "options": [
+      "L'épicondyle médial (épitrochlée), l'épicondyle latéral et le sommet de l'olécrane",
+      "La tête radiale, la trochlée et l'olécrane",
+      "Le capitulum, le condyle et l'olécrane",
+      "Le styloïde radial et ulnaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 178,
+    "question": "Dans une luxation postérieure du coude, la relation spatiale entre les 3 repères osseux est modifiée de quelle façon ?",
+    "options": [
+      "Ils restent parfaitement alignés en extension",
+      "La ligne droite de Malgaigne (en extension) et le triangle d'Huter (en flexion) sont perturbés : l'olécrane est ascensionné en arrière",
+      "L'épicondyle devient plus bas que l'olécrane",
+      "L'épitrochlée disparaît"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 179,
+    "question": "Parmi les complications tardives d'une luxation du coude mal rééduquée ou négligée, on note :",
+    "options": [
+      "La raideur articulaire sévère ou ankylose et les ostéomes péri-articulaires",
+      "La pseudarthrose diaphysaire",
+      "L'ostéomyélite hématogène",
+      "La laxité bénigne"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 180,
+    "question": "Quel élément permet de faire la différence entre une luxation postérieure du coude et une fracture supracondylienne de l'humérus ?",
+    "options": [
+      "Dans la fracture supracondylienne, les 3 repères du coude (triangle d'Huter) conservent leurs rapports anatomiques normaux, alors qu'ils sont désorganisés dans la luxation",
+      "L'absence de douleur dans la fracture",
+      "L'absence d'œdème dans la luxation",
+      "L'absence d'hématome dans la fracture"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 181,
+    "question": "ក្នុងចំណោម embole ខាងក្រោម តើ embole ប្រភេទមួយណាដែលជាមូលហេតុបណ្តាលអោយកើត embolies artérielles des membres ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Végétations septiques",
+      "Fragments de plaque athéromateuse",
+      "Caillots rouges (thrombus cruorique d'origine cardiaque)",
+      "Fragments de tumeurs cardiaques"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 182,
+    "question": "ក្នុងចំណោមជម្ងឺបេះដូងខាងក្រោម តើជម្ងឺមួយណាដែលជាមូលហេតុបណ្ដាលអោយកើត embolies artérielles des membres ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Fibrillation auriculaire (FA)",
+      "Infarctus du myocarde",
+      "Endocardite infectieuse",
+      "Myxome de l'oreillette"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 183,
+    "question": "នៅក្នុងជម្ងឺ embolies artérielles des membres inférieurs, តើ artère ណាដែលមាន embolies ញឹកញាប់ជាងគេ?",
+    "options": [
+      "Aorte sous-rénale",
+      "Artère iliaque primitive",
+      "Artère fémorale commune (et sa bifurcation)",
+      "Artère poplitée"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 184,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, ក្នុងចំណោមអំណះអំណាងខាងក្រោម តើអំណះអំណាងណាមួយដែលមិនត្រឹមត្រូវ?",
+    "options": [
+      "L'anoxie tissulaire est en fonction de la topographie des embolies",
+      "L'anoxie tissulaire est en fonction de la nature des emboles",
+      "L'anoxie tissulaire est en fonction de la qualité de la perfusion systémique",
+      "L'anoxie tissulaire est en fonction de la qualité de la circulation collatérale"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 185,
+    "question": "Œdème គឺជា conséquence locale de la recirculation brutale sur un membre ischémique នៅក្នុងជំងឺ ischémie aigue du membre inférieur វាបណ្ដាលមកពី",
+    "options": [
+      "Thrombose veineuse profonde",
+      "Altération de la perméabilité de la membrane capillaire (syndrome de revascularisation / hyperperméabilité)",
+      "Insuffisance rénale",
+      "Insuffisance cardiaque"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 186,
+    "question": "ក្នុងចំណោមអំណះអំណាងខាងក្រោម តើអំណះអំណាងណាមួយដែលអ្នកគិតថាវាជា embolies artérielle des membres inférieurs?",
+    "options": [
+      "Douleur spontanée du mollet accompagnée de signes inflammatoires localisés",
+      "Douleur du mollet de type crampe musculaire d'apparition progressive à la marche",
+      "Douleurs très intenses au pied à type de brûlures survenant quelques heures après le décubitus",
+      "La douleur spontanée du mollet de début brutal, intense, à type de broiement avec membre froid et pâle"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 187,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, តើរោគសញ្ញាមួយណាដែលតំរូវអោយគ្រូពេទ្យត្រូវធ្វើ revascularisation urgente ?",
+    "options": [
+      "Collapsus des veines superficielles",
+      "Pied froid et livide",
+      "Douleur à la pression du mollet",
+      "Paralysie sensitivomotrice (déficit moteur et sensitif débutant)"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 188,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë du membre inférieur, តើរោគសញ្ញាមួយណាដែលតំរូវអោយគ្រូពេទ្យត្រូវធ្វើ amputation d'emblée ?",
+    "options": [
+      "Collapsus des veines superficielles",
+      "Pied froid et livide",
+      "Rigidité musculaire invétérée et présence de phlyctènes (nécrose tissulaire fixée)",
+      "Paralysie sensitivomotrice débutante"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 189,
+    "question": "ក្នុងបណ្តារ conséquences générales ខាងក្រោម តើ conséquence ណាមួយដែលអាចបណ្តាលអោយមាន arrêt cardiaque នៅពេលធ្វើ recirculation brutale sur un membre ischémique ?",
+    "options": [
+      "Acidose métabolique",
+      "Hyperkaliémie brutale",
+      "Myoglobinémie",
+      "Infection"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 190,
+    "question": "ក្នុងបណ្តារ conséquences générales ខាងក្រោម តើ conséquence ណាមួយដែលអាចបណ្តាលអោយមាន insuffisance rénale aiguë នៅពេលធ្វើ recirculation du membre ischémique ?",
+    "options": [
+      "Acidose métabolique",
+      "Hyperkaliémie",
+      "Myoglobinémie (rhabdomyolyse et nécrose tubulaire aiguë)",
+      "Infection"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 191,
+    "question": "នៅក្នុងជម្ងឺ ischémie aiguë tronculaire à la phase précoce, ដើម្បីការពារការរាលដាលនៃ thrombus តើអ្នកគួរប្រើ anticoagulant ណាមួយក្នុងចំណោម anticoagulant ខាងក្រោម?",
+    "options": [
+      "Héparine (HNF en bolus IV puis perfusion continue)",
+      "Aspirine",
+      "Plavix (Clopidogrel)",
+      "Antivitamine K (AVK)"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
