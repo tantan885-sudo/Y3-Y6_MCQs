@@ -122,14 +122,13 @@ button,a{touch-action:manipulation}
 
 <script>
 const DATA_URL='https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_med_dr1.json';
-// Keep each test's cache, progress, and bookmarks separate.
+const CACHE_KEY='mcq_questions_cache',STORAGE_KEY='mcq_learned_questions';
+// Give each quiz a unique ID; change this if another quiz uses the same data URL.
 const TEST_ID='y4_s1_path_med_dr1';
-const CACHE_KEY='mcq_questions_cache:'+TEST_ID;
-const STORAGE_KEY='mcq_learned_questions:'+TEST_ID;
 const BOOKMARKS_KEY='mcq_bookmarked_questions_v3:'+TEST_ID;
 const KEYS='ABCDEFGH';
 let myQuestions=[],currentQueue=[],wrongQuestionsInSession=[],shown=[];
-let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0;
+let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0,answeredQuestion=null,popupTimer=null;
 const $=id=>document.getElementById(id);
 
 function store(k,v){try{v===null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
@@ -281,7 +280,7 @@ function startBookmarkSession(){
 
 function renderCard(){
   if(!currentQueue.length){endSession();return}
-  isAnswering=false;
+  isAnswering=false;answeredQuestion=null;
   $('next-btn').classList.add('hidden');
   $('bookmark-btn').classList.add('hidden');
   $('feedback-container').textContent='';
@@ -309,6 +308,7 @@ function selectAnswer(i,btn){
   if(isAnswering)return;
   isAnswering=true;
   const q=currentQueue[0],btns=document.querySelectorAll('.option-btn');
+  answeredQuestion=q;
   const ok=shown[i].originalIndex===q.correctAnswerIndex;
   btns.forEach(b=>b.disabled=true);
   const fb=$('feedback-container');
@@ -348,8 +348,8 @@ function updateBookmarkButton(q){
 }
 
 function toggleBookmark(){
-  if(!isAnswering||!currentQueue.length)return;
-  const q=currentQueue[0],key=bookmarkKey(q);
+  if(!isAnswering||!answeredQuestion)return;
+  const q=answeredQuestion,key=bookmarkKey(q);
   let saved=getBookmarks();
   if(saved.some(b=>b.key===key))saved=saved.filter(b=>b.key!==key);
   else saved.push({key,source:TEST_ID,case:q.case||null,question:q.question,options:q.options,correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''});
@@ -382,14 +382,21 @@ document.addEventListener('keydown',e=>{
     let i=/^[1-9]$/.test(k)?+k-1:KEYS.indexOf(k);
     const btns=document.querySelectorAll('.option-btn');
     if(k.length===1&&i>=0&&btns[i])btns[i].click();
-  }else if(e.key==='Enter'||e.key===' '){e.preventDefault();nextCard()}
+  }else if(e.key==='Enter'||e.code==='Space'){
+    e.preventDefault();
+    if(!$('next-btn').classList.contains('hidden'))nextCard();
+  }
 });
 
 /* Donate pop-up: only on menu/result screens, never mid-question, max 3 times */
 function tryPopup(){
   if(popupCount>=3)return;
-  if($('flashcard-view').classList.contains('hidden')){$('donatePopup').classList.add('active');popupCount++}
-  else setTimeout(tryPopup,10000);
+  if($('flashcard-view').classList.contains('hidden')){
+    $('donatePopup').classList.add('active');popupCount++;
+    if(popupTimer){clearTimeout(popupTimer);popupTimer=null}
+  }else if(!popupTimer){
+    popupTimer=setTimeout(()=>{popupTimer=null;tryPopup()},10000);
+  }
 }
 function showSupportImage(){
   $('support-btn').classList.add('hidden');
