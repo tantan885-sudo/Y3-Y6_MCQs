@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "question": "Donnez une définition de syndrome de compression médullaire lente ? Quel est la phrase la plus vraie :",
+    "options": [
+      "C'est le syndrome neurologique causé par la compression lente de la moelle épinière ou de ses racines",
+      "C'est le syndrome neurologique causé par la compression lente de la moelle",
+      "C'est le syndrome neurologique causé par la compression lente de nerf rachidien",
+      "C'est le syndrome neurologique causé par la compression lente du canal médullaire",
+      "C'est le syndrome neurologique causé par la compression lente de foramen neural"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "La notion de compression lente est variable, choisir la réponse la plus vraie :",
+    "options": [
+      "L'évolution de la compression peut durer quelques semaines, mois et années",
+      "L'évolution de la compression peut durer quelques jours et une semaine",
+      "L'évolution de la compression peut durer quelques jours",
+      "L'évolution de la compression peut durer quelques heures"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Le plus souvent il s'agit de douleur sur le trajet d'une racine caractérisée fixe et vive, à recrudescence nocturne et impulsive à l'effort et s'associe avec des signes subjectifs à type de paresthésies dans le même territoire radiculaire et abolition de réflexe ostéo-articulaire. Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel",
+      "Syndrome de la queue de cheval"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "Il est traduit par l'atteinte des fibres médullaires longues et ne se manifeste qu'au-dessous du niveau lésionnel. Ce syndrome va intéresser à des degrés divers la motricité, la sensibilité et la fonction sphinctérienne. Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel",
+      "Syndrome de la queue de cheval"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "La manifestation clinique au début par des troubles de la marche à type de claudication neurogène indolore obligeant le patient à l'arrêt après un certain périmètre de marche qui devient de plus en plus court et il fait suite par une paraparésie puis la paraplégie spasmodique. Quel est l'atteinte fonctionnelle la plus probable :",
+    "options": [
+      "Atteinte de la fonction motrice",
+      "Atteinte de la fonction sensitive",
+      "Atteinte de la fonction sphinctérienne",
+      "Atteinte de la fonction réflexe",
+      "Atteinte de la fonction musculaire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Devant l'atteinte de trouble thermique donne une hypo ou anesthésie au-dessous de la lésion et dont la limite supérieure oriente vers le niveau lésionnel. Quelle est la sensibilité qui est atteinte ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Atteinte de la sensibilité proprioceptive",
+      "Atteinte de la sensibilité profonde",
+      "Atteinte de la sensibilité superficielle",
+      "Atteinte du cône postérieur"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Devant la manifestation de l'instabilité avec tendance à la chute dans le noir ou les yeux fermés. Quelle est la sensibilité qui est atteinte ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Atteinte de la sensibilité proprioceptive",
+      "Atteinte de la sensibilité profonde",
+      "Atteinte de la sensibilité superficielle",
+      "Atteinte de la corne postérieure"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Devant la douleur rachidienne de type inflammatoire est diurne et nocturne, peu calmée par les antalgiques, elle précède de plusieurs jours ou plusieurs semaines les signes neurologiques. À l'examen, on peut déclencher une douleur segmentaire à la palpation et à la percussion (signe de la Sonnette). Quel est le syndrome le plus probable :",
+    "options": [
+      "Syndrome lésionnel",
+      "Syndrome sous-lésionnel",
+      "Syndrome rachidien",
+      "Syndrome sus-lésionnel"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Quel est le moyen le plus important pour faire le diagnostic de syndrome de compression médullaire lente ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Examen clinique neurologique",
+      "Examen sanguin",
+      "Examen du liquide céphalo-rachidien",
+      "Examen radiologique",
+      "Examen anatomopathologique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Quelles sont les causes intradurales-extramédullaires dans le syndrome de compression médullaire lente ?",
+    "options": [
+      "Mal de Pott",
+      "Schwannome",
+      "Syringomyélie",
+      "Hernie discale",
+      "Épendymome"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, face postéro-externe de cuisse et jambe, en avant de la malléole externe, dos du pied, le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, irradie vers la face antérieure de cuisse et à la crête tibiale, le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Un homme de 34 ans présentant une douleur lombo-sciatique droite caractérisée vive, impulsive, recrudescente au cours de l'effort et calmée par le repos, le trajet de la douleur vers la fesse, face postérieure de cuisse, mollet, talon, plante du pied (bord externe), le signe de Lasègue est positif. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Canal lombaire étroit"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "Un homme de 34 ans avec un antécédent de lumbago chronique depuis 1 an présentant un déficit sensitivo-moteur bilatéral avec anesthésie en selle, paraplégie flasque, incontinence urinaire ou fécale, impuissance et abolition des Réflexes Ostéo-Tendineux et Cutané-Plantaire en flexion. Quel est le diagnostic le plus probable ?",
+    "options": [
+      "Hernie discale de niveau L2-L3 droit",
+      "Hernie discale de niveau L3-L4 droit",
+      "Hernie discale de niveau L4-L5 droit",
+      "Hernie discale de niveau L5-S1 droit",
+      "Syndrome de la Queue de cheval"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "id": 15,
+    "question": "Donnez une définition de l'hernie discale ? Quel est la phrase la plus vraie :",
+    "options": [
+      "Une hernie discale est la rupture de l'enveloppe fibreuse d'un disque intervertébral, qui provoque le glissement du noyau pulpeux vers l'extérieur",
+      "Une hernie discale est la rupture du ligament vertébral commun antérieur, qui provoque la rupture de l'enveloppe fibreuse",
+      "Une hernie discale est la rupture du ligament vertébral commun postérieur, qui provoque la rupture de l'enveloppe fibreuse",
+      "Une hernie discale est la rupture du ligament vertébral commun antérieur et luxation facettaire bilatérale"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Expliquez le terme « Dégénérescence discale ». Quel est la phrase la plus vraie :",
+    "options": [
+      "La structure discale est déshydratée",
+      "La structure discale est hyper-hydratée",
+      "La structure discale est contuse",
+      "La structure discale est œdématiée",
+      "La structure discale est dure"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Quel est le moyen le plus important pour faire le diagnostic de hernie discale ? Choisir la réponse la plus vraie :",
+    "options": [
+      "Examen clinique",
+      "Examen sanguin",
+      "Examen du liquide céphalo-rachidien",
+      "Examen radiologique",
+      "Examen anatomopathologique"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Le tableau clinique de l'hernie discale cervicale. Choisir la réponse la plus vraie dans les phrases suivantes :",
+    "options": [
+      "Douleur scapulo-vertébrale, irradiation vers le membre supérieur et aggravation au décubitus",
+      "Douleur scapulo-vertébrale ou pectorale, irradiation vers le membre supérieur et soulagée au décubitus",
+      "Douleur scapulo-pectorale, irradiation vers le membre supérieur gauche et mâchoire",
+      "Douleur scapulo-vertébrale ou pectorale, sans irradiation",
+      "Douleur de la nuque avec fièvre, irradiation vers la partie postérieure de la tête"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Expliquez le terme « Myélopathie » dans l'hernie discale cervicale. Quel est la réponse la plus vraie :",
+    "options": [
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale",
+      "C'est un trouble neurologique causé par la compression de la racine cervicale",
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale et de ses racines",
+      "C'est un syndrome douloureux causé par le phénomène inflammatoire"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Expliquez le terme « Radiculopathie » dans l'hernie discale cervicale. Quel est la réponse la plus vraie :",
+    "options": [
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale",
+      "C'est un trouble neurologique causé par la compression de la racine cervicale",
+      "C'est un trouble neurologique causé par la compression de la moelle cervicale et de ses racines",
+      "C'est un syndrome douloureux causé par le phénomène inflammatoire"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 21,
+    "question": "Fracture de Jefferson :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 et entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture du corps de l'apophyse odontoïde"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "Fracture de Hangman :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture de l'apophyse odontoïde"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Fracture de l'odontoïde :",
+    "options": [
+      "C'est la fracture de l'arc antérieur de C1 et rupture du ligament transverse",
+      "C'est la fracture de l'arc antérieur et arc postérieur de C1 entraîne une ouverture du canal",
+      "C'est la fracture bi-isthmique de C2",
+      "C'est la fracture qui sépare l’apophyse odontoïde du corps de C2"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 24,
+    "question": "Hernie discale cervicale post-traumatique :",
+    "options": [
+      "Secondaire à des étirements ligamentaires et hyperpression sur le disque par flexion-compression et provoque la rupture discale",
+      "Secondaire à des étirements ligamentaires épineux et luxation unilatérale de l'articulation postérieure",
+      "Secondaire à un phénomène de dessiccation de l'anneau fibreux",
+      "Secondaire à un étirement ligamentaire transversal"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "Contusion médullaire :",
+    "options": [
+      "C'est des lésions microscopiques, présence de foyers de nécrose et d'hémorragie mal limitée avec œdème superficiel mineur",
+      "C'est des lésions macroscopiques, présence de foyers de nécrose et d'hémorragie plus ou moins étendue",
+      "C'est des lésions macroscopiques, présence d'un hématome épidural étendu",
+      "C'est des lésions macroscopiques, présence d'une transection de la moelle épinière"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Comment est la lésion médullaire haute ?",
+    "options": [
+      "Lésion traumatique atteignant jusqu'à C4",
+      "Lésion traumatique atteignant jusqu'à C2",
+      "Lésion traumatique atteignant de C4 à C7",
+      "Lésion traumatique atteignant de C3 à C7"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
