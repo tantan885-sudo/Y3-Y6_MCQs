@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCQ Flashcards - រៀន និងប្រឡង</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{font-family:'Kantumruy Pro','Inter',sans-serif;background:#f0f9ff;-webkit-tap-highlight-color:transparent}
+button,a{touch-action:manipulation}
+.flashcard-enter{animation:fadeIn .32s cubic-bezier(.2,.7,.3,1) both}
+.view-enter{animation:viewFade .28s ease-out both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes viewFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.correct-answer{background:#10b981!important;color:#fff!important;border-color:#10b981!important}
+.correct-answer span{color:#fff!important}
+.wrong-answer{background:#ef4444!important;color:#fff!important;border-color:#ef4444!important}
+.wrong-answer span{color:#fff!important}
+.option-btn:disabled{cursor:not-allowed}
+.popup-overlay{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(4px);display:flex;justify-content:center;align-items:center;padding:16px;overflow-y:auto;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s;z-index:9999}
+.popup-overlay.active{opacity:1;visibility:visible}
+.popup-card{background:#fff;padding:28px;border-radius:20px;box-shadow:0 20px 25px -5px rgba(0,0,0,.1);text-align:center;max-width:400px;width:100%;max-height:calc(100dvh - 32px);overflow-y:auto;position:relative;transform:translateY(-60px);transition:transform .35s cubic-bezier(.34,1.56,.64,1);border:1px solid #e0f2fe}
+#support-image{max-height:calc(100dvh - 220px);object-fit:contain}
+.popup-overlay.active .popup-card{transform:none}
+.close-btn{position:absolute;top:14px;right:16px;background:#f0f9ff;border:none;width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer;color:#0369a1;display:flex;align-items:center;justify-content:center}
+.close-btn:hover{background:#e0f2fe}
+.custom-scrollbar::-webkit-scrollbar{width:5px}
+.custom-scrollbar::-webkit-scrollbar-track{background:#f0f9ff;border-radius:8px}
+.custom-scrollbar::-webkit-scrollbar-thumb{background:#bae6fd;border-radius:8px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body class="min-h-[100dvh] flex flex-col items-center text-slate-800 p-0 sm:pt-4">
+<main id="app" class="w-full max-w-lg bg-white rounded-none sm:rounded-3xl shadow-xl shadow-sky-100 border-0 sm:border border-sky-100 overflow-hidden p-4 sm:p-7 flex flex-col h-[100dvh] sm:h-[92vh] sm:max-h-[820px]">
+
+<div id="menu-view" class="flex flex-col h-full overflow-y-auto custom-scrollbar">
+<div>
+<div class="text-center pt-1 pb-3">
+<div class="inline-block p-1 bg-sky-50 rounded-2xl mb-2">
+<img id="logo" src="https://i.pinimg.com/originals/4d/df/35/4ddf35591d540c71ef2a25a038be9486.jpg" alt="Logo" class="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded-2xl shadow-sm">
+</div>
+<h1 class="text-2xl sm:text-3xl font-bold text-sky-900 tracking-tight">MCQ Flashcards</h1>
+<p class="text-sky-600 text-sm mt-1">រៀន និងសាកល្បងចំណេះដឹងរបស់អ្នក</p>
+</div>
+<div class="bg-sky-50/60 p-4 rounded-2xl border border-sky-100 mb-5 text-sm">
+<p class="font-semibold text-sky-900 mb-2">📊 ស្ថានភាពបច្ចុប្បន្ន</p>
+<div class="space-y-1.5 text-sky-800">
+<div class="flex justify-between"><span>សំណួរសរុប៖</span><span id="total-available" class="font-bold text-sky-950">0</span></div>
+<div class="flex justify-between"><span>បានរៀនរួច (Learned)៖</span><span id="learned-count" class="font-bold text-emerald-600">0</span></div>
+<div class="flex justify-between"><span>មិនទាន់រៀន (Unlearned)៖</span><span id="unlearned-count" class="font-bold text-sky-600">0</span></div>
+</div>
+<p id="load-status" class="mt-2 text-xs text-sky-500" aria-live="polite">កំពុងទាញយកសំណួរ...</p>
+<button id="retry-btn" onclick="loadQuestions()" class="hidden mt-1 w-full text-center text-sky-700 text-xs font-semibold py-1">🔁 ព្យាយាមម្តងទៀត (Retry)</button>
+<button onclick="resetProgress()" class="mt-2 w-full text-center text-red-500 hover:text-red-600 text-xs font-medium transition py-1">🔄 កំណត់ប្រវត្តិឡើងវិញ (Reset Progress)</button>
+</div>
+<div class="mb-5">
+<label for="card-limit" class="block text-sky-900 text-sm font-semibold mb-2">ចំនួនកាតដែលអ្នកចង់រៀន (Cards)</label>
+<input type="number" id="card-limit" min="1" inputmode="numeric" class="w-full text-center border border-sky-200 rounded-xl p-3 text-lg font-semibold text-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-400 transition bg-sky-50/30" value="10">
+</div>
+</div>
+<div class="space-y-3 pb-2 mt-auto">
+<button id="start-btn" onclick="startSession('learn')" disabled class="w-full bg-sky-500 hover:bg-sky-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-sky-500/20">📚 ចាប់ផ្តើមរៀនបន្ត (Learn)</button>
+<button id="bookmarks-start-btn" onclick="startBookmarkSession()" disabled class="w-full bg-amber-500 hover:bg-amber-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-amber-500/20">🔖 មើលសំណួរដែលបាន Bookmark (<span id="bookmarks-count">0</span>)</button>
+</div>
+</div>
+
+<div id="flashcard-view" class="hidden flex-col h-full overflow-hidden">
+<div class="flex-shrink-0 mb-4">
+<div class="flex justify-between items-center mb-2">
+<span id="mode-badge" class="px-3 py-1 bg-sky-100 text-sky-700 border border-sky-200 rounded-full text-xs font-semibold">រៀន</span>
+<span class="text-xs font-semibold text-sky-400">នៅសល់: <span id="cards-left" class="text-sky-800">0</span></span>
+</div>
+<div class="w-full bg-sky-100 h-2 rounded-full overflow-hidden"><div id="progress-bar" class="bg-sky-500 h-full w-0 transition-all duration-300"></div></div>
+</div>
+<div id="card-container" class="flashcard-enter flex-1 overflow-y-auto custom-scrollbar pr-1">
+<div id="case-container" class="hidden mb-4 p-3.5 bg-sky-50 border border-sky-200 rounded-xl text-xs sm:text-sm text-sky-900 leading-relaxed font-medium">
+<span class="font-bold block mb-1 text-sky-700">📌 Case Context:</span><p id="case-text"></p>
+</div>
+<h2 id="question-text" class="text-base sm:text-lg font-semibold text-sky-950 mb-5 leading-relaxed"></h2>
+<div id="options-container" class="space-y-2.5"></div>
+<div id="explanation-container" class="hidden mt-4 p-3.5 bg-emerald-50 border border-emerald-200 rounded-xl text-xs sm:text-sm text-emerald-900 leading-relaxed">
+<span class="font-bold block mb-0.5 text-emerald-700">💡 Explanation:</span><p id="explanation-text"></p>
+</div>
+</div>
+<div id="feedback-container" class="mt-3 text-center min-h-[1.5rem] flex-shrink-0 text-sm font-semibold" aria-live="polite"></div>
+<button id="bookmark-btn" onclick="toggleBookmark()" aria-pressed="false" class="hidden w-full mt-3 bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 font-semibold py-3 px-4 rounded-xl transition flex-shrink-0">☆ រក្សាទុកសំណួរនេះ (Bookmark)</button>
+<button id="next-btn" onclick="nextCard()" class="hidden w-full mt-3 bg-sky-800 hover:bg-sky-900 text-white font-semibold py-3 px-4 rounded-xl transition shadow-md flex-shrink-0">បន្តទៅមុខទៀត ➡️</button>
+</div>
+
+<div id="result-view" class="hidden flex-col h-full overflow-y-auto custom-scrollbar justify-between text-center py-4">
+<div class="my-auto">
+<div class="text-5xl mb-3">🎉</div>
+<h2 class="text-2xl sm:text-3xl font-bold text-sky-900 mb-1">អបអរសាទរ!</h2>
+<p class="text-sky-600 text-sm mb-6">អ្នកបានបញ្ចប់ការ<span id="result-mode" class="font-semibold text-sky-700">រៀន</span>រួចរាល់ហើយ</p>
+<div id="score-container" class="mb-6 hidden bg-sky-50/70 p-6 rounded-2xl border border-sky-100 w-full">
+<div class="text-5xl font-extrabold text-sky-600 mb-1"><span id="score-correct">0</span> / <span id="score-total">0</span></div>
+<p class="text-sky-500 text-xs font-medium">ពិន្ទុដែលអ្នកឆ្លើយត្រូវលើកដំបូង</p>
+</div>
+</div>
+<div class="space-y-3">
+<button id="review-btn" onclick="startReviewSession()" class="hidden w-full bg-amber-500 hover:bg-amber-600 text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-amber-500/20">🔁 រំលឹកសំណួរដែលឆ្លើយខុស (<span id="wrong-count">0</span>)</button>
+<button onclick="showMenu()" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-sky-500/20">ត្រឡប់ទៅម៉ឺនុយដើម</button>
+</div>
+</div>
+</main>
+<footer class="py-3 text-center text-xs text-sky-700">Copyright © <span id="current-year"></span> LemmaLap</footer>
+
+<div class="popup-overlay" id="donatePopup" onclick="if(event.target===this)closePopup()">
+<div class="popup-card" role="dialog" aria-modal="true">
+<button class="close-btn" onclick="closePopup()" aria-label="Close">&times;</button>
+<div class="text-3xl mb-2">❤️</div>
+<h3 class="text-xl font-bold text-sky-900 mb-2">ជួយគាំទ្របេសកកម្មរបស់យើង</h3>
+<p class="text-sky-700 text-xs sm:text-sm leading-relaxed mb-6">ការបរិច្ចាគថវិការបស់អ្នក ពិតជាមានតម្លៃណាស់ក្នុងការជួយឱ្យយើងបន្តផ្តល់ជូននូវខ្លឹមសារ និងសេវាកម្មល្អៗជាច្រើនទៀត។</p>
+<button id="support-btn" onclick="showSupportImage()" class="block w-full bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-xl transition shadow-md text-sm">Support Us</button>
+<img id="support-image" src="https://raw.githubusercontent.com/tantan885-sudo/LemmaLap/refs/heads/main/1000034665.jpg" alt="Support information" class="hidden mt-4 w-full rounded-xl">
+</div>
+</div>
+
+<script>
+const DATA_URL='https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_chir_dr8.json';
+// Scope saved data to both this page and its question source.
+const STORAGE_SCOPE=location.pathname+'|'+DATA_URL;
+const CACHE_KEY='mcq_questions_cache:'+STORAGE_SCOPE;
+const STORAGE_KEY='mcq_learned_questions:'+STORAGE_SCOPE;
+const TEST_ID=STORAGE_SCOPE;
+const BOOKMARKS_KEY='mcq_bookmarked_questions_v3:'+TEST_ID;
+const KEYS='ABCDEFGH';
+let myQuestions=[],currentQueue=[],wrongQuestionsInSession=[],shown=[];
+let currentMode='learn',initialCardCount=0,score=0,isAnswering=false,popupCount=0,answeredQuestion=null,popupTimer=null;
+const $=id=>document.getElementById(id);
+
+function store(k,v){try{v===null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
+function read(k){try{return localStorage.getItem(k)}catch(e){return null}}
+
+function normalize(raw){
+  if(!Array.isArray(raw))return [];
+  return raw.map((q,i)=>({
+    id:q.id??i,case:q.case||null,question:q.question,options:q.options,
+    correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''
+  })).filter(q=>q.question&&Array.isArray(q.options)&&q.options.length>1&&q.options[q.correctAnswerIndex]!==undefined);
+}
+
+function bookmarkKey(q){
+  return JSON.stringify([TEST_ID,q.case||'',q.question,q.options]);
+}
+
+function getBookmarks(){
+  try{
+    const saved=JSON.parse(read(BOOKMARKS_KEY));
+    return Array.isArray(saved)?saved.filter(b=>b&&b.source===TEST_ID&&b.question&&Array.isArray(b.options)):[];
+  }catch(e){return []}
+}
+function isBookmarked(q){return getBookmarks().some(b=>b.key===bookmarkKey(q))}
+function updateBookmarkStats(){
+  const count=getBookmarks().length;
+  $('bookmarks-count').textContent=count;
+  $('bookmarks-start-btn').disabled=count===0;
+}
+
+async function loadQuestions(){
+  const status=$('load-status'),retry=$('retry-btn');
+  status.className='mt-2 text-xs text-sky-500';status.textContent='កំពុងទាញយកសំណួរ...';retry.classList.add('hidden');
+  const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),12000);
+  try{
+    const res=await fetch(DATA_URL,{cache:'no-cache',signal:ctl.signal});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const raw=await res.json();
+    myQuestions=normalize(raw);
+    if(!myQuestions.length)throw new Error('empty');
+    store(CACHE_KEY,JSON.stringify(raw));
+    status.textContent='';
+  }catch(err){
+    console.error(err);
+    let cached=[];
+    try{cached=normalize(JSON.parse(read(CACHE_KEY)))}catch(e){}
+    if(cached.length){
+      myQuestions=cached;
+      status.textContent='📴 កំពុងប្រើសំណួរដែលបានរក្សាទុក (គ្មានអ៊ីនធឺណិត)';
+    }else{
+      status.className='mt-2 text-xs text-red-500';
+      status.textContent='⚠️ មិនអាចទាញយកសំណួរបានទេ សូមពិនិត្យអ៊ីនធឺណិត។';
+      retry.classList.remove('hidden');
+    }
+  }finally{clearTimeout(timer)}
+  $('start-btn').disabled=!myQuestions.length;
+  updateStats();
+}
+
+function getLearnedIds(){
+  try{const a=JSON.parse(read(STORAGE_KEY));return Array.isArray(a)?a:[]}catch(e){return []}
+}
+function saveLearnedId(id){
+  const ids=getLearnedIds();
+  if(!ids.includes(id)){ids.push(id);store(STORAGE_KEY,JSON.stringify(ids))}
+}
+function resetProgress(){
+  if(confirm('តើអ្នកពិតជាចង់លុបប្រវត្តិរៀនរបស់អ្នក និងចាប់ផ្តើមពីសំណួរទី១វិញមែនទេ?')){
+    store(STORAGE_KEY,null);updateStats();
+  }
+}
+function updateStats(){
+  const valid=new Set(myQuestions.map(q=>q.id));
+  const learned=getLearnedIds().filter(id=>valid.has(id)).length;
+  $('total-available').textContent=myQuestions.length;
+  $('learned-count').textContent=learned;
+  $('unlearned-count').textContent=Math.max(0,myQuestions.length-learned);
+  updateBookmarkStats();
+  const st=$('load-status');
+  if(myQuestions.length&&learned>=myQuestions.length){
+    st.className='mt-2 text-xs text-emerald-600 font-medium';
+    st.textContent='🎉 អ្នកបានរៀនអស់សំណួរទាំងអស់ហើយ!';
+  }else if(st.textContent.startsWith('🎉')){st.textContent=''}
+}
+
+function shuffle(a){
+  const r=[...a];
+  for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]]}
+  return r;
+}
+
+function showView(id){
+  ['menu-view','flashcard-view','result-view'].forEach(v=>{
+    const el=$(v);el.classList.add('hidden');el.classList.remove('flex','view-enter');
+  });
+  const t=$(id);t.classList.remove('hidden');
+  if(id!=='menu-view')t.classList.add('flex');
+  void t.offsetWidth;
+  t.classList.add('view-enter');
+  if(id==='menu-view')updateStats();
+}
+function showMenu(){showView('menu-view')}
+
+function startSession(mode){
+  if(!myQuestions.length){alert('មិនទាន់មានសំណួរទេ។ សូមរង់ចាំការទាញយក ឬព្យាយាមម្តងទៀត។');return}
+  currentMode=mode;
+  let limit=parseInt($('card-limit').value,10);
+  if(isNaN(limit)||limit<1)limit=1;
+  $('card-limit').value=Math.min(limit,myQuestions.length);
+  let pool;
+  if(mode==='learn'){
+    const ids=getLearnedIds();
+    let left=myQuestions.filter(q=>!ids.includes(q.id));
+    if(!left.length){
+      if(!confirm('អ្នកបានរៀនអស់សំណួរហើយ។ ចង់កំណត់ប្រវត្តិឡើងវិញ ហើយរៀនម្តងទៀតទេ?'))return;
+      store(STORAGE_KEY,null);updateStats();left=[...myQuestions];
+    }
+    pool=shuffle(left).slice(0,limit);
+  }else pool=shuffle(myQuestions).slice(0,limit);
+  initQueue(pool);
+}
+
+function initQueue(arr){
+  currentQueue=arr.map(q=>({...q,isFirstTry:true}));
+  wrongQuestionsInSession=[];initialCardCount=currentQueue.length;score=0;
+  const b=$('mode-badge');
+  const cfg={
+    learn:['រៀន (Learn)','bg-sky-100 text-sky-700 border-sky-200'],
+    review:['រំលឹកសំណួរខុស (Review)','bg-amber-100 text-amber-800 border-amber-200'],
+    test:['ប្រឡង (Test)','bg-sky-200 text-sky-900 border-sky-300'],
+    bookmarks:['Bookmark','bg-amber-100 text-amber-800 border-amber-200']
+  }[currentMode];
+  b.textContent=cfg[0];
+  b.className='px-3 py-1 border rounded-full text-xs font-semibold '+cfg[1];
+  showView('flashcard-view');renderCard();
+}
+
+function startReviewSession(){
+  if(!wrongQuestionsInSession.length)return;
+  currentMode='review';initQueue([...wrongQuestionsInSession]);
+}
+
+function startBookmarkSession(){
+  const saved=getBookmarks();
+  if(!saved.length)return;
+  currentMode='bookmarks';
+  initQueue(saved.map(b=>({...b,bookmarkKey:b.key,isFirstTry:true})));
+}
+
+function renderCard(){
+  if(!currentQueue.length){endSession();return}
+  isAnswering=false;answeredQuestion=null;
+  $('next-btn').classList.add('hidden');
+  $('bookmark-btn').classList.add('hidden');
+  $('feedback-container').textContent='';
+  $('explanation-container').classList.add('hidden');
+  $('cards-left').textContent=currentQueue.length;
+  $('progress-bar').style.width=((initialCardCount-currentQueue.length)/initialCardCount*100)+'%';
+  const cc=$('card-container');
+  cc.scrollTop=0;cc.classList.remove('flashcard-enter');void cc.offsetWidth;cc.classList.add('flashcard-enter');
+  const q=currentQueue[0];
+  const cb=$('case-container');
+  if(q.case){$('case-text').textContent=q.case;cb.classList.remove('hidden')}else cb.classList.add('hidden');
+  $('question-text').textContent=q.question;
+  const box=$('options-container');box.innerHTML='';
+  shown=shuffle(q.options.map((t,i)=>({text:t,originalIndex:i})));
+  shown.forEach((o,i)=>{
+    const btn=document.createElement('button');
+    btn.className='option-btn w-full text-left p-3.5 border border-sky-100 rounded-xl hover:bg-sky-50 hover:border-sky-300 transition duration-150 text-sky-900 text-sm shadow-sm flex items-start gap-2.5 bg-white';
+    const k=document.createElement('span');k.className='font-bold text-sky-400 min-w-[18px]';k.textContent=(KEYS[i]||i+1)+'.';
+    const t=document.createElement('span');t.textContent=o.text;
+    btn.append(k,t);btn.onclick=()=>selectAnswer(i,btn);box.appendChild(btn);
+  });
+}
+
+function selectAnswer(i,btn){
+  if(isAnswering)return;
+  isAnswering=true;
+  const q=currentQueue[0],btns=document.querySelectorAll('.option-btn');
+  answeredQuestion=q;
+  const ok=shown[i].originalIndex===q.correctAnswerIndex;
+  btns.forEach(b=>b.disabled=true);
+  const fb=$('feedback-container');
+  if(q.explanation){$('explanation-text').textContent=q.explanation;$('explanation-container').classList.remove('hidden')}
+  currentQueue.shift();
+  if(ok){
+    btn.classList.add('correct-answer');
+    fb.innerHTML='<span class="text-emerald-600 font-medium">✅ ត្រឹមត្រូវ!</span>';
+    if(q.isFirstTry)score++;
+    if(currentMode==='learn')saveLearnedId(q.id);
+  }else{
+    btn.classList.add('wrong-answer');
+    const ci=shown.findIndex(o=>o.originalIndex===q.correctAnswerIndex);
+    if(btns[ci])btns[ci].classList.add('correct-answer');
+    fb.innerHTML='<span class="text-red-500 font-medium">❌ ខុសហើយ! សំណួរនេះនឹងលោតមកម្តងទៀតដោយចៃដន្យ។</span>';
+    if(q.isFirstTry&&!wrongQuestionsInSession.some(w=>w.id===q.id)){
+      const orig=myQuestions.find(m=>m.id===q.id);
+      if(orig)wrongQuestionsInSession.push(orig);
+    }
+    q.isFirstTry=false;
+    const pos=currentQueue.length?1+Math.floor(Math.random()*currentQueue.length):0;
+    currentQueue.splice(pos,0,q);
+  }
+  const mark=$('bookmark-btn');
+  mark.classList.remove('hidden');
+  updateBookmarkButton(q);
+  $('next-btn').classList.remove('hidden');
+  const ex=$('explanation-container');
+  setTimeout(()=>(q.explanation?ex:$('next-btn')).scrollIntoView({behavior:'smooth',block:'nearest'}),60);
+}
+
+function updateBookmarkButton(q){
+  const btn=$('bookmark-btn'),saved=isBookmarked(q);
+  btn.setAttribute('aria-pressed',String(saved));
+  btn.textContent=saved?'🔖 បានរក្សាទុកហើយ (ចុចដើម្បីដកចេញ)':'☆ រក្សាទុកសំណួរនេះ (Bookmark)';
+  btn.className='w-full mt-3 font-semibold py-3 px-4 rounded-xl transition flex-shrink-0 '+(saved?'bg-amber-500 hover:bg-amber-600 text-white':'bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200');
+}
+
+function toggleBookmark(){
+  if(!isAnswering||!answeredQuestion)return;
+  const q=answeredQuestion,key=bookmarkKey(q);
+  let saved=getBookmarks();
+  if(saved.some(b=>b.key===key))saved=saved.filter(b=>b.key!==key);
+  else saved.push({key,source:TEST_ID,case:q.case||null,question:q.question,options:q.options,correctAnswerIndex:q.correctAnswerIndex,explanation:q.explanation||''});
+  store(BOOKMARKS_KEY,JSON.stringify(saved));
+  updateBookmarkButton(q);updateBookmarkStats();
+}
+
+function nextCard(){renderCard()}
+
+function endSession(){
+  showView('result-view');
+  $('result-mode').textContent={learn:'រៀន',test:'ប្រឡង',review:'រំលឹកសំណួរខុស',bookmarks:'សំណួរដែលបាន Bookmark'}[currentMode];
+  const sc=$('score-container');
+  if(currentMode!=='learn'){
+    sc.classList.remove('hidden');$('score-correct').textContent=score;$('score-total').textContent=initialCardCount;
+  }else sc.classList.add('hidden');
+  const rb=$('review-btn');
+  if(wrongQuestionsInSession.length){rb.classList.remove('hidden');$('wrong-count').textContent=wrongQuestionsInSession.length}
+  else rb.classList.add('hidden');
+}
+
+/* Keyboard: A-D or 1-9 to answer, Enter/Space for next, Esc to close pop-up */
+document.addEventListener('keydown',e=>{
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='u'){e.preventDefault();e.stopPropagation();return}
+  if(e.key==='Escape'){closePopup();return}
+  if(e.ctrlKey||e.metaKey||e.altKey||$('donatePopup').classList.contains('active'))return;
+  if(/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)||$('flashcard-view').classList.contains('hidden'))return;
+  if(!isAnswering){
+    const k=e.key.toUpperCase();
+    let i=/^[1-9]$/.test(k)?+k-1:KEYS.indexOf(k);
+    const btns=document.querySelectorAll('.option-btn');
+    if(k.length===1&&i>=0&&btns[i])btns[i].click();
+  }else if(e.key==='Enter'||e.code==='Space'){
+    e.preventDefault();
+    if(!$('next-btn').classList.contains('hidden'))nextCard();
+  }
+});
+
+/* Donate pop-up: only on menu/result screens, never mid-question, max 3 times */
+function tryPopup(){
+  if(popupCount>=3)return;
+  if($('flashcard-view').classList.contains('hidden')){
+    $('donatePopup').classList.add('active');popupCount++;
+    if(popupTimer){clearTimeout(popupTimer);popupTimer=null}
+  }else if(!popupTimer){
+    popupTimer=setTimeout(()=>{popupTimer=null;tryPopup()},10000);
+  }
+}
+function showSupportImage(){
+  $('support-btn').classList.add('hidden');
+  $('support-image').classList.remove('hidden');
+}
+function closePopup(){$('donatePopup').classList.remove('active')}
+
+window.addEventListener('load',()=>{
+  $('current-year').textContent=new Date().getFullYear();
+  $('logo').onerror=function(){this.parentElement.style.display='none'};
+  loadQuestions();
+  setTimeout(tryPopup,15000);
+  setInterval(tryPopup,300000);
+});
+</script>
+</body>
+</html>
