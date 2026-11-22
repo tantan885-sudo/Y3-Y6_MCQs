@@ -122,9 +122,11 @@ button,a{touch-action:manipulation}
 
 <script>
 const DATA_URL='https://raw.githubusercontent.com/tantan885-sudo/Y3-Y6_MCQs/refs/heads/main/y4_s1_path_med_dr1.json';
-const CACHE_KEY='mcq_questions_cache',STORAGE_KEY='mcq_learned_questions';
-// Give each quiz a unique ID; change this if another quiz uses the same data URL.
-const TEST_ID='y4_s1_path_med_dr1';
+// Scope saved data to both this page and its question source.
+const STORAGE_SCOPE=location.pathname+'|'+DATA_URL;
+const CACHE_KEY='mcq_questions_cache:'+STORAGE_SCOPE;
+const STORAGE_KEY='mcq_learned_questions:'+STORAGE_SCOPE;
+const TEST_ID=STORAGE_SCOPE;
 const BOOKMARKS_KEY='mcq_bookmarked_questions_v3:'+TEST_ID;
 const KEYS='ABCDEFGH';
 let myQuestions=[],currentQueue=[],wrongQuestionsInSession=[],shown=[];
